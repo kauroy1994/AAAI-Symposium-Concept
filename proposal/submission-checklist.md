@@ -7,8 +7,8 @@ Checked against the [AAAI 2027 Spring Symposium organizer call](https://aaai.org
 | Title | Proposal p. 1 | Drafted. |
 | Description, specific interests, and format | Proposal pp. 1–2 | Drafted. |
 | Full 2.5-day preliminary program | Proposal p. 3 | Drafted; no speaker falsely described as confirmed. |
-| Preferably 3+ organizers from different sites | Proposal p. 4 | Four proposed organizers; explicit agreement must be recorded. |
-| Names and email addresses of organizers | Proposal p. 4 | Three public professional emails verified; Raj's email outstanding. |
+| Preferably 3+ organizers from different sites | Proposal p. 4 | Four main organizers plus two UA student organizers; explicit agreement must be recorded for all six. |
+| Names and email addresses of organizers | Proposal p. 4 | Three public professional emails verified; emails for Raj Krishnan, Himanshu Tripathi, and Ashraf Abdul-Muumin remain outstanding. |
 | Organizers have agreed to serve | Proposal pp. 4–5 | Not established by the supplied information; obtain approval from every organizer. |
 | Symposium webpage URL, if available | Proposal pp. 1 and 5 | Public README URL supplied; Pages display requires activation. |
 | Contacted potential participants who expressed interest | Proposal p. 5 | NOT COMPLETE. Obtain genuine responses and replace the draft disclosure with a real list. |
@@ -20,7 +20,7 @@ Checked against the [AAAI 2027 Spring Symposium organizer call](https://aaai.org
 
 ## Before submission
 
-- Obtain all four organizers' explicit agreement, approved roles, and approved affiliations; verify Raj Krishnan's professional email and exact title. The public company page alone does not verify his title.
+- Obtain all six organizers' explicit agreement, approved roles, and approved affiliations; verify Raj Krishnan's professional email and exact title, and the professional emails of UA student organizers Himanshu Tripathi and Ashraf Abdul-Muumin. The public company page alone does not verify his title.
 - Collect genuine expressions of interest. Retain dates and evidence privately; include names and affiliations in the proposal only with permission. Do not invent respondents or count outreach targets as interested participants.
 - Ask organizers and selected interested participants to comment on the draft, as encouraged by AAAI.
 - Replace the readiness disclosures on pages 1 and 5 once their underlying requirements are genuinely satisfied. Do not merely delete warnings.

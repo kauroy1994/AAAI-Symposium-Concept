@@ -131,7 +131,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 
 ## Organizers
 
-**Proposed organizing committee.** All four people named by the lead organizer are included below. Roles are proposed; explicit agreement to serve and approval of the final proposal must be documented before submission. Institutional affiliations do not imply sponsorship or institutional endorsement.
+**Proposed organizing committee.** The committee includes four main organizers and two student organizers from The University of Alabama. Roles are proposed; explicit agreement to serve and approval of the final proposal must be documented before submission. Institutional affiliations do not imply sponsorship or institutional endorsement.
 
 ### Dr. Kaushik Roy · Lead organizer and scientific program
 
@@ -156,6 +156,15 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 **Senior Manager, Bosch Research; President, Carnegie Bosch Institute.** The Carnegie Bosch Institute's official profile and Bosch's research profile verify these roles. His research connects knowledge systems, learning, and reasoning. Proposed responsibilities: architecture discussions, academic–industry translation, and the deployment review panel.
 
 [Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html) · [Bosch profile](https://www.bosch.com/research/about-bosch-research/our-research-experts/alessandro-oltramari/) · [aoltrama@andrew.cmu.edu](mailto:aoltrama@andrew.cmu.edu)
+
+### Student organizers · The University of Alabama
+
+| Name | Affiliation | Role |
+| --- | --- | --- |
+| Himanshu Tripathi | The University of Alabama | Student organizer |
+| Ashraf Abdul-Muumin | The University of Alabama | Student organizer |
+
+For student-organizer coordination, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
 ## Dates and status
 

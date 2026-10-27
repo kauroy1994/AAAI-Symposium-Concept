@@ -9,7 +9,7 @@ March 22–24, 2027 · Santa Clara University, Santa Clara, California
 
 **Webpage:** [GitHub-hosted symposium page](https://github.com/kauroy1994/AAAI-Symposium-Concept)
 
-**Organizer-review draft, October 27, 2026.** The proposal is not ready to submit until the organizer confirmations, Raj Krishnan's verified email, and the participant-interest list described on page 5 have been completed. No symposium acceptance or speaker commitment is asserted.
+**Organizer-review draft, October 27, 2026.** The proposal is not ready to submit until the organizer confirmations and verified contact details, and the participant-interest list described on page 5 have been completed. No symposium acceptance or speaker commitment is asserted.
 
 ## 1. Motivation, scope, and community
 
@@ -100,7 +100,7 @@ All times are local to Santa Clara (Pacific Daylight Time, UTC−7). Session blo
 
 ## 4. Proposed organizing committee and execution
 
-Four organizers are proposed across academic, industrial research, and entrepreneurial settings. Responsibilities below are assignments for agreement, not representations that consent has already been obtained. Institutional affiliations do not imply sponsorship. Public professional contact details are used where verified.
+Four main organizers and two UA student organizers are proposed across academic, industrial research, and entrepreneurial settings. Responsibilities below are assignments for agreement, not representations that consent has already been obtained. Institutional affiliations do not imply sponsorship. Public professional contact details are used where verified.
 
 **Dr. Kaushik Roy — lead organizer and scientific program.** Assistant Professor of Computer Science, The University of Alabama. UA lists neuro-symbolic AI, knowledge-based learning and reasoning, AI systems, and AI for social good among his research areas. He will coordinate scientific scope, reviewing, academic recruitment, and AAAI liaison. **Email:** kroy2@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-kaushik-roy/); [research areas](https://cs.ua.edu/faculty-staff/our-new-fall-2025-faculty/).
 
@@ -109,6 +109,14 @@ Four organizers are proposed across academic, industrial research, and entrepren
 **Raj Krishnan — enterprise integration and adoption.** Founder and CEO, AI For Services, as supplied by the lead organizer. Independent verification of this exact title and affiliation, a verified organizer email, and an approved biography remain outstanding. The proposed role covers service-workflow cases, integration constraints, adoption barriers, and business-value evaluation. **Email:** to be provided and verified before submission; interim coordination through kroy2@ua.edu. [Company profile](https://www.linkedin.com/company/aiforservices). No quantified deployment or client claim is made.
 
 **Dr. Alessandro Oltramari — neuro-symbolic architecture and research translation.** Senior Manager at Bosch Research and President of the Carnegie Bosch Institute, verified by Bosch and the Institute. His research connects knowledge systems, learning, and reasoning. He will coordinate architecture discussions, academic–industry translation, and the deployment review panel. **Email:** aoltrama@andrew.cmu.edu. [Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html); [Bosch profile](https://www.bosch.com/research/about-bosch-research/our-research-experts/alessandro-oltramari/).
+
+### Student organizers
+
+**Himanshu Tripathi — student organizer, The University of Alabama.**
+
+**Ashraf Abdul-Muumin — student organizer, The University of Alabama.**
+
+Professional email addresses and agreements to serve will be recorded before submission; interim coordination is through kroy2@ua.edu.
 
 ### Recruitment, review, and participation
 
@@ -124,7 +132,7 @@ All presenters, invited speakers, and panelists must attend in person; all parti
 
 **Participant-interest evidence — required before submission.** No documented list of contacted participants who expressed interest was supplied for this draft. An outreach plan is not a substitute for that list. Before submission, this paragraph must be replaced with actual names and affiliations of interested respondents, with dates and private evidence references retained by the lead organizer. Respondents need not commit to attend. Consent to include a name in the AAAI-reviewed proposal must be distinguished from consent to public listing. Public repository files must not contain private correspondence or contact registers.
 
-**Organizer agreement — required before submission.** Each named organizer must explicitly agree to serve, approve the final role and affiliation, and review the proposal. Raj Krishnan's verified email and title must be supplied. These are substantive completion requirements; the current draft does not assert that they have been met. No keynote, panelist, sponsor, or accepted participant is represented as confirmed.
+**Organizer agreement — required before submission.** Each named organizer must explicitly agree to serve, approve the final role and affiliation, and review the proposal. Raj Krishnan's verified email and title, and verified professional emails for both student organizers, must be supplied. These are substantive completion requirements; the current draft does not assert that they have been met. No keynote, panelist, sponsor, or accepted participant is represented as confirmed.
 
 **Execution and outputs.** The committee will prepare calls for participation and registration, publicize the event beyond AAAI, review participation requests, provide invitee and accepted-author lists for registration, finalize the program, and supply information requested by AAAI's proceedings team. AAAI will handle local arrangements and logistical support under its call. We propose four outputs: a deployment evidence-contract template; a failure-and-recovery taxonomy; a comparative case matrix; and a research roadmap that preserves unresolved disagreements. An organizer-edited synthesis is planned within six weeks after the event, subject to contributor review and consent. No special issue, archival venue, dataset release, or external partnership is promised.
 

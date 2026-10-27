@@ -16,8 +16,10 @@
 | Nigel Glenday | https://www.graphiteatlas.com/ and https://github.com/nigelglenday/ | Founder & CEO, Graphite Atlas; operational intelligence and knowledge-graph focus; nglenday@graphiteatlas.com. | Agreement to serve and approved role. |
 | Raj Krishnan | User supplied Founder & CEO, AI For Services; https://www.linkedin.com/company/aiforservices confirms a company profile, not the individual's title. | Attribute exact title to lead-organizer input; proposed responsibilities are not a biographical claim. | Independently verify title, affiliation, professional email, biography, and agreement. |
 | Alessandro Oltramari | https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html and https://www.bosch.com/research/about-bosch-research/our-research-experts/alessandro-oltramari/ | Senior Manager, Bosch Research; President, Carnegie Bosch Institute; knowledge/learning research; aoltrama@andrew.cmu.edu. | Agreement to serve and approved role. |
+| Himanshu Tripathi | Lead organizer's explicit follow-up instruction to add him as a UA student organizer. | Student organizer, The University of Alabama; no degree program, biography, or email inferred. | Professional email and individual agreement to serve. |
+| Ashraf Abdul-Muumin | Lead organizer's explicit follow-up instruction to add him as a UA student organizer. | Student organizer, The University of Alabama; no degree program, biography, or email inferred. | Professional email and individual agreement to serve. |
 
-The request says “three organizers” but names four; all four named people are included. No unpublished personal contact information, scraped headshot, client name, or unverifiable organizing accolade is used. Other people with the name Raj Krishnan and unrelated “AI for Services” initiatives were not treated as identity matches. His title is retained only as user-provided, explicitly pending verification.
+The initial request named four main organizers; the follow-up adds Himanshu Tripathi and Ashraf Abdul-Muumin as student organizers from The University of Alabama. All six are included. Student-organizer details are attributed to the lead organizer's instructions, not presented as independently web-verified. No unpublished personal contact information, scraped headshot, client name, or unverifiable organizing accolade is used. Other people with the name Raj Krishnan and unrelated “AI for Services” initiatives were not treated as identity matches. His title is retained only as user-provided, explicitly pending verification.
 
 ## Scientific references
 
@@ -41,4 +43,4 @@ The title, R2R abbreviation, research questions, readiness dimensions, evidence 
 
 ## Completion gaps
 
-No actual interested-participant list or organizer-consent evidence is supplied. Raj Krishnan's exact title and professional email require confirmation. No named speakers, sponsors, registration counts, real deployments, performance results, proceedings guarantees, or funding promises are invented. The PDF remains an organizer-review draft until the checklist is completed.
+No actual interested-participant list or organizer-consent evidence is supplied. Raj Krishnan's exact title and professional email, and professional emails for both student organizers, require confirmation. No named speakers, sponsors, registration counts, real deployments, performance results, proceedings guarantees, or funding promises are invented. The PDF remains an organizer-review draft until the checklist is completed.
