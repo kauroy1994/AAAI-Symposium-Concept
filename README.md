@@ -131,7 +131,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 
 ## Organizers
 
-**Proposed organizing committee.** Four senior organizers and two University of Alabama student organizers. Roles remain proposed until explicit agreement to serve. Institutional affiliation does not imply endorsement.
+**Proposed organizing committee.** Six faculty/industry organizers and two University of Alabama student organizers. Roles remain proposed until explicit agreement to serve. Institutional affiliation does not imply endorsement.
 
 <div class="people-grid">
 
@@ -168,6 +168,22 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 </div>
 
 <div class="person-card">
+<img src="assets/organizers/shahram-rahimi.jpg" alt="Dr. Shahram Rahimi, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
+<h3>Dr. Shahram Rahimi</h3>
+<p><strong>Faculty organizer · Scientific leadership and AI research</strong><br />Professor and Head of the Department of Computer Science, The University of Alabama.</p>
+<p>Proposed contribution: research-community development, cross-disciplinary AI discussions, and academic–industry engagement.</p>
+<a href="https://eng.ua.edu/departments/computer-science/">Official UA Computer Science faculty profile</a>
+</div>
+
+<div class="person-card">
+<img src="assets/organizers/subash-neupane.jpg" alt="Dr. Subash Neupane, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
+<h3>Dr. Subash Neupane</h3>
+<p><strong>Faculty organizer · Trustworthy AI and applied evaluation</strong><br />Assistant Professor, The University of Alabama.</p>
+<p>Proposed contribution: explainability, evaluation of trustworthy AI, and deployment challenges in healthcare and other high-impact settings.</p>
+<a href="https://eng.ua.edu/eng-directory/dr-subash-neupane/">Official UA faculty profile</a>
+</div>
+
+<div class="person-card">
 <img src="assets/organizers/himanshu-tripathi.jpg" alt="Himanshu Tripathi, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Himanshu Tripathi</h3>
 <p><strong>Student organizer</strong><br />The University of Alabama.</p>
@@ -185,7 +201,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 
 </div>
 
-**Photographs:** All six organizer portraits were supplied by the organizing team and are stored locally in `assets/organizers/` to avoid unreliable external image links. Photo attribution and usage notes appear in [PHOTO-SOURCES.md](PHOTO-SOURCES.md). Portraits and affiliations do not establish consent to serve; organizer participation remains subject to confirmation.
+**Photographs:** All eight organizer portraits were supplied by the organizing team and are stored locally in `assets/organizers/` to avoid unreliable external image links. Photo attribution and usage notes appear in [PHOTO-SOURCES.md](PHOTO-SOURCES.md). Portraits and affiliations do not establish consent to serve; organizer participation remains subject to confirmation.
 
 For student-organizer coordination and prospective headshot corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
