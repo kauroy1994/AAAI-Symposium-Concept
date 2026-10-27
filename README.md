@@ -131,40 +131,63 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 
 ## Organizers
 
-**Proposed organizing committee.** The committee includes four main organizers and two student organizers from The University of Alabama. Roles are proposed; explicit agreement to serve and approval of the final proposal must be documented before submission. Institutional affiliations do not imply sponsorship or institutional endorsement.
+**Proposed organizing committee.** Four senior organizers and two University of Alabama student organizers. Roles remain proposed until explicit agreement to serve. Institutional affiliation does not imply endorsement.
 
-### Dr. Kaushik Roy · Lead organizer and scientific program
+<div class="people-grid">
 
-**Assistant Professor, Computer Science, The University of Alabama.** His publicly listed research areas include neuro-symbolic AI, knowledge-based learning and reasoning, AI systems, and AI for social good. Proposed responsibilities: scientific scope, paper review, community recruitment, and AAAI liaison.
+<div class="person-card">
+<img src="https://cs.ua.edu/wp-content/uploads/sites/5/2025/04/roykau.jpg" alt="Official University of Alabama portrait of Dr. Kaushik Roy" loading="lazy" width="180" height="180" />
+<h3>Dr. Kaushik Roy</h3>
+<p><strong>Lead organizer · Scientific program</strong><br />Assistant Professor of Computer Science, The University of Alabama.</p>
+<p>Scientific scope, paper review, community recruitment, and AAAI liaison.</p>
+<a href="https://cs.ua.edu/faculty-staff/our-new-fall-2025-faculty/">UA faculty announcement and portrait source</a>
+</div>
 
-[UA profile](https://eng.ua.edu/eng-directory/dr-kaushik-roy/) · [Research areas](https://cs.ua.edu/faculty-staff/our-new-fall-2025-faculty/) · [kroy2@ua.edu](mailto:kroy2@ua.edu)
+<div class="person-card">
+<img src="https://www.graphiteatlas.com/images/nigel-glenday.png" alt="Portrait of Nigel Glenday published by Graphite Atlas" loading="lazy" width="180" height="180" />
+<h3>Nigel Glenday</h3>
+<p><strong>Industry problems · Operational design</strong><br />Founder and CEO, Graphite Atlas.</p>
+<p>Practitioner recruitment, operational problem statements, and the knowledge-to-action clinic.</p>
+<a href="https://www.graphiteatlas.com/">Company team profile and portrait source</a>
+</div>
 
-### Nigel Glenday · Industry problems and operational design
+<div class="person-card">
+<div class="portrait-placeholder" role="img" aria-label="No independently verified portrait available for Raj Krishnan">RK</div>
+<h3>Raj Krishnan</h3>
+<p><strong>Enterprise integration · Adoption</strong><br />Founder and CEO, AI For Services (lead-organizer supplied; independently unconfirmed).</p>
+<p>Service-workflow case design, integration requirements, and adoption challenges.</p>
+<a href="https://www.linkedin.com/company/aiforservices">Company page</a>
+</div>
 
-**Founder and CEO, Graphite Atlas.** The company's public materials describe operational intelligence; his public profile describes knowledge-graph-based maps of business operations. Proposed responsibilities: practitioner recruitment, operational problem statements, and the knowledge-to-action clinic.
+<div class="person-card">
+<img src="https://engineering.cmu.edu/_files/images/directory/aoltrama.png" alt="Official Carnegie Mellon University portrait of Dr. Alessandro Oltramari" loading="lazy" width="180" height="180" />
+<h3>Dr. Alessandro Oltramari</h3>
+<p><strong>Neuro-symbolic architecture · Research translation</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
+<p>Architecture discussion, academia–industry translation, and deployment review.</p>
+<a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Official CBI profile and portrait source</a>
+</div>
 
-[Graphite Atlas](https://www.graphiteatlas.com/) · [Public professional profile](https://github.com/nigelglenday/) · [nglenday@graphiteatlas.com](mailto:nglenday@graphiteatlas.com)
+<div class="person-card">
+<div class="portrait-placeholder" role="img" aria-label="Portrait of Himanshu Tripathi not independently validated as an image URL">HT</div>
+<h3>Himanshu Tripathi</h3>
+<p><strong>Student organizer</strong><br />The University of Alabama.</p>
+<p>Listed by the UA BRAINS Lab as a PhD student; its team page includes a portrait, but the specific image URL is not yet independently verified.</p>
+<a href="https://sites.ua.edu/brains/team/">Official UA BRAINS Lab team page</a>
+</div>
 
-### Raj Krishnan · Enterprise integration and adoption
+<div class="person-card">
+<img src="https://avatars.githubusercontent.com/u/67913443?v=4" alt="Profile image from the authenticated GitHub account of Ashraf Abdul-Muumin" loading="lazy" width="180" height="180" />
+<h3>Ashraf Abdul-Muumin</h3>
+<p><strong>Student organizer</strong><br />The University of Alabama (lead-organizer supplied).</p>
+<p>Image is from Ashraf's own authenticated GitHub profile, not from a UA portrait directory.</p>
+<a href="https://github.com/chirix33">Self-published GitHub profile</a>
+</div>
 
-**Founder and CEO, AI For Services — affiliation supplied by the lead organizer; independent confirmation pending.** Proposed responsibilities: service-workflow case design, integration requirements, adoption barriers, and business-value evaluation. No unverified biography, client deployment, or quantified business result is asserted.
+</div>
 
-[Company profile](https://www.linkedin.com/company/aiforservices) · Contact through [the lead organizer](mailto:kroy2@ua.edu). A verified organizer email must be added to the submission proposal.
+**Photo provenance:** Portraits are linked from institutional, employer, or self-managed public profiles rather than re-uploaded. No photograph is guessed for Raj or Himanshu. Because third-party image links can change or block embedding, [the verification record](PHOTO-SOURCES.md) gives each origin and outstanding checks. Photos and affiliations do not establish consent to serve; all organizer participation remains subject to confirmation.
 
-### Dr. Alessandro Oltramari · Neuro-symbolic architecture and research translation
-
-**Senior Manager, Bosch Research; President, Carnegie Bosch Institute.** The Carnegie Bosch Institute's official profile and Bosch's research profile verify these roles. His research connects knowledge systems, learning, and reasoning. Proposed responsibilities: architecture discussions, academic–industry translation, and the deployment review panel.
-
-[Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html) · [Bosch profile](https://www.bosch.com/research/about-bosch-research/our-research-experts/alessandro-oltramari/) · [aoltrama@andrew.cmu.edu](mailto:aoltrama@andrew.cmu.edu)
-
-### Student organizers · The University of Alabama
-
-| Name | Affiliation | Role |
-| --- | --- | --- |
-| Himanshu Tripathi | The University of Alabama | Student organizer |
-| Ashraf Abdul-Muumin | The University of Alabama | Student organizer |
-
-For student-organizer coordination, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
+For student-organizer coordination and prospective headshot corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
 ## Dates and status
 
