@@ -1,16 +1,14 @@
-# Organizer portrait provenance and outstanding checks
+# Organizer photograph record
 
-Checked 27 October 2026. Image files are hotlinked from institutional, employer, or self-managed websites. These images are shown for identification and linked to their named publisher. Their appearance does not imply endorsement.
+Updated October 27, 2026. The organizing team supplied and uploaded all six images directly to this repository under `assets/organizers/`. This is the authoritative source for the symposium website's portraits, replacing external image hotlinks and placeholders. Names below follow the user's explicit labeling of the six uploaded photographs.
 
-| Organizer | Portrait embedded | Primary attribution / verification | Notes |
-| --- | --- | --- | --- |
-| Dr. Kaushik Roy | https://cs.ua.edu/wp-content/uploads/sites/5/2025/04/roykau.jpg | https://cs.ua.edu/faculty-staff/our-new-fall-2025-faculty/ | The UA Computer Science faculty announcement identifies Dr. Roy and displays this named image. |
-| Nigel Glenday | https://www.graphiteatlas.com/images/nigel-glenday.png | https://www.graphiteatlas.com/ | Official company site names Nigel Glenday as Founder & CEO and links this portrait. |
-| Dr. Alessandro Oltramari | https://engineering.cmu.edu/_files/images/directory/aoltrama.png | https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html | Official Carnegie Bosch Institute profile identifies this photo and corroborates his appointment. |
-| Ashraf Abdul-Muumin | https://avatars.githubusercontent.com/u/67913443?v=4 | https://github.com/chirix33 | Self-published authenticated GitHub account (Ashraf Abdul-Muumin). Not represented as a UA-issued portrait. |
-| Himanshu Tripathi | Not embedded | https://sites.ua.edu/brains/team/ | Official UA BRAINS Lab identifies him as a PhD student with a portrait on its site, but a definitive image URL was not established. Initials displayed until verified. |
-| Raj Krishnan | Not embedded | https://www.linkedin.com/company/aiforservices | The named individual is supplied by the lead organizer. A unique, verifiable public image tied to this exact individual has not been established. Initials displayed. |
+| Organizer | Local photo | Attribution |
+| --- | --- | --- |
+| Dr. Kaushik Roy | [kaushik-roy.jpg](assets/organizers/kaushik-roy.jpg) | Supplied by the organizing team |
+| Nigel Glenday | [nigel-glenday.jpg](assets/organizers/nigel-glenday.jpg) | Supplied by the organizing team |
+| Raj Krishnan | [raj-krishnan.jpg](assets/organizers/raj-krishnan.jpg) | Supplied by the organizing team |
+| Dr. Alessandro Oltramari | [alessandro-oltramari.jpg](assets/organizers/alessandro-oltramari.jpg) | Supplied by the organizing team |
+| Himanshu Tripathi | [himanshu-tripathi.jpg](assets/organizers/himanshu-tripathi.jpg) | Supplied by the organizing team |
+| Ashraf Abdul-Muumin | [ashraf-abdul-muumin.jpg](assets/organizers/ashraf-abdul-muumin.jpg) | Supplied by the organizing team |
 
-If external image hosting blocks embedding, request a high-resolution original with permission for the symposium site. Do not download and redistribute third-party portraits without checking reuse permission. Do not substitute visual search results merely because a person shares a name. Contact kroy2@ua.edu for corrections.
-
-The six individuals are listed as **proposed organizers**; portraits must not be treated as confirmation of consent to organize the event.
+These are user-provided attribution labels; no independent facial identification is claimed. The site uses relative repository paths so GitHub Pages can serve images on the repository's project subpath. The organizing team remains responsible for consent to publish portraits and approval of organizer roles.
