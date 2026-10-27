@@ -1,0 +1,21 @@
+# Generated previews and local build state
+_site/
+build/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Never publish private consent records or participant correspondence
+private/
+.env
+.env.*
+*.token
+
+# LaTeX build intermediates
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
