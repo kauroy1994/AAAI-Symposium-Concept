@@ -1,6 +1,6 @@
 # Organizer photograph record
 
-Updated October 27, 2026. The organizing team supplied and uploaded all six images directly to this repository under `assets/organizers/`. This is the authoritative source for the symposium website's portraits, replacing external image hotlinks and placeholders. Names below follow the user's explicit labeling of the six uploaded photographs.
+Updated October 27, 2026. The organizing team supplied and uploaded all eight images directly to this repository under `assets/organizers/`. This is the authoritative source for the symposium website's portraits, replacing external image hotlinks and placeholders. Names below follow the user's explicit labeling of the eight uploaded photographs.
 
 | Organizer | Local photo | Attribution |
 | --- | --- | --- |
@@ -8,6 +8,8 @@ Updated October 27, 2026. The organizing team supplied and uploaded all six imag
 | Nigel Glenday | [nigel-glenday.jpg](assets/organizers/nigel-glenday.jpg) | Supplied by the organizing team |
 | Raj Krishnan | [raj-krishnan.jpg](assets/organizers/raj-krishnan.jpg) | Supplied by the organizing team |
 | Dr. Alessandro Oltramari | [alessandro-oltramari.jpg](assets/organizers/alessandro-oltramari.jpg) | Supplied by the organizing team |
+| Dr. Shahram Rahimi | [shahram-rahimi.jpg](assets/organizers/shahram-rahimi.jpg) | Uploaded by the organizing team; [UA profile](https://eng.ua.edu/departments/computer-science/) | 
+| Dr. Subash Neupane | [subash-neupane.jpg](assets/organizers/subash-neupane.jpg) | Uploaded by the organizing team; [UA profile](https://eng.ua.edu/eng-directory/dr-subash-neupane/) |
 | Himanshu Tripathi | [himanshu-tripathi.jpg](assets/organizers/himanshu-tripathi.jpg) | Supplied by the organizing team |
 | Ashraf Abdul-Muumin | [ashraf-abdul-muumin.jpg](assets/organizers/ashraf-abdul-muumin.jpg) | Supplied by the organizing team |
 
