@@ -1,0 +1,18 @@
+title: Reasoning to Readiness
+description: Proposed AAAI 2027 Spring Symposium on neuro-symbolic and causal architectures for reliable AI agents.
+url: https://kauroy1994.github.io
+baseurl: /AAAI-Symposium-Concept
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - scripts
+  - build
+  - private
+  - requirements.txt
+  - MAINTAINING.md
+  - SOURCES.md
+  - README.md
+  - .github

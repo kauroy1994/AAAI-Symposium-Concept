@@ -1,0 +1,28 @@
+name: Validate symposium package
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install document build requirements
+        run: python -m pip install -r requirements.txt
+      - name: Rebuild five-page proposal
+        run: python scripts/build_proposal.py
+      - name: Validate package structure
+        run: python scripts/validate.py
+      - name: Retain rebuilt proposal for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: r2r-proposal-review
+          path: proposal/proposal.pdf
