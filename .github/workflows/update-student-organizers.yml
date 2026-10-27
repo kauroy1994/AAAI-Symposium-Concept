@@ -1,0 +1,158 @@
+name: Add UA student organizers
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/update-student-organizers.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: r2r-student-organizer-update
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, 'Add Himanshu Tripathi and Ashraf Abdul-Muumin as UA student organizers')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install existing build requirements
+        run: python -m pip install -r requirements.txt
+      - name: Update reviewed source files without overwriting concurrent edits
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          root = Path.cwd()
+          expected = {
+              'README.md': 'd5ad2e3ce62bfa09b0fa6ee6ac71622a1b920533',
+              'proposal/proposal.md': '5f52a5a6ddecde6f27cc8d64b1e0264431b37828',
+              'proposal/submission-checklist.md': 'fc89898d5096b53c3e2c8e9e062e9785f07073e0',
+              'SOURCES.md': '641ef5e3d179cfe557dfcb049521801306b67a32',
+              'scripts/validate.py': 'e4cdff8e3ace645e5b8143b158e95841886454aa',
+          }
+          texts = {}
+          for path, sha in expected.items():
+              data = (root / path).read_bytes()
+              actual = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+              if actual != sha:
+                  raise RuntimeError(f'{path} changed since review; refusing to overwrite it.')
+              texts[path] = data.decode('utf-8')
+          def replace(path, old, new):
+              if texts[path].count(old) != 1:
+                  raise RuntimeError(f'Expected one exact match in {path}: {old[:80]}')
+              texts[path] = texts[path].replace(old, new, 1)
+          replace('README.md',
+              'All four people named by the lead organizer are included below.',
+              'The committee includes four main organizers and two student organizers from The University of Alabama.')
+          replace('README.md', '\n## Dates and status\n', '''
+          ### Student organizers · The University of Alabama
+
+          | Name | Affiliation | Role |
+          | --- | --- | --- |
+          | Himanshu Tripathi | The University of Alabama | Student organizer |
+          | Ashraf Abdul-Muumin | The University of Alabama | Student organizer |
+
+          For student-organizer coordination, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
+
+          ## Dates and status
+          ''')
+          replace('proposal/proposal.md',
+              "the organizer confirmations, Raj Krishnan's verified email, and the participant-interest list",
+              'the organizer confirmations and verified contact details, and the participant-interest list')
+          replace('proposal/proposal.md',
+              'Four organizers are proposed across academic, industrial research, and entrepreneurial settings.',
+              'Four main organizers and two UA student organizers are proposed across academic, industrial research, and entrepreneurial settings.')
+          replace('proposal/proposal.md', '\n### Recruitment, review, and participation\n', '''
+          ### Student organizers
+
+          **Himanshu Tripathi — student organizer, The University of Alabama.**
+
+          **Ashraf Abdul-Muumin — student organizer, The University of Alabama.**
+
+          Professional email addresses and agreements to serve will be recorded before submission; interim coordination is through kroy2@ua.edu.
+
+          ### Recruitment, review, and participation
+          ''')
+          replace('proposal/proposal.md',
+              "Raj Krishnan's verified email and title must be supplied.",
+              "Raj Krishnan's verified email and title, and verified professional emails for both student organizers, must be supplied.")
+          replace('proposal/submission-checklist.md',
+              'Four proposed organizers; explicit agreement must be recorded.',
+              'Four main organizers plus two UA student organizers; explicit agreement must be recorded for all six.')
+          replace('proposal/submission-checklist.md',
+              "Three public professional emails verified; Raj's email outstanding.",
+              "Three public professional emails verified; emails for Raj Krishnan, Himanshu Tripathi, and Ashraf Abdul-Muumin remain outstanding.")
+          replace('proposal/submission-checklist.md',
+              "Obtain all four organizers' explicit agreement, approved roles, and approved affiliations; verify Raj Krishnan's professional email and exact title.",
+              "Obtain all six organizers' explicit agreement, approved roles, and approved affiliations; verify Raj Krishnan's professional email and exact title, and the professional emails of UA student organizers Himanshu Tripathi and Ashraf Abdul-Muumin.")
+          replace('SOURCES.md',
+              '\nThe request says “three organizers” but names four; all four named people are included.',
+              '''
+          | Himanshu Tripathi | Lead organizer's explicit follow-up instruction to add him as a UA student organizer. | Student organizer, The University of Alabama; no degree program, biography, or email inferred. | Professional email and individual agreement to serve. |
+          | Ashraf Abdul-Muumin | Lead organizer's explicit follow-up instruction to add him as a UA student organizer. | Student organizer, The University of Alabama; no degree program, biography, or email inferred. | Professional email and individual agreement to serve. |
+
+          The initial request named four main organizers; the follow-up adds Himanshu Tripathi and Ashraf Abdul-Muumin as student organizers from The University of Alabama. All six are included. Student-organizer details are attributed to the lead organizer's instructions, not presented as independently web-verified.''')
+          replace('SOURCES.md',
+              '| Agreement to serve and approved role. |\n\n| Himanshu Tripathi',
+              '| Agreement to serve and approved role. |\n| Himanshu Tripathi')
+          replace('SOURCES.md',
+              "Raj Krishnan's exact title and professional email require confirmation.",
+              "Raj Krishnan's exact title and professional email, and professional emails for both student organizers, require confirmation.")
+          replace('scripts/validate.py',
+              "assert len(PdfReader(root / 'proposal/proposal.pdf').pages) == 5, 'Proposal must remain five pages.'",
+              "pdf = PdfReader(root / 'proposal/proposal.pdf')\nassert len(pdf.pages) == 5, 'Proposal must remain five pages.'\npdf_text = '\\n'.join(page.extract_text() or '' for page in pdf.pages)")
+          replace('scripts/validate.py',
+              "['Kaushik Roy','Nigel Glenday','Raj Krishnan','Alessandro Oltramari']",
+              "['Kaushik Roy','Nigel Glenday','Raj Krishnan','Alessandro Oltramari','Himanshu Tripathi','Ashraf Abdul-Muumin']")
+          replace('scripts/validate.py',
+              "assert name in readme and name in proposal, f'Missing organizer: {name}'",
+              "assert name in readme and name in proposal and name in pdf_text, f'Missing organizer in README, source, or PDF: {name}'")
+          replace('scripts/validate.py',
+              'required sections, four organizers, local links',
+              'required sections, six organizers in README/source/PDF, local links')
+          for path, text in texts.items():
+              (root / path).write_text(text, encoding='utf-8')
+          print('Updated README, proposal source, checklist, provenance, and validation for both UA student organizers.')
+          PY
+      - name: Rebuild and validate five-page proposal
+        run: |
+          python scripts/build_proposal.py
+          python scripts/validate.py
+          git diff --check
+      - name: Build README-powered website
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Check rendered student-organizer section
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          page = Path('_site/index.html').read_text()
+          for text in ['Himanshu Tripathi', 'Ashraf Abdul-Muumin', 'Student organizers']:
+              assert text in page, f'Missing from rendered website: {text}'
+          print('PASS: both UA student organizers appear in the rendered website.')
+          PY
+      - name: Commit tested documents and remove this one-time workflow
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md proposal/proposal.md proposal/proposal.pdf proposal/submission-checklist.md SOURCES.md scripts/validate.py
+          git rm .github/workflows/update-student-organizers.yml
+          git commit -m 'Add Himanshu Tripathi and Ashraf Abdul-Muumin as UA student organizers'
+          git push origin HEAD:main
+      - name: Retain tested website and proposal
+        uses: actions/upload-artifact@v4
+        with:
+          name: r2r-student-organizers-review
+          path: |
+            README.md
+            proposal/
+            SOURCES.md
+            scripts/validate.py
+            _site/
