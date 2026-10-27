@@ -136,7 +136,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <div class="people-grid">
 
 <div class="person-card">
-<img src="https://cs.ua.edu/wp-content/uploads/sites/5/2025/04/roykau.jpg" alt="Official University of Alabama portrait of Dr. Kaushik Roy" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/kaushik-roy.jpg" alt="Dr. Kaushik Roy, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Kaushik Roy</h3>
 <p><strong>Lead organizer · Scientific program</strong><br />Assistant Professor of Computer Science, The University of Alabama.</p>
 <p>Scientific scope, paper review, community recruitment, and AAAI liaison.</p>
@@ -144,7 +144,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 </div>
 
 <div class="person-card">
-<img src="https://www.graphiteatlas.com/images/nigel-glenday.png" alt="Portrait of Nigel Glenday published by Graphite Atlas" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/nigel-glenday.jpg" alt="Nigel Glenday, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Nigel Glenday</h3>
 <p><strong>Industry problems · Operational design</strong><br />Founder and CEO, Graphite Atlas.</p>
 <p>Practitioner recruitment, operational problem statements, and the knowledge-to-action clinic.</p>
@@ -152,7 +152,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 </div>
 
 <div class="person-card">
-<div class="portrait-placeholder" role="img" aria-label="No independently verified portrait available for Raj Krishnan">RK</div>
+<img src="assets/organizers/raj-krishnan.jpg" alt="Raj Krishnan, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Raj Krishnan</h3>
 <p><strong>Enterprise integration · Adoption</strong><br />Founder and CEO, AI For Services (lead-organizer supplied; independently unconfirmed).</p>
 <p>Service-workflow case design, integration requirements, and adoption challenges.</p>
@@ -160,7 +160,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 </div>
 
 <div class="person-card">
-<img src="https://engineering.cmu.edu/_files/images/directory/aoltrama.png" alt="Official Carnegie Mellon University portrait of Dr. Alessandro Oltramari" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/alessandro-oltramari.jpg" alt="Dr. Alessandro Oltramari, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Alessandro Oltramari</h3>
 <p><strong>Neuro-symbolic architecture · Research translation</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
 <p>Architecture discussion, academia–industry translation, and deployment review.</p>
@@ -168,24 +168,24 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 </div>
 
 <div class="person-card">
-<div class="portrait-placeholder" role="img" aria-label="Portrait of Himanshu Tripathi not independently validated as an image URL">HT</div>
+<img src="assets/organizers/himanshu-tripathi.jpg" alt="Himanshu Tripathi, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Himanshu Tripathi</h3>
 <p><strong>Student organizer</strong><br />The University of Alabama.</p>
-<p>Listed by the UA BRAINS Lab as a PhD student; its team page includes a portrait, but the specific image URL is not yet independently verified.</p>
+<p>Student organizing support and symposium coordination.</p>
 <a href="https://sites.ua.edu/brains/team/">Official UA BRAINS Lab team page</a>
 </div>
 
 <div class="person-card">
-<img src="https://avatars.githubusercontent.com/u/67913443?v=4" alt="Profile image from the authenticated GitHub account of Ashraf Abdul-Muumin" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/ashraf-abdul-muumin.jpg" alt="Ashraf Abdul-Muumin, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Ashraf Abdul-Muumin</h3>
 <p><strong>Student organizer</strong><br />The University of Alabama (lead-organizer supplied).</p>
-<p>Image is from Ashraf's own authenticated GitHub profile, not from a UA portrait directory.</p>
+<p>Student organizing support and symposium coordination.</p>
 <a href="https://github.com/chirix33">Self-published GitHub profile</a>
 </div>
 
 </div>
 
-**Photo provenance:** Portraits are linked from institutional, employer, or self-managed public profiles rather than re-uploaded. No photograph is guessed for Raj or Himanshu. Because third-party image links can change or block embedding, [the verification record](PHOTO-SOURCES.md) gives each origin and outstanding checks. Photos and affiliations do not establish consent to serve; all organizer participation remains subject to confirmation.
+**Photographs:** All six organizer portraits were supplied by the organizing team and are stored locally in `assets/organizers/` to avoid unreliable external image links. Photo attribution and usage notes appear in [PHOTO-SOURCES.md](PHOTO-SOURCES.md). Portraits and affiliations do not establish consent to serve; organizer participation remains subject to confirmation.
 
 For student-organizer coordination and prospective headshot corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
