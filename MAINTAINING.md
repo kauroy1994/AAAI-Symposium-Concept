@@ -10,6 +10,8 @@ Open the repository's **Settings → Pages**. Under **Build and deployment**, ch
 
 Update `README.md`, preserving the main section names so navigation anchors stay valid. Dates from AAAI must be distinguished from proposed local dates. Never change “proposed” to “accepted” without actual acceptance. Never add a confirmed speaker or participant without evidence and appropriate consent. Public company or university profiles verify affiliations, not agreement to organize.
 
+The committee currently comprises four main organizers and two UA student organizers, Himanshu Tripathi and Ashraf Abdul-Muumin. Keep the student-organizer section distinct from the main organizing roles. When changing the roster, update `README.md`, `proposal/proposal.md`, `proposal/submission-checklist.md`, `SOURCES.md`, and the expected names in `scripts/validate.py`, then rebuild the proposal PDF. Validation checks that all six names appear in the README, editable proposal, and generated PDF. Do not infer student email addresses, degree programs, or biographies.
+
 ## Rebuild the proposal
 
 Install the pinned build requirements and run:
