@@ -94,7 +94,7 @@ All times are local to Santa Clara (Pacific Daylight Time, UTC−7). Session blo
 | 11:00–12:00 | Prioritize research questions, experiments, and resource needs. |
 | 12:00–12:30 | Community review, unresolved issues, and closing. |
 
-**Interaction design.** The explicitly collaborative blocks total 510 of 840 technical-session minutes (approximately 61%), excluding breaks, lunch, reception, and plenary. Talk blocks include additional discussion. Short contributed presentations will be paired with respondents; mixed research–industry groups will have facilitators and rapporteurs. A common worksheet will connect each architectural claim to evidence and record dissent rather than force artificial consensus. Coding is optional. No commercial demonstration will receive a protected sales slot.
+**Interaction design.** The explicitly collaborative blocks total 570 of 840 technical-session minutes (approximately 68%), excluding breaks, lunch, reception, and plenary. Talk blocks include additional discussion. Short contributed presentations will be paired with respondents; mixed research–industry groups will have facilitators and rapporteurs. A common worksheet will connect each architectural claim to evidence and record dissent rather than force artificial consensus. Coding is optional. No commercial demonstration will receive a protected sales slot.
 
 <!-- PAGEBREAK -->
 

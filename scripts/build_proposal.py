@@ -64,7 +64,7 @@ def build() -> None:
             width = letter[0] - 100
             widths = [115, width - 115] if len(rows[0]) == 2 else [width / len(rows[0])] * len(rows[0])
             table = Table(rows, colWidths=widths, repeatRows=1, hAlign='LEFT')
-            table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),CRIMSON),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4),('LINEBELOW',(0,0),(-1,-1),.35,colors.HexColor('#DCE0E3')),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,colors.HexColor('#F5F5F3')])]))
+            table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),CRIMSON),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),3),('BOTTOMPADDING',(0,0),(-1,-1),3),('LINEBELOW',(0,0),(-1,-1),.35,colors.HexColor('#DCE0E3')),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,colors.HexColor('#F5F5F3')])]))
             story += [table, Spacer(1,7)]
             continue
         if line.startswith('# '):

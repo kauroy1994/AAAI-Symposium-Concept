@@ -16,8 +16,8 @@ for title in ['Overview','Research agenda','Industry readiness','Program','Parti
 for target in re.findall(r'\]\(([^)]+)\)', readme):
     if not target.startswith(('http:','https:','mailto:','#')):
         assert (root / target).is_file(), f'Broken local README link: {target}'
-assert '510 of 840' in readme and '510 of 840' in proposal
-assert 150 + 210 + 150 == 510 and 330 + 330 + 180 == 840
+assert '570 of 840' in readme and '570 of 840' in proposal
+assert 150 + 240 + 180 == 570 and 330 + 330 + 180 == 840
 assert 'independent confirmation pending' in readme
 assert 'No documented list' in proposal
 assert len((root / 'resources/interest-register-template.csv').read_text().splitlines()) == 1

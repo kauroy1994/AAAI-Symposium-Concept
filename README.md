@@ -107,7 +107,7 @@ The proposed readiness assessment is a **profile of evidence**, not a single lea
 | 11:00–12:00 | Research roadmap: open problems and collaborative experiments | Prioritized questions, candidate owners, and resource needs. |
 | 12:00–12:30 | Community review and closing | Agreed next steps and a record of unresolved issues. |
 
-Within the contributed-talk blocks, we propose short presentations with substantial respondent and audience time. The program reserves **510 of 840 technical-session minutes** for the explicitly collaborative labs, critiques, panel, working groups, and final-day synthesis; additional discussion is included within talk blocks. Breaks, lunch, reception, and plenary are excluded from this calculation.
+Within the contributed-talk blocks, we propose short presentations with substantial respondent and audience time. The program reserves **570 of 840 technical-session minutes** for the explicitly collaborative labs, critiques, panel, working groups, and final-day synthesis; additional discussion is included within talk blocks. Breaks, lunch, reception, and plenary are excluded from this calculation.
 
 ## Participation
 

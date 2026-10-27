@@ -37,7 +37,7 @@ The request says “three organizers” but names four; all four named people ar
 
 ## Original proposals, not external facts
 
-The title, R2R abbreviation, research questions, readiness dimensions, evidence states, labs, contribution formats, roles, 50–65 attendance target, outputs, and six-week synthesis target are proposed by this package. They are not AAAI decisions or verified commitments. The 510/840-minute interaction calculation is derived from the proposed program: Monday 150, Tuesday 210, and Wednesday 150 explicitly collaborative minutes, out of 330 + 330 + 180 technical minutes.
+The title, R2R abbreviation, research questions, readiness dimensions, evidence states, labs, contribution formats, roles, 50–65 attendance target, outputs, and six-week synthesis target are proposed by this package. They are not AAAI decisions or verified commitments. The 570/840-minute interaction calculation is derived from the proposed program: Monday 150, Tuesday 240, and Wednesday 180 explicitly collaborative minutes, out of 330 + 330 + 180 technical minutes.
 
 ## Completion gaps
 
