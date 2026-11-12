@@ -52,49 +52,49 @@ Evidence will be recorded as demonstrated within scope, partial, unsupported, or
 
 <!-- PAGEBREAK -->
 
-## 3. Preliminary full program
+## 3. Preliminary program
 
-All times are local to Santa Clara (Pacific Daylight Time, UTC−7). Session blocks follow AAAI's published general timetable. Activities are proposed; invited speakers and panelists are not confirmed. Series reception and plenary are AAAI activities, not additional R2R sessions.
+All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This preliminary schedule follows [AAAI's session timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Invited speakers have not yet been confirmed.
 
-### Monday, March 22: architectures meet operational requirements
+### Monday, March 22: Architectures and applications
 
-| Time | Activity and intended outcome |
+| Time | Session |
 | --- | --- |
-| 09:00–09:20 | Welcome; agree terminology, intended-use boundaries, and the shared case. |
-| 09:20–10:00 | Invited research perspective and discussion; speaker to be confirmed. |
-| 10:00–10:30 | Research–industry problem statements; surface operational questions. |
-| 10:30–11:00 | AAAI break. |
-| 11:00–12:30 | Contributed research and position talks with structured discussion. |
-| 12:30–14:00 | Lunch break. |
-| 14:00–15:30 | Lab A: knowledge-to-action clinic; draft evidence contracts. |
-| 15:30–16:00 | AAAI break. |
-| 16:00–17:00 | Cross-group critique; revise assumptions and test plans. |
+| 09:00–09:20 | Welcome and introduction to the symposium questions. |
+| 09:20–10:00 | Invited research talk and discussion; speaker to be confirmed. |
+| 10:00–10:30 | Application challenges from research and industry. |
+| 10:30–11:00 | Coffee break. |
+| 11:00–12:30 | Contributed talks on memory, knowledge representation, and planning, followed by discussion. |
+| 12:30–14:00 | Lunch. |
+| 14:00–15:30 | Group exercise: design an agent for a supplier-delay and approval workflow. |
+| 15:30–16:00 | Coffee break. |
+| 16:00–17:00 | Group reports and discussion of the proposed designs. |
 | 18:00–19:00 | AAAI series reception. |
 
-### Tuesday, March 23: stress-test the path to deployment
+### Tuesday, March 23: Evaluation and failure analysis
 
-| Time | Activity and intended outcome |
+| Time | Session |
 | --- | --- |
-| 09:00–09:40 | Invited industry perspective and discussion; speaker to be confirmed. |
-| 09:40–10:30 | Evidence-centered case reports, limitations, and negative results. |
-| 10:30–11:00 | AAAI break. |
-| 11:00–12:30 | Lab B: failure, intervention, and recovery; specify stress tests. |
-| 12:30–14:00 | Lunch break. |
-| 14:00–15:30 | Deployment review panel and open challenge of case evidence. |
-| 15:30–16:00 | AAAI break. |
-| 16:00–17:00 | Working groups on evaluation, governance, and cross-domain transfer. |
+| 09:00–09:40 | Invited industry talk and discussion; speaker to be confirmed. |
+| 09:40–10:30 | Case studies: evaluation results and deployment experience. |
+| 10:30–11:00 | Coffee break. |
+| 11:00–12:30 | Group exercise: test stale data, missing approvals, and tool failures. |
+| 12:30–14:00 | Lunch. |
+| 14:00–15:30 | Panel and audience discussion: when is an agent ready for a pilot? |
+| 15:30–16:00 | Coffee break. |
+| 16:00–17:00 | Small-group discussions on evaluation, human review, and use in other domains. |
 | 18:00–19:00 | AAAI series plenary. |
 
-### Wednesday, March 24: consolidate a research agenda
+### Wednesday, March 24: Open questions and next steps
 
-| Time | Activity and intended outcome |
+| Time | Session |
 | --- | --- |
-| 09:00–10:30 | Cross-domain synthesis and artifact review; revise the contract. |
-| 10:30–11:00 | AAAI break. |
-| 11:00–12:00 | Prioritize research questions, experiments, and resource needs. |
-| 12:00–12:30 | Community review, unresolved issues, and closing. |
+| 09:00–10:30 | Working-group reports; compare proposed tests and lessons from the exercises. |
+| 10:30–11:00 | Coffee break. |
+| 11:00–12:00 | Discussion of open research questions and possible joint studies. |
+| 12:00–12:30 | Closing discussion and next steps. |
 
-**Interaction design.** The explicitly collaborative blocks total 570 of 840 technical-session minutes (approximately 68%), excluding breaks, lunch, reception, and plenary. Talk blocks include additional discussion. Short contributed presentations will be paired with respondents; mixed research–industry groups will have facilitators and rapporteurs. A common worksheet will connect architectural claims to evidence and record disagreements. Coding is optional; demonstrations will be assessed through the same evidence-based discussion as other contributions.
+Contributed talks will be brief, with time for questions. For the exercises and small-group sessions, participants will work with colleagues from research and industry. Each group will report its conclusions and the questions it could not resolve. Coding is optional. The reception and plenary are AAAI series events.
 
 <!-- PAGEBREAK -->
 

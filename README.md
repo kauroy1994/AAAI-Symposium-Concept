@@ -67,47 +67,47 @@ The readiness assessment will report a **profile of evidence** across six dimens
 
 ## Program
 
-**Preliminary two-and-a-half-day program. All times are local to Santa Clara (Pacific Daylight Time, UTC−7).** The session blocks follow AAAI's published general schedule; the symposium-specific activities below are proposals. Invited-speaker slots are unassigned. [AAAI series schedule](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/)
+All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This preliminary schedule follows [AAAI's session timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Invited speakers have not yet been confirmed.
 
-### Monday, March 22 · Architectures meet operational requirements
+### Monday, March 22: Architectures and applications
 
-| Time | Session | Intended output |
-| --- | --- | --- |
-| 09:00–09:20 | Welcome, scope, and shared target problem | Common vocabulary and case boundaries. |
-| 09:20–10:00 | Invited perspective and discussion; speaker to be confirmed | Competing views on cognitive architecture and agent reliability. |
-| 10:00–10:30 | Research–industry problem statements | Concrete deployment questions rather than product pitches. |
-| 10:30–11:00 | AAAI break | Informal exchange. |
-| 11:00–12:30 | Contributed research and position talks with structured discussion | Architectural claims and evidence gaps. |
-| 12:30–14:00 | Lunch break | No symposium session. |
-| 14:00–15:30 | Lab A: knowledge-to-action clinic | First deployment evidence contracts. |
-| 15:30–16:00 | AAAI break | Informal exchange. |
-| 16:00–17:00 | Cross-group critique and design revisions | Revised assumptions and test plans. |
-| 18:00–19:00 | AAAI series reception | Series-level activity; not organized by R2R. |
+| Time | Session |
+| --- | --- |
+| 09:00–09:20 | Welcome and introduction to the symposium questions. |
+| 09:20–10:00 | Invited research talk and discussion; speaker to be confirmed. |
+| 10:00–10:30 | Application challenges from research and industry. |
+| 10:30–11:00 | Coffee break. |
+| 11:00–12:30 | Contributed talks on memory, knowledge representation, and planning, followed by discussion. |
+| 12:30–14:00 | Lunch. |
+| 14:00–15:30 | Group exercise: design an agent for a supplier-delay and approval workflow. |
+| 15:30–16:00 | Coffee break. |
+| 16:00–17:00 | Group reports and discussion of the proposed designs. |
+| 18:00–19:00 | AAAI series reception. |
 
-### Tuesday, March 23 · Stress-test the path to deployment
+### Tuesday, March 23: Evaluation and failure analysis
 
-| Time | Session | Intended output |
-| --- | --- | --- |
-| 09:00–09:40 | Invited industry perspective and discussion; speaker to be confirmed | Operational failure modes and adoption constraints. |
-| 09:40–10:30 | Evidence-centered case reports and discussion | Baselines, limitations, and lessons from unsuccessful approaches. |
-| 10:30–11:00 | AAAI break | Informal exchange. |
-| 11:00–12:30 | Lab B: failure, intervention, and recovery | Failure taxonomy and recovery test specifications. |
-| 12:30–14:00 | Lunch break | No symposium session. |
-| 14:00–15:30 | Deployment review panel and open challenge | Defensible pilot boundaries and unresolved risks. |
-| 15:30–16:00 | AAAI break | Informal exchange. |
-| 16:00–17:00 | Working groups: evaluation, governance, and transfer | Draft community artifacts with explicit disagreements. |
-| 18:00–19:00 | AAAI series plenary | Series-level activity; not organized by R2R. |
+| Time | Session |
+| --- | --- |
+| 09:00–09:40 | Invited industry talk and discussion; speaker to be confirmed. |
+| 09:40–10:30 | Case studies: evaluation results and deployment experience. |
+| 10:30–11:00 | Coffee break. |
+| 11:00–12:30 | Group exercise: test stale data, missing approvals, and tool failures. |
+| 12:30–14:00 | Lunch. |
+| 14:00–15:30 | Panel and audience discussion: when is an agent ready for a pilot? |
+| 15:30–16:00 | Coffee break. |
+| 16:00–17:00 | Small-group discussions on evaluation, human review, and use in other domains. |
+| 18:00–19:00 | AAAI series plenary. |
 
-### Wednesday, March 24 · Consolidate a research agenda
+### Wednesday, March 24: Open questions and next steps
 
-| Time | Session | Intended output |
-| --- | --- | --- |
-| 09:00–10:30 | Cross-domain synthesis and artifact review | A revised evidence contract and comparative case matrix. |
-| 10:30–11:00 | AAAI break | Informal exchange. |
-| 11:00–12:00 | Research roadmap: open problems and collaborative experiments | Prioritized questions, candidate owners, and resource needs. |
-| 12:00–12:30 | Community review and closing | Agreed next steps and a record of unresolved issues. |
+| Time | Session |
+| --- | --- |
+| 09:00–10:30 | Working-group reports; compare proposed tests and lessons from the exercises. |
+| 10:30–11:00 | Coffee break. |
+| 11:00–12:00 | Discussion of open research questions and possible joint studies. |
+| 12:00–12:30 | Closing discussion and next steps. |
 
-Within the contributed-talk blocks, we propose short presentations with substantial respondent and audience time. The program reserves **570 of 840 technical-session minutes** for the explicitly collaborative labs, critiques, panel, working groups, and final-day synthesis; additional discussion is included within talk blocks. Breaks, lunch, reception, and plenary are excluded from this calculation.
+Contributed talks will be brief, with time for questions. For the exercises and small-group sessions, participants will work with colleagues from research and industry. Each group will report its conclusions and the questions it could not resolve. Coding is optional. The reception and plenary are AAAI series events.
 
 ## Participation
 
@@ -233,14 +233,6 @@ For student-organizer coordination and prospective headshot corrections, contact
 | Proposed symposium | **March 22–24, 2027** at Santa Clara University. |
 
 Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) and [official series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Content checked November 12, 2026.
-
-## Outcomes and resources
-
-The proposed outputs are a deployment evidence contract, a failure-and-recovery taxonomy, a cross-domain case matrix, and a research roadmap. These will record both agreement and unresolved questions. We propose circulating an organizer-edited synthesis within six weeks after the event, subject to author consent and review.
-
-[Evidence-contract worksheet](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/evidence-contract.md) · [Case-study template](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/case-study-template.md) · [Outreach and consent templates](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/outreach.md) · [Submission checklist](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/submission-checklist.md) · [Fact-check record](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/SOURCES.md)
-
-**Relationship to existing activities.** NeSy is an established annual conference whose 2026 program included an industry track. R2R complements this broader forum through sustained work on shared cases, jointly specified acceptance criteria, and a deployment evidence contract connecting architectural research with operational decisions. [NeSy 2026 call](https://2026.nesyconf.org/call-for-papers/)
 
 ## References
 

@@ -13,14 +13,13 @@ assert len(pdf.pages) == 5, 'Proposal must remain five pages.'
 pdf_text = '\n'.join(page.extract_text() or '' for page in pdf.pages)
 for name in ['Kaushik Roy','Nigel Glenday','Raj Krishnan','Alessandro Oltramari','Shahram Rahimi','Subash Neupane','Himanshu Tripathi','Ashraf Abdul-Muumin']:
     assert name in readme and name in proposal and name in pdf_text, f'Missing organizer in README, source, or PDF: {name}'
-for title in ['Overview','Research agenda','Industry readiness','Program','Participation','Organizers','Dates and status','Outcomes and resources','References']:
+for title in ['Overview','Research agenda','Industry readiness','Program','Participation','Organizers','Dates and status','References']:
     assert f'## {title}' in readme, f'Navigation heading missing: {title}'
 for target in re.findall(r'\]\(([^)]+)\)', readme):
     if not target.startswith(('http:','https:','mailto:','#')):
         assert (root / target).is_file(), f'Broken local README link: {target}'
 for target in re.findall(r'<img[^>]+src="([^"]+)"', readme):
     assert (root / target).is_file(), f'Broken organizer image: {target}'
-assert '570 of 840' in readme and '570 of 840' in proposal
 assert 150 + 240 + 180 == 570 and 330 + 330 + 180 == 840
 assert len((root / 'resources/interest-register-template.csv').read_text().splitlines()) == 1
 # Validate the standalone CFP's local files and section links.
