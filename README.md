@@ -259,8 +259,6 @@ Scientific advice on the symposium's scope and research directions.
 
 </div>
 
-**Photographs:** Provided by the organizing team, except the portraits of Dr. Amiri Golilarz and Prof. Sheth, which come from their official university profiles. [Photo credits](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/PHOTO-SOURCES.md).
-
 For organizing questions or profile corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
 ## Dates and status
