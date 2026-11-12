@@ -14,21 +14,34 @@ pdf = PdfReader(root / 'proposal/proposal.pdf')
 assert len(pdf.pages) == 5, 'Proposal must remain five pages.'
 assert proposal.count('<!-- PAGEBREAK -->') == 4
 pdf_text = '\n'.join(page.extract_text() or '' for page in pdf.pages)
-organizers = ['Kaushik Roy', 'Alessandro Oltramari', 'Shahram Rahimi', 'Subash Neupane', 'Noorbakhsh Amiri Golilarz', 'Himanshu Tripathi', 'Ashraf Abdul-Muumin']
+organizers = ['Kaushik Roy', 'Shahram Rahimi', 'Subash Neupane', 'Noorbakhsh Amiri Golilarz', 'Himanshu Tripathi', 'Ashraf Abdul-Muumin']
 speakers = ['Nigel Glenday', 'Raj Krishnan']
-web_organizers = readme.split('## Organizers\n', 1)[1].split('## Dates and status\n', 1)[0]
+advisers = ['Alessandro Oltramari', 'Amit Sheth']
+web_organizer_section = readme.split('## Organizers\n', 1)[1].split('## Dates and status\n', 1)[0]
+web_organizers = web_organizer_section.split('### Advisory Committee\n', 1)[0]
+web_advisers = web_organizer_section.split('### Advisory Committee\n', 1)[1]
 web_speakers = readme.split('## Speakers\n', 1)[1].split('## Organizers\n', 1)[0]
-source_organizers = proposal.split('## 4.', 1)[1].split('<!-- PAGEBREAK -->', 1)[0]
+source_section4 = proposal.split('## 4.', 1)[1].split('<!-- PAGEBREAK -->', 1)[0]
+source_organizers = source_section4.split('### Advisory Committee', 1)[0]
+source_advisers = source_section4.split('### Advisory Committee', 1)[1].split('### Submissions', 1)[0]
+pdf_section4 = pdf.pages[3].extract_text()
+pdf_organizers = pdf_section4.split('Advisory Committee', 1)[0]
+pdf_advisers = pdf_section4.split('Advisory Committee', 1)[1].split('Submissions, review, and presentation', 1)[0]
 source_speakers = proposal.split('## 5.', 1)[1]
 for name in organizers:
-    assert all(name in text for text in [web_organizers, source_organizers, pdf.pages[3].extract_text()]), f'Organizer missing: {name}'
+    assert all(name in text for text in [web_organizers, source_organizers, pdf_organizers]), f'Organizer missing: {name}'
     assert name not in web_speakers, f'Organizer wrongly listed as speaker: {name}'
+for name in advisers:
+    assert all(name in text for text in [web_advisers, source_advisers, pdf_advisers, cfp]), f'Adviser missing: {name}'
+    assert all(name not in text for text in [web_organizers, source_organizers, pdf_organizers, web_speakers]), f'Adviser listed in another role: {name}'
+assert web_advisers.count('class="person-card advisor-card"') == 2
+assert 'amit@sc.edu' in pdf_advisers and 'aoltrama@andrew.cmu.edu' in pdf_advisers
 for name in speakers:
     assert all(name in text for text in [web_speakers, source_speakers, cfp, pdf.pages[4].extract_text()]), f'Speaker bio missing: {name}'
     assert all(name not in text for text in [web_organizers, source_organizers, pdf.pages[3].extract_text()]), f'Speaker still listed as organizer: {name}'
 assert 'namirigolilarz@ua.edu' in web_organizers and 'namirigolilarz@ua.edu' in pdf.pages[3].extract_text()
 assert 'Noorbakhsh Amiri Golilarz' in cfp
-assert web_organizers.count('class="person-card"') == 7
+assert web_organizers.count('class="person-card"') == 6
 assert web_speakers.count('class="person-card speaker-card"') == 2
 for title in ['Overview', 'Research agenda', 'Industry readiness', 'Program', 'Participation', 'Speakers', 'Organizers', 'Dates and status', 'References']:
     assert f'## {title}' in readme, f'Missing section: {title}'
@@ -104,7 +117,7 @@ for name, affiliation in [('Nigel Glenday', 'Graphite Atlas'), ('Raj Krishnan', 
 assert 'Participant interest' in pdf.pages[0].extract_text()
 print('PASS: both confirmed expressions of interest are included in the PDF.')
 
-print('PASS: seven organizers and two speakers, in the correct sections, with biographies.')
+print('PASS: six organizers, two advisers, and two speakers, in the correct sections, with biographies.')
 print('PASS: both labs, poster session, speaker assignments, full timetable, and no overlaps.')
 print('PASS: identical website/source programs and every session present in the PDF.')
 print('PASS: five pages, valid local links and portraits, CFP anchors, and private-register template.')

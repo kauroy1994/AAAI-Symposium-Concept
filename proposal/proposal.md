@@ -117,11 +117,9 @@ The 90-minute contributed-paper session will include short talks and questions. 
 
 ## 4. Organizing committee and participation
 
-The seven organizers have agreed to serve. Their proposed responsibilities are listed below.
+The six organizers have agreed to serve. Their proposed responsibilities are listed below.
 
 **Dr. Kaushik Roy - lead organizer and scientific program.** Assistant Professor of Computer Science, The University of Alabama. His research covers neuro-symbolic learning and reasoning. He will coordinate the program, reviewing, invitations, and contact with AAAI. **Email:** kroy2@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-kaushik-roy/).
-
-**Dr. Alessandro Oltramari - neuro-symbolic AI and links with industry.** Senior Manager, Bosch Research; President, Carnegie Bosch Institute. He will help organize research discussions and the panel. **Email:** aoltrama@andrew.cmu.edu. [Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html).
 
 **Dr. Shahram Rahimi - research program and invitations.** Professor and Head of Computer Science, The University of Alabama. He will help recruit researchers and organize discussions across AI research and industry. **Email:** srahimi1@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-shahram-rahimi/).
 
@@ -132,6 +130,14 @@ The seven organizers have agreed to serve. Their proposed responsibilities are l
 **Himanshu Tripathi - student organizer, The University of Alabama.** He will help with student participation and group exercises. **Email:** htripathi@crimson.ua.edu. [UA lab profile](https://sites.ua.edu/brains/team/).
 
 **Ashraf Abdul-Muumin - student organizer, The University of Alabama.** He will help coordinate sessions and prepare materials. **Email:** aashraf@crimson.ua.edu.
+
+### Advisory Committee
+
+Both members have agreed to provide scientific advice on the symposium's scope and research directions.
+
+**Dr. Alessandro Oltramari.** Senior Manager, Bosch Research; President, Carnegie Bosch Institute. His research connects knowledge representation, learning, and neuro-symbolic AI. **Email:** aoltrama@andrew.cmu.edu. [Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html).
+
+**Prof. Amit Sheth.** Professor of Computer Science and Engineering, University of South Carolina, and founding director of its Artificial Intelligence Institute. His research includes knowledge graphs, natural language processing, and AI systems that combine knowledge with learned models. **Email:** amit@sc.edu. [Faculty profile](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/amitsheth.php).
 
 ### Submissions, review, and presentation
 

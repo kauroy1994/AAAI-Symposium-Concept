@@ -10,17 +10,24 @@ The [series page](https://aaai.org/conference/spring-symposia/aaai-2027-spring-s
 
 ## Organizing committee
 
-The current committee has seven members. The lead organizer has confirmed agreement to serve for all seven, including Dr. Noorbakhsh Amiri Golilarz on November 12, 2026. Nigel Glenday and Raj Krishnan have been moved to invited-speaker roles at the lead organizer's explicit request.
+The organizing committee has six members, all at the University of Alabama. The lead organizer has confirmed their agreement to serve, including Dr. Noorbakhsh Amiri Golilarz on November 12, 2026. Nigel Glenday and Raj Krishnan have been moved to invited-speaker roles at the lead organizer's explicit request.
 
 | Organizer | Affiliation source | Email source |
 | --- | --- | --- |
 | Kaushik Roy | [UA directory](https://eng.ua.edu/eng-directory/dr-kaushik-roy/) | kroy2@ua.edu, public directory |
-| Alessandro Oltramari | [Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html): President; Senior Manager, Bosch Research | aoltrama@andrew.cmu.edu, public profile |
 | Shahram Rahimi | [UA directory](https://eng.ua.edu/eng-directory/dr-shahram-rahimi/): Professor and Head of Computer Science | srahimi1@ua.edu, public directory |
 | Subash Neupane | [UA directory](https://eng.ua.edu/eng-directory/dr-subash-neupane/): Assistant Professor | sneupane4@ua.edu, public directory |
 | Noorbakhsh Amiri Golilarz | [UA directory](https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/): Assistant Professor, Computer Science; [BRAINS Lab](https://sites.ua.edu/brains/team/): Director | namirigolilarz@ua.edu, public UA directory |
 | Himanshu Tripathi | [UA BRAINS Lab team](https://sites.ua.edu/brains/team/): PhD student | htripathi@crimson.ua.edu, lead-organizer supplied |
 | Ashraf Abdul-Muumin | Current UA affiliation supplied by the lead organizer; no current institutional profile located | aashraf@crimson.ua.edu, lead-organizer supplied |
+
+## Advisory Committee
+
+Alessandro Oltramari was moved from the organizing committee to the Advisory Committee at the lead organizer's request. Prof. Amit Sheth was added to the same section. The lead organizer explicitly confirmed that both have agreed to serve in these advisory roles. They are not listed as operational organizers or invited speakers.
+
+- **Alessandro Oltramari:** [Carnegie Bosch Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html) verifies President of CBI, Senior Manager at Bosch Research, neuro-symbolic AI research, and aoltrama@andrew.cmu.edu. His existing team-supplied portrait is reused.
+- **Amit Sheth:** [University of South Carolina faculty profile](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/amitsheth.php) verifies Professor of Computer Science and Engineering, founding director of its AI Institute, research in knowledge graphs, NLP, and knowledge-enhanced AI, and amit@sc.edu. His portrait comes from the same official faculty page: https://sc.edu/study/colleges_schools/engineering_and_computing/images/headshots/amitsheth.jpg.
+- AAAI's preference for organizers at different sites remains a review consideration: the current organizing committee is entirely at UA. Advisory affiliations are recorded separately and not used to claim a geographically distributed organizing committee.
 
 ## Invited speakers and biographies
 
@@ -48,7 +55,7 @@ Accepted papers not selected for oral talks and accepted poster abstracts will b
 
 ## Website and supporting files
 
-The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. Eight portraits were provided by the organizing team. Dr. Amiri Golilarz’s portrait comes from his official UA faculty profile; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
+The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. Advisory Committee is a subsection within Organizers. Eight portraits were provided by the organizing team. Dr. Amiri Golilarz’s portrait comes from UA and Prof. Sheth’s from the University of South Carolina; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
 
 The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No response or participant name is inferred from the existence of the form.
 
