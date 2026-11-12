@@ -83,7 +83,7 @@ def build() -> None:
         i += 1
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     temp = OUTPUT.with_name('proposal.build.pdf')
-    doc = SimpleDocTemplate(str(temp), pagesize=letter, rightMargin=50, leftMargin=50, topMargin=43, bottomMargin=42, title='Reasoning to Readiness - AAAI 2027 Spring Symposium Proposal', author='Proposed organizing committee', subject='Symposium proposal; completion tracked in submission checklist', pageCompression=1)
+    doc = SimpleDocTemplate(str(temp), pagesize=letter, rightMargin=50, leftMargin=50, topMargin=43, bottomMargin=42, title='Reasoning to Readiness - AAAI 2027 Spring Symposium Proposal', author='Proposed organizing committee', subject='Symposium proposal on reliable AI agents', pageCompression=1)
     def footer(canvas, doc):
         canvas.saveState()
         canvas.setStrokeColor(CRIMSON)
@@ -91,7 +91,7 @@ def build() -> None:
         canvas.line(50, 31, 562, 31)
         canvas.setFont('Helvetica', 7)
         canvas.setFillColor(colors.HexColor('#515C65'))
-        canvas.drawString(50, 20, 'R2R | AAAI Spring Symposium 2027 | Revised proposal | 12 November 2026')
+        canvas.drawString(50, 20, 'Reasoning to Readiness | Proposed AAAI Spring Symposium 2027')
         canvas.drawRightString(562, 20, f'{doc.page} / 5')
         canvas.restoreState()
     doc.build(story, onFirstPage=footer, onLaterPages=footer)

@@ -115,6 +115,21 @@ for name, affiliation in [('Nigel Glenday', 'Graphite Atlas'), ('Raj Krishnan', 
     assert name in interest_list and affiliation in interest_list, f'Missing interested participant: {name}'
     assert name in pdf.pages[0].extract_text() and affiliation in pdf.pages[0].extract_text(), f'Interest list missing from PDF: {name}'
 assert 'Participant interest' in pdf.pages[0].extract_text()
+# Keep development notes and boilerplate off public pages and out of the PDF.
+boilerplate = [
+    r'about this website', r'maintainers:', r'photo credits', r'photographs:',
+    r'github pages renders', r'privacy safeguards', r'ua-inspired colors',
+    r'provided by the organizing team', r'supplied by the organizing team',
+    r'sources checked', r'as confirmed by the lead organizer',
+    r'maintained by the', r'provenance record'
+]
+for label, content in [('homepage', readme), ('call', cfp), ('layout', (root / '_layouts/default.html').read_text(encoding='utf-8')), ('proposal', proposal), ('PDF', pdf_text)]:
+    for pattern in boilerplate:
+        assert not re.search(pattern, content, re.I), f'Boilerplate on {label}: {pattern}'
+assert 'MAINTAINING.md' not in readme and 'PHOTO-SOURCES.md' not in readme
+assert 'Acceptance pending' in (root / '_layouts/default.html').read_text(encoding='utf-8')
+print('PASS: public pages and PDF contain no development or provenance boilerplate.')
+
 print('PASS: both confirmed expressions of interest are included in the PDF.')
 
 print('PASS: six organizers, two advisers, and two speakers, in the correct sections, with biographies.')

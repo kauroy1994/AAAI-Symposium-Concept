@@ -6,9 +6,7 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-> AAAI acceptance is pending. The preliminary program includes invited talks by Nigel Glenday and Raj Krishnan, two labs, contributed papers, and posters.
-
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-advisory) · [Proposal source](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-final-copy) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -20,7 +18,7 @@ Participants will discuss research and case studies, compare designs, and work t
 
 The symposium draws on cognitive architectures [R1], neuro-symbolic AI [R2], causal representation learning [R3], and language agents that combine reasoning with action [R4]. Research on evaluation costs [R5] and attacks through tool outputs [R6] highlights the need to measure more than task accuracy. NIST AI RMF 1.0 provides a reference for discussing risk [R7].
 
-We aim to bring together **50–65 participants** from AI research, industry, operations, software testing, and related fields, including students. This is a planning target, within AAAI's published range of 40–75 participants. [Official call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+We aim to bring together **50–65 participants** from AI research, industry, operations, software testing, and related fields, including students.
 
 ## Research agenda
 
@@ -42,7 +40,7 @@ What should be measured before an agent is used in a real workflow? Topics inclu
 
 ## Industry readiness
 
-We will assess each system across the areas below. Strong results in one area do not resolve weaknesses in another.
+We will discuss each system’s data, reasoning, permissions, reliability, cost, and human oversight.
 
 | Area | Main question | What to report |
 | --- | --- | --- |
@@ -53,7 +51,7 @@ We will assess each system across the areas below. Strong results in one area do
 | Cost and usefulness | Does it improve on a reasonable alternative? | Task success, response time, computing cost, and staff effort. |
 | Human responsibility | Who reviews decisions and changes? | Review procedures, responsibilities, and incident handling. |
 
-Reports should distinguish demonstrated results from partial findings and open questions. They should describe test conditions, sample sizes, uncertainty, and any areas that were not evaluated.
+Reports should describe the test conditions, sample sizes, findings, uncertainty, and limits of the evaluation.
 
 ### Labs
 
@@ -67,7 +65,7 @@ Paper worksheets and simple local examples will be available. Coding is optional
 
 ## Program
 
-All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This preliminary schedule follows [AAAI's session timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Nigel Glenday and Raj Krishnan are the invited speakers. Talk titles will be announced.
+All times are local to Santa Clara (Pacific Daylight Time, UTC−7).
 
 ### Monday, March 22: Architectures and applications
 
@@ -107,19 +105,19 @@ All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This prelim
 | 11:00–12:00 | Discussion of open research questions and possible joint studies. |
 | 12:00–12:30 | Closing discussion and next steps. |
 
-The 90-minute contributed-paper session will include short talks and questions. Accepted papers not selected for an oral talk, together with accepted poster abstracts, will be presented in the Tuesday poster session. Authors will be available to discuss their work at their posters. Both labs are open to all participants; coding is optional. The reception and plenary are AAAI series events.
+The 90-minute contributed-paper session will include short talks and questions. Accepted papers not selected for an oral talk, together with accepted poster abstracts, will be presented in the Tuesday poster session. Authors will be available to discuss their work at their posters. Both labs are open to all participants; coding is optional.
 
 ## Participation
 
 ### Express interest now
 
-Complete the **[interest form](https://forms.gle/RUvA879SEs7ypqVc9)** with your name, affiliation, and interests, or contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest). This does not commit you to attend.
+Complete the **[interest form](https://forms.gle/RUvA879SEs7ypqVc9)** with your name, affiliation, and interests, or contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest). You can express interest without committing to attend.
 
-Please tell us separately whether we may include your name and affiliation in the proposal reviewed by AAAI and whether you agree to a public listing. Public listing is optional. Responses will be used for symposium planning and kept out of this public repository. Please leave confidential information out of your response.
+In the form, please indicate whether we may include your name and affiliation in the proposal and whether you agree to a public listing.
 
 ### Proposed contribution formats after acceptance
 
-The **[draft call for papers and participation](cfp.html)** gives the topics, submission guidance, and review process.
+The **[call for papers and participation](cfp.html)** gives the topics, submission guidance, and review process.
 
 | Contribution | Proposed length |
 | --- | --- |
@@ -167,12 +165,12 @@ Talk titles will be announced.
 
 ## Organizers
 
-**Organizing committee.** The six organizers have agreed to serve. Their proposed responsibilities are listed below.
+### Organizing Committee
 
 <div class="people-grid">
 
 <div class="person-card">
-<img src="assets/organizers/kaushik-roy.jpg" alt="Dr. Kaushik Roy, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/kaushik-roy.jpg" alt="Dr. Kaushik Roy" loading="lazy" width="180" height="180" />
 <h3>Dr. Kaushik Roy</h3>
 <p><strong>Lead organizer · Scientific program</strong><br />Assistant Professor of Computer Science, The University of Alabama.</p>
 <p>Program planning, paper review, invitations, and coordination with AAAI.</p>
@@ -180,27 +178,21 @@ Talk titles will be announced.
 <p><a href="mailto:kroy2@ua.edu">kroy2@ua.edu</a></p>
 </div>
 
-
-
-
-
-
-
 <div class="person-card">
-<img src="assets/organizers/shahram-rahimi.jpg" alt="Dr. Shahram Rahimi, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/shahram-rahimi.jpg" alt="Dr. Shahram Rahimi" loading="lazy" width="180" height="180" />
 <h3>Dr. Shahram Rahimi</h3>
 <p><strong>Faculty organizer · Research program</strong><br />Professor and Head of the Department of Computer Science, The University of Alabama.</p>
 <p>Invitations to researchers and discussions across AI research and industry.</p>
-<a href="https://eng.ua.edu/eng-directory/dr-shahram-rahimi/">Official UA Computer Science faculty profile</a>
+<a href="https://eng.ua.edu/eng-directory/dr-shahram-rahimi/">Faculty profile</a>
 <p><a href="mailto:srahimi1@ua.edu">srahimi1@ua.edu</a></p>
 </div>
 
 <div class="person-card">
-<img src="assets/organizers/subash-neupane.jpg" alt="Dr. Subash Neupane, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/subash-neupane.jpg" alt="Dr. Subash Neupane" loading="lazy" width="180" height="180" />
 <h3>Dr. Subash Neupane</h3>
 <p><strong>Faculty organizer · Evaluation</strong><br />Assistant Professor, The University of Alabama.</p>
 <p>Evaluation, explainability, and AI applications in healthcare and other settings.</p>
-<a href="https://eng.ua.edu/eng-directory/dr-subash-neupane/">Official UA faculty profile</a>
+<a href="https://eng.ua.edu/eng-directory/dr-subash-neupane/">Faculty profile</a>
 <p><a href="mailto:sneupane4@ua.edu">sneupane4@ua.edu</a></p>
 </div>
 
@@ -208,26 +200,26 @@ Talk titles will be announced.
 <img src="assets/organizers/noorbakhsh-amiri-golilarz.jpg" alt="Dr. Noorbakhsh Amiri Golilarz" loading="lazy" width="180" height="180" />
 <h3>Dr. Noorbakhsh Amiri Golilarz</h3>
 <p><strong>Cognitive systems · Lab design</strong><br />Assistant Professor of Computer Science, The University of Alabama; Director of the BRAINS Lab.</p>
-<p>His research includes AI, computer vision, robotics, and cognitive neuroscience. Proposed responsibilities: lab design and discussion of cognitive systems and applications.</p>
+<p>His research includes AI, computer vision, robotics, and cognitive neuroscience. He will contribute to lab design and discussions of cognitive systems and applications.</p>
 <p><a href="https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/">UA faculty profile</a> · <a href="https://sites.ua.edu/brains/team/">BRAINS Lab</a></p>
 <p><a href="mailto:namirigolilarz@ua.edu">namirigolilarz@ua.edu</a></p>
 </div>
 
 <div class="person-card">
-<img src="assets/organizers/himanshu-tripathi.jpg" alt="Himanshu Tripathi, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/himanshu-tripathi.jpg" alt="Himanshu Tripathi" loading="lazy" width="180" height="180" />
 <h3>Himanshu Tripathi</h3>
 <p><strong>Student organizer</strong><br />The University of Alabama.</p>
 <p>Student organizing support and symposium coordination.</p>
-<a href="https://sites.ua.edu/brains/team/">Official UA BRAINS Lab team page</a>
+<a href="https://sites.ua.edu/brains/team/">BRAINS Lab profile</a>
 <p><a href="mailto:htripathi@crimson.ua.edu">htripathi@crimson.ua.edu</a></p>
 </div>
 
 <div class="person-card">
-<img src="assets/organizers/ashraf-abdul-muumin.jpg" alt="Ashraf Abdul-Muumin, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
+<img src="assets/organizers/ashraf-abdul-muumin.jpg" alt="Ashraf Abdul-Muumin" loading="lazy" width="180" height="180" />
 <h3>Ashraf Abdul-Muumin</h3>
 <p><strong>Student organizer</strong><br />The University of Alabama.</p>
 <p>Student organizing support and symposium coordination.</p>
-<a href="https://github.com/chirix33">Self-published GitHub profile</a>
+<a href="https://github.com/chirix33">Profile</a>
 <p><a href="mailto:aashraf@crimson.ua.edu">aashraf@crimson.ua.edu</a></p>
 </div>
 
@@ -243,8 +235,8 @@ Scientific advice on the symposium's scope and research directions.
 <img src="assets/organizers/alessandro-oltramari.jpg" alt="Dr. Alessandro Oltramari" loading="lazy" width="180" height="180" />
 <h3>Dr. Alessandro Oltramari</h3>
 <p><strong>Scientific adviser</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
-<p>His research connects knowledge representation, learning, and neuro-symbolic AI. Advisory focus: neuro-symbolic AI and connections between research and practice.</p>
-<p><a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Official CBI profile</a></p>
+<p>His research connects knowledge representation, learning, and neuro-symbolic AI.</p>
+<p><a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Profile</a></p>
 <p><a href="mailto:aoltrama@andrew.cmu.edu">aoltrama@andrew.cmu.edu</a></p>
 </div>
 
@@ -252,27 +244,23 @@ Scientific advice on the symposium's scope and research directions.
 <img src="assets/organizers/amit-sheth.jpg" alt="Prof. Amit Sheth" loading="lazy" width="180" height="180" />
 <h3>Prof. Amit Sheth</h3>
 <p><strong>Scientific adviser</strong><br />Professor of Computer Science and Engineering, University of South Carolina; founding director of its Artificial Intelligence Institute.</p>
-<p>His research includes knowledge graphs, natural language processing, and AI systems that combine knowledge with learned models. Advisory focus: scientific scope and research directions.</p>
-<p><a href="https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/amitsheth.php">Official faculty profile</a></p>
+<p>His research includes knowledge graphs, natural language processing, and AI systems that combine knowledge with learned models.</p>
+<p><a href="https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/amitsheth.php">Faculty profile</a></p>
 <p><a href="mailto:amit@sc.edu">amit@sc.edu</a></p>
 </div>
 
 </div>
 
-For organizing questions or profile corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
-
 ## Dates and status
 
 | Milestone | Date or status |
 | --- | --- |
-| Organizer proposal due to AAAI | **November 17, 2026**; follow the official call's EasyChair link. The call does not specify a deadline timezone. |
+| Organizer proposal due to AAAI | **November 17, 2026**. |
 | AAAI proposal decisions | **December 8, 2026**. |
-| AAAI series registration opens | **December 29, 2026**, as listed on the series page; subject to AAAI updates. |
+| AAAI series registration opens | **December 29, 2026**. |
 | R2R paper/case submission deadline | Not announced; contingent on symposium acceptance. |
 | Invited speakers | Nigel Glenday (Monday) and Raj Krishnan (Tuesday); talk titles to be announced. |
 | Proposed symposium | **March 22–24, 2027** at Santa Clara University. |
-
-Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) and [official series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Event information checked November 12, 2026.
 
 ## References
 
@@ -284,14 +272,9 @@ Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aa
 
 **R4.** Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023. ReAct: Synergizing Reasoning and Acting in Language Models. *ICLR*. [NSF public-access record](https://par.nsf.gov/biblio/10451467-react-synergizing-reasoning-acting-language-models).
 
-**R5.** Sayash Kapoor, Benedikt Stroebl, Zachary S. Siegel, Nitya Nadgir, and Arvind Narayanan. 2024. AI Agents That Matter. *arXiv:2407.01502*. [Version cited: arXiv preprint](https://arxiv.org/abs/2407.01502).
+**R5.** Sayash Kapoor, Benedikt Stroebl, Zachary S. Siegel, Nitya Nadgir, and Arvind Narayanan. 2024. AI Agents That Matter. *arXiv:2407.01502*. [Preprint](https://arxiv.org/abs/2407.01502).
 
-**R6.** Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc Fischer, and Florian Tramèr. 2024. AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. *NeurIPS Datasets and Benchmarks*. [Official proceedings](https://proceedings.nips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html).
+**R6.** Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc Fischer, and Florian Tramèr. 2024. AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. *NeurIPS Datasets and Benchmarks*. [Proceedings](https://proceedings.nips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html).
 
-**R7.** National Institute of Standards and Technology. 2023. Artificial Intelligence Risk Management Framework (AI RMF 1.0). *NIST AI 100-1*. [Official publication](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10).
+**R7.** National Institute of Standards and Technology. 2023. Artificial Intelligence Risk Management Framework (AI RMF 1.0). *NIST AI 100-1*. [Publication](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10).
 
-## About this website
-
-Maintained by the proposed organizing team. The design uses UA-inspired colors. [UA color reference](https://brand.ua.edu/colors/)
-
-**Maintainers:** edit this README to update the website. GitHub Pages renders the same content through `index.md` and the custom layout. See [MAINTAINING.md](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/MAINTAINING.md) for activation, local preview, proposal regeneration, and privacy safeguards.

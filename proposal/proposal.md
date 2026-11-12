@@ -9,8 +9,6 @@ March 22–24, 2027 · Santa Clara University, Santa Clara, California
 
 **Webpage:** [Symposium website](https://kauroy1994.github.io/AAAI-Symposium-Concept/)
 
-**Proposal revised November 12, 2026.**
-
 ## 1. Motivation, scope, and participants
 
 **How can we tell when an AI agent is ready for use beyond a demonstration?** This symposium will examine how memory, knowledge, rules, and causal models affect an agent's reliability, and how to evaluate those effects in practical settings.
@@ -21,18 +19,16 @@ Participants will compare research and case studies, discuss results, and work t
 
 The scope covers cognitive architectures and memory; neuro-symbolic reasoning and action; causal reasoning and decision support; and evaluation for practical use. We welcome early work and negative results as well as completed studies. Authors should explain what their results support and what remains uncertain.
 
-We aim for 50–65 participants from AI research, industry, operations, software testing, and related fields, including students. This is a planning target, within AAAI's range of 40–75. The two-and-a-half-day meeting will combine talks, posters, discussion, and group work.
+We aim for 50–65 participants from AI research, industry, operations, software testing, and related fields, including students. The two-and-a-half-day meeting will combine talks, posters, discussion, and group work.
 
 ### Participant interest
 
-The following people have expressed interest in participating, as confirmed by the lead organizer on November 12, 2026.
+The following invited speakers have expressed interest in participating.
 
 | Name | Affiliation | Role |
 | --- | --- | --- |
 | Nigel Glenday | Graphite Atlas | Invited speaker |
 | Raj Krishnan | AI For Services | Invited speaker |
-
-We are continuing to collect expressions of interest and will add further respondents as replies arrive.
 
 **Relationship to existing meetings.** R2R is a new meeting. NeSy is an established annual conference and included an industry track in 2026 [8]. R2R will focus more narrowly on evaluating agents through shared cases and discussion between researchers and people responsible for their practical use.
 
@@ -59,7 +55,7 @@ We are continuing to collect expressions of interest and will add further respon
 | Cost and usefulness | Task success, response time, computing cost, and staff effort. |
 | Human responsibility | Review procedures, responsibilities, and incident handling. |
 
-Reports should distinguish demonstrated results from partial findings and open questions. They should describe test conditions, sample sizes, uncertainty, and any areas not evaluated. Comparisons should give competing approaches similar information and resources.
+Reports should describe test conditions, sample sizes, findings, uncertainty, and limits of the evaluation. Comparisons should give competing approaches similar information and resources.
 
 **Lab 1: Designing an agent.** Groups will work with a fictional supplier-delay and approval process. They will identify the information and permissions an agent needs, compare possible designs with a simpler approach, and decide how to test them.
 
@@ -71,7 +67,7 @@ Paper worksheets and simple local examples will be available. Coding is optional
 
 ## 3. Preliminary program
 
-All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This preliminary schedule follows [AAAI's session timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Nigel Glenday and Raj Krishnan are the invited speakers. Talk titles will be announced.
+All times are local to Santa Clara (Pacific Daylight Time, UTC−7).
 
 ### Monday, March 22: Architectures and applications
 
@@ -111,13 +107,13 @@ All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This prelim
 | 11:00–12:00 | Discussion of open research questions and possible joint studies. |
 | 12:00–12:30 | Closing discussion and next steps. |
 
-The 90-minute contributed-paper session will include short talks and questions. Accepted papers not selected for an oral talk, together with accepted poster abstracts, will be presented in the Tuesday poster session. Authors will be available to discuss their work at their posters. Both labs are open to all participants; coding is optional. The reception and plenary are AAAI series events.
+The 90-minute contributed-paper session will include short talks and questions. Accepted papers not selected for an oral talk, together with accepted poster abstracts, will be presented in the Tuesday poster session. Authors will be available to discuss their work at their posters. Both labs are open to all participants; coding is optional.
 
 <!-- PAGEBREAK -->
 
 ## 4. Organizing committee and participation
 
-The six organizers have agreed to serve. Their proposed responsibilities are listed below.
+The six organizers have agreed to serve.
 
 **Dr. Kaushik Roy - lead organizer and scientific program.** Assistant Professor of Computer Science, The University of Alabama. His research covers neuro-symbolic learning and reasoning. He will coordinate the program, reviewing, invitations, and contact with AAAI. **Email:** kroy2@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-kaushik-roy/).
 
@@ -125,7 +121,7 @@ The six organizers have agreed to serve. Their proposed responsibilities are lis
 
 **Dr. Subash Neupane - evaluation and applications.** Assistant Professor, The University of Alabama. His research addresses trustworthy, explainable AI, including healthcare applications. He will contribute to evaluation design and discussion of reliability. **Email:** sneupane4@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-subash-neupane/).
 
-**Dr. Noorbakhsh Amiri Golilarz - cognitive systems and lab design.** Assistant Professor of Computer Science, The University of Alabama, and Director of the BRAINS Lab. His research includes AI, computer vision, robotics, and cognitive neuroscience. Proposed responsibilities include lab design and discussion of cognitive systems and applications. **Email:** namirigolilarz@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/); [BRAINS Lab](https://sites.ua.edu/brains/team/).
+**Dr. Noorbakhsh Amiri Golilarz - cognitive systems and lab design.** Assistant Professor of Computer Science, The University of Alabama, and Director of the BRAINS Lab. His research includes AI, computer vision, robotics, and cognitive neuroscience. He will contribute to lab design and discussions of cognitive systems and applications. **Email:** namirigolilarz@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/); [BRAINS Lab](https://sites.ua.edu/brains/team/).
 
 **Himanshu Tripathi - student organizer, The University of Alabama.** He will help with student participation and group exercises. **Email:** htripathi@crimson.ua.edu. [UA lab profile](https://sites.ua.edu/brains/team/).
 
@@ -133,7 +129,7 @@ The six organizers have agreed to serve. Their proposed responsibilities are lis
 
 ### Advisory Committee
 
-Both members have agreed to provide scientific advice on the symposium's scope and research directions.
+The advisory committee will advise on the symposium's scope and research directions.
 
 **Dr. Alessandro Oltramari.** Senior Manager, Bosch Research; President, Carnegie Bosch Institute. His research connects knowledge representation, learning, and neuro-symbolic AI. **Email:** aoltrama@andrew.cmu.edu. [Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html).
 
@@ -149,7 +145,7 @@ Final deadlines, formatting, and publication arrangements will be coordinated wi
 
 <!-- PAGEBREAK -->
 
-## 5. Invited speakers and organization
+## 5. Invited speakers and meeting plans
 
 **Nigel Glenday - Monday, March 22, 09:20–10:00.** Nigel Glenday is the founder and CEO of Graphite Atlas, which maps business processes and develops automation and AI systems. He previously held CFO and COO roles in asset management. His work connects business operations with the practical use of AI. [Company profile](https://www.graphiteatlas.com/).
 
@@ -163,8 +159,6 @@ Talk titles will be announced.
 
 **Materials and follow-up.** We plan to prepare an evaluation checklist, examples of failures and recovery methods, a comparison of the cases discussed, and a short account of open research questions. The organizers aim to circulate a summary within six weeks of the meeting for contributor review. Publication and release of materials will be agreed with AAAI and the contributors.
 
-**Website.** The [symposium website](https://kauroy1994.github.io/AAAI-Symposium-Concept/) presents the topics, program, committee, and interest form. The [draft call for papers](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html) explains the formats, review process, labs, invited speakers, and poster session. Submissions will open if AAAI accepts the symposium. The invited speakers are Nigel Glenday and Raj Krishnan.
-
 **Further research.** Participants will discuss experiments that compare different designs using similar information and resources. The meeting summary will distinguish findings from the exercises from questions that need larger studies. Participants will be invited to contribute further examples and test materials.
 
 ### Selected references
@@ -177,10 +171,10 @@ Talk titles will be announced.
 
 [4] S. Yao et al. 2023. ReAct: Synergizing Reasoning and Acting in Language Models. ICLR. [NSF record](https://par.nsf.gov/biblio/10451467-react-synergizing-reasoning-acting-language-models).
 
-[5] S. Kapoor, B. Stroebl, Z. S. Siegel, N. Nadgir, and A. Narayanan. 2024. AI Agents That Matter. arXiv:2407.01502. [Cited preprint](https://arxiv.org/abs/2407.01502).
+[5] S. Kapoor, B. Stroebl, Z. S. Siegel, N. Nadgir, and A. Narayanan. 2024. AI Agents That Matter. arXiv:2407.01502. [Preprint](https://arxiv.org/abs/2407.01502).
 
 [6] E. Debenedetti et al. 2024. AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. NeurIPS, Datasets and Benchmarks. [doi:10.52202/079017-2636](https://doi.org/10.52202/079017-2636).
 
 [7] NIST. 2023. Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1. [doi:10.6028/NIST.AI.100-1](https://doi.org/10.6028/NIST.AI.100-1).
 
-[8] NeSy 2026. Call for Papers, including Industry Track. [Official call](https://2026.nesyconf.org/call-for-papers/). Sources checked November 12, 2026.
+[8] NeSy 2026. Call for Papers, including Industry Track. [Official call](https://2026.nesyconf.org/call-for-papers/).
