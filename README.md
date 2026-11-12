@@ -8,7 +8,7 @@
 
 > Proposed symposium; AAAI acceptance is pending. The program and organizing roles are preliminary. Invited-speaker slots are unassigned.
 
-[Express interest](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest) · [Proposal PDF](proposal/proposal.pdf) · [Editable proposal](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf) · [Editable proposal](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -113,13 +113,21 @@ Within the contributed-talk blocks, we propose short presentations with substant
 
 ### Express interest now
 
-Email **[Dr. Kaushik Roy](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest)** with your name, affiliation, relevant interests, and a brief statement that you are interested in participating should the symposium be accepted. An expression of interest is **not a commitment to attend** and does not reserve a place.
+Complete the **[expression-of-interest form](https://forms.gle/RUvA879SEs7ypqVc9)** with your name, affiliation, and relevant interests. You can also contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest). An expression of interest is **not a commitment to attend** and does not reserve a place.
 
 Please indicate separately whether we may include your **name and affiliation in the proposal reviewed by AAAI**, and whether you consent to a **public listing**. Public listing is optional. Do not send confidential customer information, sensitive datasets, credentials, or private case records. Correspondence will be used for symposium planning and handled through the lead organizer, not committed to this public repository.
 
 ### Proposed contribution formats after acceptance
 
-We plan to invite short research and position papers, evidence-centered industry case studies, reproducible demonstrations, negative results, and participation statements from practitioners and students. Proposed lengths are **2–4 pages for papers/cases**, **2 pages for demonstrations**, and **1 page for participation statements**.  Final formatting, submission deadlines, review procedures, and archival options will be announced only after acceptance and coordination with AAAI.
+The **[draft call for papers and participation](cfp.html)** describes the topics, evidence expectations, review process, and proposed formats:
+
+| Contribution | Proposed length |
+| --- | --- |
+| Long research and position papers; industry and operational cases | Up to 4 pages |
+| Short research and position papers; reproducible demonstrations | Up to 2 pages |
+| Poster abstracts; participation statements | Up to 1 page |
+
+Negative results and early-stage work are welcome. Poster acceptance and presentation selection are separate decisions; a limited number of posters may be accepted without a presentation slot. Paper submissions will open only if the symposium is accepted. Final deadlines, formatting, submission instructions, and publication arrangements will be coordinated with AAAI.
 
 The proposed review criteria are relevance, clarity of the research question, quality and limits of evidence, value for discussion, and potential to connect communities. Early-stage and speculative work is welcome when labeled accurately. Commercial affiliation is neither a prerequisite nor an advantage. Conflicts of interest will be managed through recusal and an independent reviewer; reviewers will not evaluate their own or closely related submissions.
 

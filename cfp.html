@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#9e1b32">
+  <meta name="description" content="Draft call for papers and participation for Reasoning to Readiness, a proposed AAAI 2027 Spring Symposium.">
+  <title>Call for Papers | Reasoning to Readiness</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --crimson: #9e1b32; --deep: #721226; --gray: #828a8f;
+      --ink: #252a31; --muted: #515c65; --line: #dce0e3;
+      --paper: #fff; --wash: #f5f5f3; --tint: #faf0f2;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 1rem; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 1rem/1.65 system-ui, sans-serif; }
+    a { color: var(--crimson); text-underline-offset: .2em; }
+    a:hover { color: var(--deep); }
+    a:focus-visible { outline: 3px solid var(--crimson); outline-offset: 4px; }
+    .skip { position: absolute; left: 1rem; top: -5rem; background: white; padding: .75rem; z-index: 1; }
+    .skip:focus { top: 1rem; }
+    .frame { width: min(100% - 3rem, 73rem); margin-inline: auto; }
+    .masthead { border-top: 6px solid var(--crimson); border-bottom: 1px solid var(--line); }
+    .masthead .frame, footer .frame { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .masthead .frame { padding-block: 1rem; }
+    .brand { display: flex; align-items: center; gap: .8rem; color: var(--ink); text-decoration: none; }
+    .monogram { background: var(--crimson); color: white; width: 3rem; height: 3rem; display: grid; place-items: center; font-weight: 800; font-size: 1.2rem; }
+    .brand-text, .eyebrow, .nav-label, .number { font-weight: 750; font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; }
+    .brand small { display: block; color: var(--muted); font-size: .7rem; }
+    .button { display: inline-block; padding: .6rem .9rem; border: 1px solid currentColor; text-decoration: none; font-weight: 650; font-size: .88rem; }
+    .button:hover { background: var(--tint); }
+    .status { background: var(--wash); border-bottom: 1px solid var(--line); }
+    .status .frame { padding-block: .55rem; display: flex; flex-wrap: wrap; gap: .2rem 1rem; align-items: baseline; }
+    .status strong { color: var(--crimson); }
+    .status span { color: var(--muted); font-size: .85rem; }
+    .hero { color: white; background: linear-gradient(115deg, var(--crimson), var(--deep)); overflow: hidden; }
+    .hero .frame { position: relative; isolation: isolate; padding-block: clamp(2.25rem, 7vw, 5rem); }
+    .hero .frame::after { content: ""; position: absolute; z-index: -1; right: -7rem; top: -5rem; width: 30rem; aspect-ratio: 1; border-radius: 50%; background: repeating-radial-gradient(circle, transparent 0 49px, #ffffff20 50px 51px); pointer-events: none; }
+    h1, h2, .question { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; line-height: 1.12; }
+    h1 { margin: .55rem 0 1rem; font-size: clamp(2.7rem, 7.2vw, 5.55rem); letter-spacing: -.045em; }
+    .hero .subtitle { max-width: 40rem; margin: 0; font-size: clamp(1.03rem, 2.5vw, 1.35rem); }
+    .hero .eyebrow { margin: 0; }
+    .layout { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: clamp(1.75rem, 4.2vw, 4.5rem); padding-block: 2.5rem 4.5rem; }
+    .contents { align-self: start; position: sticky; top: 1.5rem; padding-left: 1rem; border-left: 1px solid var(--gray); }
+    .contents a { display: block; padding-block: .3rem; color: var(--muted); font-size: .87rem; text-decoration: none; }
+    .contents a:hover { text-decoration: underline; }
+    .nav-label, .number { color: var(--crimson); }
+    main { min-width: 0; }
+    main section + section { border-top: 1px solid var(--line); margin-top: 2.6rem; padding-top: 2.1rem; }
+    h2 { color: var(--deep); font-size: clamp(1.95rem, 4vw, 2.65rem); margin: 0 0 .9rem; letter-spacing: -.025em; }
+    h3 { font-size: 1.07rem; line-height: 1.35; margin: 0 0 .45rem; }
+    p { margin: 0 0 .85rem; }
+    .question { color: var(--deep); font-size: clamp(1.3rem, 3vw, 1.85rem); max-width: 38rem; }
+    .notice, .example { background: var(--tint); border-left: 4px solid var(--crimson); padding: .9rem 1rem; }
+    .notice { margin-top: 1.2rem; font-size: .91rem; }
+    .topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
+    .topic { border: 1px solid var(--line); border-top: 3px solid var(--crimson); padding: 1rem; }
+    .topic .number { display: block; margin-bottom: .35rem; }
+    .topic p, .example p { margin: 0; }
+    .topic p { font-size: .94rem; }
+    .tracks { margin: 1.15rem 0 0; }
+    .tracks > div { padding: .85rem 1rem; border-bottom: 1px solid var(--line); }
+    .tracks > div:first-child { border-top: 1px solid var(--line); }
+    .tracks > div:nth-child(odd) { background: var(--wash); }
+    .tracks dt { font-weight: 750; }
+    .tracks dt span { color: var(--deep); font-size: .8rem; white-space: nowrap; margin-left: .3rem; }
+    .tracks dd { margin: .15rem 0 0; }
+    ol { margin: .75rem 0 1.2rem; padding-left: 1.35rem; }
+    li + li { margin-top: .45rem; }
+    .example { margin: 1rem 0; }
+    .resources { margin: 0; display: flex; flex-wrap: wrap; gap: .35rem 1rem; font-size: .9rem; }
+    .interest { border: 1px solid var(--line); border-top: 3px solid var(--crimson); padding: 1.2rem; background: var(--wash); }
+    .interest .button { background: var(--crimson); color: white; }
+    .interest .button:hover { background: var(--deep); }
+    footer { border-top: 4px solid var(--crimson); background: var(--wash); color: var(--muted); font-size: .84rem; padding-block: 1.3rem; }
+    @media (max-width: 48rem) {
+      .frame { width: min(100% - 2rem, 73rem); }
+      .layout { display: block; padding-block: 1.4rem 3rem; }
+      .contents { position: static; display: flex; flex-wrap: wrap; gap: 0 .85rem; border-left: 0; border-bottom: 1px solid var(--line); padding: 0 0 .65rem; margin-bottom: 1.4rem; }
+      .nav-label { width: 100%; }
+    }
+    @media (max-width: 32rem) {
+      .topics { grid-template-columns: 1fr; }
+      .hero .frame::after { right: -17rem; }
+    }
+    @media print {
+      @page { margin: 15mm; }
+      .skip, .contents, .masthead .button, footer { display: none; }
+      .frame { width: auto; }
+      .hero, .monogram { background: none; color: var(--deep); }
+      .hero .frame { padding-block: 1rem; }
+      .hero .frame::after { display: none; }
+      h1 { font-size: 30pt; }
+      h2 { font-size: 19pt; break-after: avoid; }
+      h3 { break-after: avoid; }
+      body { font-size: 10pt; }
+      .layout { display: block; padding-block: .5rem; }
+      main section + section { margin-top: 1rem; padding-top: .8rem; }
+      .topic, .tracks > div, .example, .interest { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="frame">
+      <a class="brand" href="./">
+        <span class="monogram" aria-hidden="true">R2R</span>
+        <span><span class="brand-text">Reasoning to Readiness</span><small>Proposed AAAI 2027 Spring Symposium</small></span>
+      </a>
+      <a class="button" href="https://forms.gle/RUvA879SEs7ypqVc9">Express interest</a>
+    </div>
+  </header>
+
+  <div class="status"><div class="frame">
+    <strong class="eyebrow">Proposal-stage draft</strong>
+    <span>Proposed March 22–24, 2027 · Santa Clara University, California</span>
+  </div></div>
+
+  <div class="hero"><div class="frame">
+    <p class="eyebrow">Reasoning to Readiness · R2R</p>
+    <h1>Call for Papers<br>and Participation</h1>
+    <p class="subtitle">Neuro-Symbolic and Causal Architectures for Reliable AI Agents</p>
+  </div></div>
+
+  <div class="frame layout">
+    <nav class="contents" aria-label="On this page">
+      <span class="nav-label">In this call</span>
+      <a href="#scope">Scope</a>
+      <a href="#topics">Topics</a>
+      <a href="#formats">Contribution formats</a>
+      <a href="#evidence">What to include</a>
+      <a href="#review">Review and program</a>
+      <a href="#participate">Dates and participation</a>
+    </nav>
+
+    <main id="main">
+      <section id="scope" aria-labelledby="scope-title">
+        <h2 id="scope-title">From reasoning to a pilot decision</h2>
+        <p class="question">What evidence would justify or rule out a bounded, accountable pilot for an AI agent?</p>
+        <p>Reasoning to Readiness brings together researchers, industrial developers, operations teams, assurance practitioners, and students to investigate how explicit knowledge, rules, executable constraints, and causal models change what an agent can reliably do. We welcome results from simulations, prototypes, pilots, and production, as well as work in progress, negative results, and testable positions.</p>
+        <p>Contributions will inform a shared <strong>deployment evidence contract</strong> that connects a system’s intended use and claims to tests, supporting artifacts, unresolved risks, and the person accountable for the decision.</p>
+        <p class="notice"><strong>AAAI approval is pending. Paper submissions will open only if the symposium is accepted.</strong> Expressions of interest are welcome now.</p>
+      </section>
+
+      <section id="topics" aria-labelledby="topics-title">
+        <h2 id="topics-title">Topics of interest</h2>
+        <p>Choose the area that best fits your question. Cross-area contributions are welcome.</p>
+        <div class="topics">
+          <article class="topic">
+            <span class="number">01</span>
+            <h3>Cognitive architectures and adaptive memory</h3>
+            <p>Working and persistent memory, reusable procedures and skills, inspectable planning, knowledge provenance and revision, and transfer across tasks. Evaluate what happens when a stored fact or learned procedure becomes stale.</p>
+          </article>
+          <article class="topic">
+            <span class="number">02</span>
+            <h3>Neuro-symbolic grounding and verifiable action</h3>
+            <p>Knowledge graphs and ontologies, neural-to-symbolic translation, executable rules, constrained planning, independent verifiers, and tool authorization. Specify what is checked, the assumptions behind the check, and how the system handles contradictions or violations.</p>
+          </article>
+          <article class="topic">
+            <span class="number">03</span>
+            <h3>Causal and counterfactual decision support</h3>
+            <p>Structural causal models, interventions, counterfactuals, identification under incomplete evidence, and calibrated abstention. Distinguish predictive performance from evidence about an intervention. Report assumptions and say when the agent should defer.</p>
+          </article>
+          <article class="topic">
+            <span class="number">04</span>
+            <h3>Industry readiness and accountable operation</h3>
+            <p>Integration, policy compliance, human approvals, adversarial testing, observability, recovery after partial execution, and cost or operator effort. Report the operating conditions, trade-offs, and evidence needed to decide whether to proceed.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="formats" aria-labelledby="formats-title">
+        <h2 id="formats-title">Contribution formats</h2>
+        <p>These lengths are proposed. Benchmarks and evaluation artifacts can accompany research papers, cases, or demonstrations.</p>
+        <dl class="tracks">
+          <div>
+            <dt>Research and position papers and posters</dt>
+            <dd>Submit a long paper (up to 4 pages), a short paper (up to 2 pages), or a poster abstract (up to 1 page). A limited number of posters may be accepted without a presentation slot.</dd>
+            <dd>Present a method, evaluation, benchmark, or testable position. Include available results or a concrete plan that could challenge the claim. Negative results and early-stage work are welcome.</dd>
+          </div>
+          <div>
+            <dt>Industry and operational case studies <span>Up to 4 pages</span></dt>
+            <dd>Describe an operational decision, current workflow or baseline, observed evidence, and a failure or limitation. State whether the work is synthetic, laboratory, pilot, or production. Cases are open to teams from any affiliation.</dd>
+          </div>
+          <div>
+            <dt>Reproducible demonstrations <span>Up to 2 pages</span></dt>
+            <dd>Provide a technical description, run instructions for a working or replayable artifact, and a scenario showing how the system handles a failure, invalid action, or missing evidence.</dd>
+          </div>
+          <div>
+            <dt>Participation statements <span>Up to 1 page</span></dt>
+            <dd>Describe the perspective or problem you would bring to a working group and a question you would like to investigate with other participants. Students and practitioners are encouraged to contribute.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="evidence" aria-labelledby="evidence-title">
+        <h2 id="evidence-title">What to include</h2>
+        <p>For papers, cases, and demos, attach or summarize a compact evidence contract. For early work, identify the evidence still needed and how you would obtain it.</p>
+        <ol>
+          <li><strong>Workflow and claim.</strong> State the decision, permitted actions, operating boundaries, and one claim a reviewer can test.</li>
+          <li><strong>Architecture and comparison.</strong> Identify the learned components and the knowledge, rules, verifier, or causal model that changes behavior. Where applicable, compare against the same workflow with that component disabled or against a credible simpler baseline with comparable information and resources.</li>
+          <li><strong>Evidence and limits.</strong> Describe test conditions and available artifacts. Report uncertainty, a failure or untested condition, and the expected fallback. Where relevant, report latency, cost, and human effort alongside task success.</li>
+          <li><strong>Decision and accountability.</strong> Explain what the evidence would support, which risks remain, and who would authorize a pilot, intervene, or stop the system.</li>
+        </ol>
+        <div class="example">
+          <h3>Example · Synthetic supplier-delay and approval workflow</h3>
+          <p>Compare the same agent with and without an executable approval check. Test a stale supplier update and a missing approval separately and together. Measure unauthorized actions, appropriate and unnecessary escalations, and latency. Record which decisions still require the operations owner.</p>
+        </div>
+        <p>Share only material you have permission to release. When original data or code is restricted, describe the restriction and offer a sanitized trace, synthetic replay, or test specification where feasible.</p>
+        <p class="resources">
+          <a href="https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/evidence-contract.md">Evidence-contract worksheet</a>
+          <a href="https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/case-study-template.md">Industry case-study template</a>
+        </p>
+      </section>
+
+      <section id="review" aria-labelledby="review-title">
+        <h2 id="review-title">Review and working sessions</h2>
+        <p>Proposed criteria are fit to the symposium, clarity and testability of the claim, quality and limits of the evidence appropriate to the contribution, and value for discussion. Papers and cases are planned to receive at least two reviews from reviewers without conflicts. Positions and work in progress will be assessed on the clarity of the question and the proposed test.</p>
+        <p>Posters will be assessed using the same criteria, with evidence expectations appropriate to the format. Poster acceptance and presentation selection are separate decisions. A limited number of posters may be accepted without a presentation slot.</p>
+        <p>Selected presentations and case studies will feed two working labs. Participants will develop tests for a synthetic supplier-delay and approval workflow, then stress-test recovery and apply the contract to a second service-operations scenario. The proposed outputs are a revised evidence contract, a failure-and-recovery taxonomy, a cross-domain case matrix, and a research roadmap.</p>
+      </section>
+
+      <section id="participate" aria-labelledby="participate-title">
+        <h2 id="participate-title">Dates and participation</h2>
+        <p><strong>Proposed symposium</strong> · March 22–24, 2027 at Santa Clara University. Paper deadlines, the submission portal, final formatting and review instructions, and any publication arrangements will be announced if the proposal is accepted and details are coordinated with AAAI.</p>
+        <p>If accepted, all presenters will present in person and all participants will register with AAAI. See the <a href="https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/">official AAAI symposium guidance</a>.</p>
+        <div class="interest">
+          <h3>Express interest in taking part</h3>
+          <p>Use the form to express interest in taking part. An expression of interest carries no commitment to attend. Keep proprietary or sensitive case details out of your response.</p>
+          <a class="button" href="https://forms.gle/RUvA879SEs7ypqVc9">Express interest</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer><div class="frame">
+    <span>Reasoning to Readiness · Independent symposium proposal</span>
+    <a href="https://github.com/kauroy1994/AAAI-Symposium-Concept">Concept and proposal on GitHub</a>
+  </div></footer>
+</body>
+</html>

@@ -23,6 +23,27 @@ for target in re.findall(r'<img[^>]+src="([^"]+)"', readme):
 assert '570 of 840' in readme and '570 of 840' in proposal
 assert 150 + 240 + 180 == 570 and 330 + 330 + 180 == 840
 assert len((root / 'resources/interest-register-template.csv').read_text().splitlines()) == 1
+# Validate the standalone CFP's local files and section links.
+from html.parser import HTMLParser
+class CallParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.ids, self.targets = set(), []
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if 'id' in attrs:
+            self.ids.add(attrs['id'])
+        if 'href' in attrs:
+            self.targets.append(attrs['href'])
+call = CallParser()
+call.feed((root / 'cfp.html').read_text(encoding='utf-8'))
+for target in call.targets:
+    if target.startswith('#'):
+        assert target[1:] in call.ids, f'Broken CFP anchor: {target}'
+    elif not target.startswith(('https:', 'http:', 'mailto:')):
+        assert (root / target).exists(), f'Broken CFP file link: {target}'
+assert '[draft call for papers and participation](cfp.html)' in readme
+print('PASS: CFP section anchors and local resources.')
 print('PASS: page count, required sections, eight organizers in README/source/PDF, local links, agenda arithmetic, and empty public register template.')
 print('Submission completeness: see proposal/submission-checklist.md for external requirements.')
 print('Structural checks do not establish factual accuracy, organizer consent, participant interest, or submission readiness.')

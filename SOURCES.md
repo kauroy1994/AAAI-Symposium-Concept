@@ -50,3 +50,7 @@ The required contacted-and-interested participant list is still missing. The lea
 ## URL checks, November 12, 2026
 
 Checked all 30 distinct HTTP(S) links in the website and proposal. All returned HTTP 200 except the IEEE DOI (HTTP 202) and three access-restricted URLs: the official AAAI call, the series page, and the AI Magazine DOI (HTTP 403). These access restrictions are not missing pages; official AAAI indexed content was used to verify the call and timetable. No HTTP 404 was returned. All eight local portraits and relative website file links passed structural checks. Raj's unverified LinkedIn company link was replaced with the provenance record. Scientific citation metadata was also checked against primary publisher/author records; older detailed citation provenance is retained above.
+
+## Call for papers integration, November 12, 2026
+
+The lead organizer supplied `cfp.html`; its scope, proposed contribution lengths, poster policy, review text, and design are retained. The homepage, navigation, proposal, and checklist now link to it. The brand link returns to the symposium homepage. The supplied expression-of-interest URL, https://forms.gle/RUvA879SEs7ypqVc9, resolved successfully to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No form response was submitted or inferred. The page remains a proposal-stage draft; submission dates, portal, formatting, and publication arrangements await acceptance and AAAI coordination.

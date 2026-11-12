@@ -10,7 +10,11 @@ Open the repository's **Settings → Pages**. Under **Build and deployment**, ch
 
 Update `README.md`, preserving the main section names so navigation anchors stay valid. Dates from AAAI must be distinguished from proposed local dates. Never change “proposed” to “accepted” without actual acceptance. Never add a confirmed speaker or participant without evidence and appropriate consent. Public company or university profiles verify affiliations, not agreement to organize.
 
-The committee currently comprises four main organizers and two UA student organizers, Himanshu Tripathi and Ashraf Abdul-Muumin. Keep the student-organizer section distinct from the main organizing roles. When changing the roster, update `README.md`, `proposal/proposal.md`, `proposal/submission-checklist.md`, `SOURCES.md`, and the expected names in `scripts/validate.py`, then rebuild the proposal PDF. Validation checks that all six names appear in the README, editable proposal, and generated PDF. Do not infer student email addresses, degree programs, or biographies.
+The committee comprises six faculty/industry organizers and two UA student organizers, Himanshu Tripathi and Ashraf Abdul-Muumin. When changing the roster, update `README.md`, `proposal/proposal.md`, `proposal/submission-checklist.md`, `SOURCES.md`, and the expected names in `scripts/validate.py`, then rebuild the proposal PDF. Validation checks that all eight names appear in the README, editable proposal, and generated PDF. Do not infer student email addresses, degree programs, or biographies.
+
+## Maintain the call for papers
+
+`cfp.html` is a standalone static page, published at `/AAAI-Symposium-Concept/cfp.html`; it carries its own responsive styles and needs no Jekyll front matter. Keep its proposed contribution formats consistent with the Participation section in `README.md` and `proposal/proposal.md`. `_layouts/default.html` links to it from site navigation. The page and homepage use the same expression-of-interest form; email remains an alternative contact. Keep paper-submission deadlines and portal details pending until acceptance and coordination with AAAI. Form responses remain private; publishing a form does not fulfill the participant-interest requirement.
 
 ## Rebuild the proposal
 

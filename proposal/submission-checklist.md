@@ -15,6 +15,8 @@ Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call
 - [x] Regenerated five-page PDF, including references; all pages visually reviewed.
 - [x] Attendance target distinguished from actual interest; relationship to the existing NeSy conference explained.
 
+- [x] Published the [draft call for papers and participation](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html), with proposed poster/paper/case/demo formats and the [expression-of-interest form](https://forms.gle/RUvA879SEs7ypqVc9). A form link alone does not establish participant interest.
+
 ## Required before submission
 
 - [ ] Supply the required list of **contacted potential participants who expressed interest**. No qualifying responses were supplied or found in the repository. Add actual names and affiliations to the proposal within the five-page limit. Outreach targets and attendance goals are not expressions of interest. AAAI does not require attendance commitments or specify a minimum number of names in the public call. Organizer agreement alone does not establish a separate participant-interest list.
