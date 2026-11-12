@@ -1,6 +1,6 @@
 # Evidence-centered industry case study — proposed format
 
-This is a planning template, not an open submission call. Proposed length: 2–4 pages after symposium acceptance; final instructions will be coordinated with AAAI.
+This is a planning template, not an open submission call. Proposed length: up to 4 pages after symposium acceptance; final instructions will be coordinated with AAAI.
 
 ## Problem and setting
 
@@ -20,7 +20,7 @@ Include at least one limitation or failure case, how it was discovered, how it w
 
 ## Readiness questions for the symposium
 
-Identify three questions a mixed research–industry group could help resolve. Attach or summarize the deployment evidence contract. State which claims are unsupported and which evidence is unavailable.
+Identify three questions a mixed research–industry group could help resolve. Use the [evaluation worksheet](evaluation-worksheet.md) to summarize the planned tests and available results. State which claims are unsupported and which evidence is unavailable.
 
 ## Disclosure and publication rights
 

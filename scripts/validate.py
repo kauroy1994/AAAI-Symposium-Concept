@@ -2,6 +2,7 @@
 """Local structural checks; not a substitute for factual or visual review."""
 from pathlib import Path
 import re
+from urllib.parse import urlsplit
 from pypdf import PdfReader
 
 root = Path(__file__).resolve().parents[1]
@@ -17,7 +18,7 @@ for title in ['Overview','Research agenda','Industry readiness','Program','Parti
     assert f'## {title}' in readme, f'Navigation heading missing: {title}'
 for target in re.findall(r'\]\(([^)]+)\)', readme):
     if not target.startswith(('http:','https:','mailto:','#')):
-        assert (root / target).is_file(), f'Broken local README link: {target}'
+        assert (root / urlsplit(target).path).is_file(), f'Broken local README link: {target}'
 for target in re.findall(r'<img[^>]+src="([^"]+)"', readme):
     assert (root / target).is_file(), f'Broken organizer image: {target}'
 assert 150 + 240 + 180 == 570 and 330 + 330 + 180 == 840
@@ -42,6 +43,24 @@ for target in call.targets:
     elif not target.startswith(('https:', 'http:', 'mailto:')):
         assert (root / target).exists(), f'Broken CFP file link: {target}'
 assert '[draft call for papers and participation](cfp.html)' in readme
+# Keep the public agenda and PDF source in sync.
+web_program = readme.split('## Program\n', 1)[1].split('## Participation\n', 1)[0].strip()
+source_program = proposal.split('## 3. Preliminary program\n', 1)[1].split('<!-- PAGEBREAK -->', 1)[0].strip()
+assert web_program == source_program, 'Website and proposal programs differ.'
+for path in ['README.md', 'proposal/proposal.md', 'cfp.html', 'resources/evaluation-worksheet.md', 'resources/case-study-template.md']:
+    assert not re.search(r'\bevidence[ -]+contract\b', (root / path).read_text(encoding='utf-8'), re.I), f'Outdated wording: {path}'
+assert not re.search(r'\bevidence[ -]+contract\b', pdf_text, re.I), 'Outdated wording in PDF.'
+# Check actual PDF program text against the public session titles and times.
+def plain_text(value):
+    value = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', value)
+    return ' '.join(value.replace('–', '-').replace('−', '-').split())
+program_pdf = plain_text(pdf.pages[2].extract_text() or '')
+for line in web_program.splitlines():
+    if line.startswith('|') and not re.match(r'^\|[ -]+\|', line) and not line.startswith('| Time |'):
+        for cell in line.strip('|').split('|'):
+            assert plain_text(cell) in program_pdf, f'Program missing from PDF: {cell}'
+print('PASS: identical website/source agendas and all sessions present in PDF.')
+
 print('PASS: CFP section anchors and local resources.')
 print('PASS: page count, required sections, eight organizers in README/source/PDF, local links, agenda arithmetic, and empty public register template.')
 print('Submission completeness: see proposal/submission-checklist.md for external requirements.')

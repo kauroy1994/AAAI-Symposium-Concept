@@ -8,7 +8,7 @@
 
 > Proposed symposium; AAAI acceptance is pending. The program and organizing roles are preliminary. Invited-speaker slots are unassigned.
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf) · [Editable proposal](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-revised) · [Editable proposal](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -16,7 +16,7 @@
 
 Reasoning to Readiness (R2R) proposes a working symposium at the intersection of cognitive architectures, neuro-symbolic AI, causal modeling, and industrial operations. Rather than treating deployment as a final engineering step, we ask how the architecture itself can expose its knowledge, assumptions, action boundaries, failure modes, and resource requirements to the people responsible for using it.
 
-Our central activity is the co-design of a **deployment evidence contract**: a structured record connecting an agent's intended use and architectural claims to testable acceptance criteria, supporting artifacts, unresolved risks, and a named human decision-maker. The contract will support comparison of claims, evidence, and remaining validation needs.
+Participants will work through case studies and develop a shared checklist for evaluating AI agents. It will cover what the system is intended to do, how its claims can be tested, what the results show, which risks remain, and who decides whether a pilot should proceed.
 
 The scientific foundations include cognitive architectures that connect memory and action [R1], neuro-symbolic integration [R2], causal representation learning [R3], and reasoning-and-acting language agents [R4]. Cost-aware agent evaluation [R5] and adversarial tool-use evaluation [R6] motivate looking beyond task accuracy. NIST AI RMF 1.0 provides a risk-management reference [R7].
 
@@ -59,7 +59,7 @@ The readiness assessment will report a **profile of evidence** across six dimens
 
 **Lab A — Knowledge-to-action clinic.** Mixed research–industry groups will examine a synthetic supplier-delay and approval workflow. They will identify required knowledge, represent dependencies and action permissions, compare a simple baseline with a proposed agent design, and specify the evidence needed for a bounded pilot. The exercise is a design and evaluation activity; no production customer data or live transactions are required.
 
-**Lab B — Failure, intervention, and recovery.** Groups will introduce stale knowledge, contradictory instructions, missing approvals, and tool failures into a documented scenario. They will distinguish ordinary constraint violations from causal interventions, identify unsupported conclusions, and design escalation and recovery tests. A second service-operations scenario will test whether the evidence contract transfers beyond manufacturing.
+**Lab B — Failure, intervention, and recovery.** Groups will introduce stale knowledge, contradictory instructions, missing approvals, and tool failures into a documented scenario. They will distinguish ordinary constraint violations from causal interventions, identify unsupported conclusions, and design escalation and recovery tests. A second case from service operations will test whether the same evaluation methods are useful beyond manufacturing.
 
 **Deployment review panel.** Researchers, practitioners, and operations stakeholders will review anonymized case packets and explain which evidence supports a pilot, which evidence is missing, and which risks remain. The panel will document the reasoning behind its assessment.
 

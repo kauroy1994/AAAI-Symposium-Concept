@@ -91,7 +91,7 @@ def build() -> None:
         canvas.line(50, 31, 562, 31)
         canvas.setFont('Helvetica', 7)
         canvas.setFillColor(colors.HexColor('#515C65'))
-        canvas.drawString(50, 20, 'R2R | AAAI Spring Symposium 2027 | Proposal | 12 November 2026')
+        canvas.drawString(50, 20, 'R2R | AAAI Spring Symposium 2027 | Revised proposal | 12 November 2026')
         canvas.drawRightString(562, 20, f'{doc.page} / 5')
         canvas.restoreState()
     doc.build(story, onFirstPage=footer, onLaterPages=footer)

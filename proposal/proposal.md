@@ -15,7 +15,7 @@ March 22–24, 2027 · Santa Clara University, Santa Clara, California
 
 We propose a working symposium on a focused question: **what architectural and empirical evidence should justify moving an AI agent from a demonstration to a bounded, accountable industrial pilot?** Cognitive architectures connect memory, learning, and action [1]; neuro-symbolic methods connect learned representations with explicit knowledge [2]; causal models formalize assumptions about interventions [3]. Language-agent research offers mechanisms for reasoning and acting [4], but evaluation must also address operating cost, reproducibility [5], and the security implications of interacting with untrusted tool outputs [6]. Together, these perspectives connect architectural design to the evidence needed for operational decisions.
 
-The symposium will develop a proposed **deployment evidence contract**: a concise, inspectable record linking intended use, architectural claims, authorized actions, causal assumptions, evaluation conditions, unresolved risks, and human accountability. Teams will challenge this contract against common cases and identify where it fails to support decisions. The contract will make claims comparable, expose limitations, and identify the domain-specific validation still needed.
+Participants will work through case studies and develop a shared checklist for evaluating AI agents. It will cover what a system is intended to do, which actions it may take, how its claims can be tested, what the results show, and which risks remain. Groups will compare their assessments and identify the further testing needed before a pilot could proceed.
 
 Four areas define the scope: (i) cognitive architectures and adaptive memory; (ii) knowledge-grounded neuro-symbolic reasoning and verifiable action; (iii) causal and counterfactual decision support; and (iv) industry readiness, including integration, recovery, resource efficiency, and human oversight. Technical questions include separating remembered evidence from generated hypotheses, revising stale knowledge, enforcing action boundaries, testing counterfactual assumptions, and evaluating the cost of stronger reasoning. Speculative ideas, work in progress, and negative results are welcome when their evidential status is explicit.
 
@@ -35,7 +35,7 @@ We propose 50–65 participants, within AAAI's published target of 40–75. Recr
 
 **Operational adoption.** How should system boundaries, organizational responsibility, and economic value influence architecture? We will discuss approval workflows, integration with existing systems, residual risk ownership, and recovery after partial completion. NIST AI RMF 1.0 provides a risk-management reference for this assessment [7].
 
-### Proposed evidence-contract dimensions
+### Questions for evaluation
 
 | Dimension | Evidence to request and discuss |
 | --- | --- |
@@ -132,11 +132,11 @@ All presenters, invited speakers, and panelists must attend in person; all parti
 
 **Community development.** Outreach will connect cognitive systems, knowledge representation, causal reasoning, agent evaluation, and industrial operations communities. Organizers will circulate the draft to prospective participants for comment and use their feedback to refine the cases and scientific questions. Expressions of interest will inform the balance of research and practitioner perspectives.
 
-**Execution and outputs.** The committee will prepare calls for participation and registration, publicize the event beyond AAAI, review participation requests, provide invitee and accepted-author lists for registration, finalize the program, and supply information requested by AAAI's proceedings team. AAAI will handle local arrangements and logistical support under its call. We propose four outputs: a deployment evidence-contract template; a failure-and-recovery taxonomy; a comparative case matrix; and a research roadmap that preserves unresolved disagreements. An organizer-edited synthesis is planned within six weeks after the event, subject to contributor review and consent. Publication and resource-release arrangements will be settled with AAAI and contributors.
+**Execution and outputs.** The committee will prepare calls for participation and registration, publicize the event beyond AAAI, review participation requests, provide invitee and accepted-author lists for registration, finalize the program, and supply information requested by AAAI's proceedings team. AAAI will handle local arrangements and logistical support under its call. We plan to produce an evaluation checklist, examples of failures and recovery methods, a comparison of the cases discussed, and a short account of open research questions. An organizer-edited synthesis is planned within six weeks after the event, subject to contributor review and consent. Publication and resource-release arrangements will be settled with AAAI and contributors.
 
 **Website and program.** The [symposium website](https://kauroy1994.github.io/AAAI-Symposium-Concept/) presents the agenda, program, committee, and interest contact. The [draft call for papers](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html) details contribution formats, evidence expectations, and review; submissions will open after acceptance. The program covers the full two and a half days using the [AAAI series timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Invited-speaker slots remain unassigned.
 
-**Continuing work.** Working groups will identify experiments that compare architectural choices under common information and resource budgets. The synthesis will distinguish findings supported by the case exercises from questions requiring larger studies. Participants will be invited to revise the evidence contract and contribute reusable evaluation materials after the meeting.
+**Continuing work.** Working groups will identify experiments that compare architectural choices under common information and resource budgets. The synthesis will distinguish findings supported by the case exercises from questions requiring larger studies. Participants will be invited to refine the checklist and contribute examples and test materials after the meeting.
 
 ### Selected references
 
