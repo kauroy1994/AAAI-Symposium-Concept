@@ -113,7 +113,7 @@ The 90-minute contributed-paper session will include short talks and questions. 
 
 ## 4. Organizing committee and participation
 
-The six organizers have agreed to serve.
+All six organizing committee members and both steering organizers have agreed to serve.
 
 **Dr. Kaushik Roy - lead organizer and scientific program.** Assistant Professor of Computer Science, The University of Alabama. His research covers neuro-symbolic learning and reasoning. He will coordinate the program, reviewing, invitations, and contact with AAAI. **Email:** kroy2@ua.edu. [UA profile](https://eng.ua.edu/eng-directory/dr-kaushik-roy/).
 
@@ -127,9 +127,9 @@ The six organizers have agreed to serve.
 
 **Ashraf Abdul-Muumin - student organizer, The University of Alabama.** He will help coordinate sessions and prepare materials. **Email:** aashraf@crimson.ua.edu.
 
-### Advisory Committee
+### Steering Organizers
 
-The advisory committee will advise on the symposium's scope and research directions.
+The steering organizers will guide the symposium's scope and research program.
 
 **Dr. Alessandro Oltramari.** Senior Manager, Bosch Research; President, Carnegie Bosch Institute. His research connects knowledge representation, learning, and neuro-symbolic AI. **Email:** aoltrama@andrew.cmu.edu. [Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html).
 

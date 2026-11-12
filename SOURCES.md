@@ -21,13 +21,13 @@ The organizing committee has six members, all at the University of Alabama. The 
 | Himanshu Tripathi | [UA BRAINS Lab team](https://sites.ua.edu/brains/team/): PhD student | htripathi@crimson.ua.edu, lead-organizer supplied |
 | Ashraf Abdul-Muumin | Current UA affiliation supplied by the lead organizer; no current institutional profile located | aashraf@crimson.ua.edu, lead-organizer supplied |
 
-## Advisory Committee
+## Steering Organizers
 
-Alessandro Oltramari was moved from the organizing committee to the Advisory Committee at the lead organizer's request. Prof. Amit Sheth was added to the same section. The lead organizer explicitly confirmed that both have agreed to serve in these advisory roles. They are not listed as operational organizers or invited speakers.
+Alessandro Oltramari and Prof. Amit Sheth serve as steering organizers for the symposium's scientific scope and research direction. The lead organizer confirmed their agreement to serve and requested the title Steering Organizers. They are listed separately from the operational organizing committee and invited speakers.
 
 - **Alessandro Oltramari:** [Carnegie Bosch Institute profile](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html) verifies President of CBI, Senior Manager at Bosch Research, neuro-symbolic AI research, and aoltrama@andrew.cmu.edu. His existing team-supplied portrait is reused.
 - **Amit Sheth:** [University of South Carolina faculty profile](https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/amitsheth.php) verifies Professor of Computer Science and Engineering, founding director of its AI Institute, research in knowledge graphs, NLP, and knowledge-enhanced AI, and amit@sc.edu. His portrait comes from the same official faculty page: https://sc.edu/study/colleges_schools/engineering_and_computing/images/headshots/amitsheth.jpg.
-- AAAI's preference for organizers at different sites remains a review consideration: the current organizing committee is entirely at UA. Advisory affiliations are recorded separately and not used to claim a geographically distributed organizing committee.
+- The six committee members are at UA; the two steering organizers are affiliated with Bosch/Carnegie Bosch Institute and the University of South Carolina. The website and proposal distinguish these roles within the organizing team.
 
 ## Invited speakers and biographies
 
@@ -55,7 +55,7 @@ Accepted papers not selected for oral talks and accepted poster abstracts will b
 
 ## Website and supporting files
 
-The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. Advisory Committee is a subsection within Organizers. Eight portraits were provided by the organizing team. Dr. Amiri Golilarz’s portrait comes from UA and Prof. Sheth’s from the University of South Carolina; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
+The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. Steering Organizers is a subsection within Organizers. Eight portraits were provided by the organizing team. Dr. Amiri Golilarz’s portrait comes from UA and Prof. Sheth’s from the University of South Carolina; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
 
 The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No response or participant name is inferred from the existence of the form.
 

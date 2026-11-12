@@ -16,26 +16,26 @@ assert proposal.count('<!-- PAGEBREAK -->') == 4
 pdf_text = '\n'.join(page.extract_text() or '' for page in pdf.pages)
 organizers = ['Kaushik Roy', 'Shahram Rahimi', 'Subash Neupane', 'Noorbakhsh Amiri Golilarz', 'Himanshu Tripathi', 'Ashraf Abdul-Muumin']
 speakers = ['Nigel Glenday', 'Raj Krishnan']
-advisers = ['Alessandro Oltramari', 'Amit Sheth']
+steering_organizers = ['Alessandro Oltramari', 'Amit Sheth']
 web_organizer_section = readme.split('## Organizers\n', 1)[1].split('## Dates and status\n', 1)[0]
-web_organizers = web_organizer_section.split('### Advisory Committee\n', 1)[0]
-web_advisers = web_organizer_section.split('### Advisory Committee\n', 1)[1]
+web_organizers = web_organizer_section.split('### Steering Organizers\n', 1)[0]
+web_steering_organizers = web_organizer_section.split('### Steering Organizers\n', 1)[1]
 web_speakers = readme.split('## Speakers\n', 1)[1].split('## Organizers\n', 1)[0]
 source_section4 = proposal.split('## 4.', 1)[1].split('<!-- PAGEBREAK -->', 1)[0]
-source_organizers = source_section4.split('### Advisory Committee', 1)[0]
-source_advisers = source_section4.split('### Advisory Committee', 1)[1].split('### Submissions', 1)[0]
+source_organizers = source_section4.split('### Steering Organizers', 1)[0]
+source_steering_organizers = source_section4.split('### Steering Organizers', 1)[1].split('### Submissions', 1)[0]
 pdf_section4 = pdf.pages[3].extract_text()
-pdf_organizers = pdf_section4.split('Advisory Committee', 1)[0]
-pdf_advisers = pdf_section4.split('Advisory Committee', 1)[1].split('Submissions, review, and presentation', 1)[0]
+pdf_organizers = pdf_section4.split('Steering Organizers', 1)[0]
+pdf_steering_organizers = pdf_section4.split('Steering Organizers', 1)[1].split('Submissions, review, and presentation', 1)[0]
 source_speakers = proposal.split('## 5.', 1)[1]
 for name in organizers:
     assert all(name in text for text in [web_organizers, source_organizers, pdf_organizers]), f'Organizer missing: {name}'
     assert name not in web_speakers, f'Organizer wrongly listed as speaker: {name}'
-for name in advisers:
-    assert all(name in text for text in [web_advisers, source_advisers, pdf_advisers, cfp]), f'Adviser missing: {name}'
-    assert all(name not in text for text in [web_organizers, source_organizers, pdf_organizers, web_speakers]), f'Adviser listed in another role: {name}'
-assert web_advisers.count('class="person-card advisor-card"') == 2
-assert 'amit@sc.edu' in pdf_advisers and 'aoltrama@andrew.cmu.edu' in pdf_advisers
+for name in steering_organizers:
+    assert all(name in text for text in [web_steering_organizers, source_steering_organizers, pdf_steering_organizers, cfp]), f'Steering organizer missing: {name}'
+    assert all(name not in text for text in [web_organizers, source_organizers, pdf_organizers, web_speakers]), f'Steering organizer listed in another role: {name}'
+assert web_steering_organizers.count('class="person-card steering-card"') == 2
+assert 'amit@sc.edu' in pdf_steering_organizers and 'aoltrama@andrew.cmu.edu' in pdf_steering_organizers
 for name in speakers:
     assert all(name in text for text in [web_speakers, source_speakers, cfp, pdf.pages[4].extract_text()]), f'Speaker bio missing: {name}'
     assert all(name not in text for text in [web_organizers, source_organizers, pdf.pages[3].extract_text()]), f'Speaker still listed as organizer: {name}'
@@ -132,7 +132,7 @@ print('PASS: public pages and PDF contain no development or provenance boilerpla
 
 print('PASS: both confirmed expressions of interest are included in the PDF.')
 
-print('PASS: six organizers, two advisers, and two speakers, in the correct sections, with biographies.')
+print('PASS: six committee organizers, two steering organizers, and two speakers, in the correct sections, with biographies.')
 print('PASS: both labs, poster session, speaker assignments, full timetable, and no overlaps.')
 print('PASS: identical website/source programs and every session present in the PDF.')
 print('PASS: five pages, valid local links and portraits, CFP anchors, and private-register template.')

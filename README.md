@@ -6,7 +6,7 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-final-copy) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-steering) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -225,25 +225,25 @@ Talk titles will be announced.
 
 </div>
 
-### Advisory Committee
+### Steering Organizers
 
-Scientific advice on the symposium's scope and research directions.
+Scientific direction for the symposium's scope and research program.
 
 <div class="people-grid">
 
-<div class="person-card advisor-card">
+<div class="person-card steering-card">
 <img src="assets/organizers/alessandro-oltramari.jpg" alt="Dr. Alessandro Oltramari" loading="lazy" width="180" height="180" />
 <h3>Dr. Alessandro Oltramari</h3>
-<p><strong>Scientific adviser</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
+<p><strong>Steering organizer</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
 <p>His research connects knowledge representation, learning, and neuro-symbolic AI.</p>
 <p><a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Profile</a></p>
 <p><a href="mailto:aoltrama@andrew.cmu.edu">aoltrama@andrew.cmu.edu</a></p>
 </div>
 
-<div class="person-card advisor-card">
+<div class="person-card steering-card">
 <img src="assets/organizers/amit-sheth.jpg" alt="Prof. Amit Sheth" loading="lazy" width="180" height="180" />
 <h3>Prof. Amit Sheth</h3>
-<p><strong>Scientific adviser</strong><br />Professor of Computer Science and Engineering, University of South Carolina; founding director of its Artificial Intelligence Institute.</p>
+<p><strong>Steering organizer</strong><br />Professor of Computer Science and Engineering, University of South Carolina; founding director of its Artificial Intelligence Institute.</p>
 <p>His research includes knowledge graphs, natural language processing, and AI systems that combine knowledge with learned models.</p>
 <p><a href="https://sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/amitsheth.php">Faculty profile</a></p>
 <p><a href="mailto:amit@sc.edu">amit@sc.edu</a></p>

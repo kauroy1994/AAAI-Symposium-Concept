@@ -2,7 +2,7 @@
 
 Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/).
 
-**Status: six organizers and both advisory committee members have agreed to serve; participant-interest list included with two names; outreach is continuing.** This package has not been submitted to EasyChair.
+**Status: six organizing committee members and both steering organizers have agreed to serve; participant-interest list included with two names; outreach is continuing.** This package has not been submitted to EasyChair.
 
 ## Prepared
 
@@ -11,7 +11,7 @@ Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call
 - [x] Six organizers in the website and proposal: Kaushik Roy, Shahram Rahimi, Subash Neupane, Noorbakhsh Amiri Golilarz, Himanshu Tripathi, and Ashraf Abdul-Muumin.
 - [x] Email addresses for all six organizers. Himanshu's and Ashraf's addresses were supplied by the lead organizer; the other four have public institutional sources. Dr. Amiri Golilarz's UA directory lists namirigolilarz@ua.edu.
 - [x] The lead organizer has confirmed agreement to serve for all six organizers, including Dr. Noorbakhsh Amiri Golilarz on November 12, 2026.
-- [x] Advisory Committee: Alessandro Oltramari and Prof. Amit Sheth. The lead organizer confirmed that both have agreed to this advisory role. They are separate from the organizing committee.
+- [x] Steering Organizers: Alessandro Oltramari and Prof. Amit Sheth. The lead organizer confirmed that both have agreed to guide the symposium’s scope and research directions. They are listed in the Steering Organizers subsection within Organizers.
 - [x] Nigel Glenday is the invited speaker on Monday, March 22, 09:20–10:00; Raj Krishnan is the invited speaker on Tuesday, March 23, 09:00–09:40. Both are listed in Speakers, not Organizers. Talk titles are not yet supplied.
 - [x] Lab 1: Monday, March 22, 14:00–15:30. Lab 2: Tuesday, March 23, 11:00–12:30.
 - [x] Dedicated poster session: Tuesday, March 23, 16:00–17:00. Accepted papers without an oral slot and accepted poster abstracts will be presented there.
@@ -34,7 +34,7 @@ When adding names, use actual replies and approved affiliations, keep correspond
 
 ## Committee breadth
 
-All six organizing committee members are at the University of Alabama. AAAI prefers organizers from different sites. The two advisers bring Bosch/Carnegie Bosch Institute and University of South Carolina perspectives, but are listed separately and are not counted as organizers. This is a review preference, not a stated mandatory minimum number of institutions.
+The six organizing committee members are at the University of Alabama. The two steering organizers bring Bosch/Carnegie Bosch Institute and University of South Carolina perspectives and guide scientific scope and research direction. The website and proposal distinguish the committee and steering roles. AAAI prefers organizers from different sites; the organizing team now includes both groups.
 
 ## Affiliation review
 
@@ -48,4 +48,4 @@ Keep replies and correspondence privately. Use `resources/interest-register-temp
 
 ## Validation
 
-Run `python scripts/build_proposal.py` and `python scripts/validate.py`. The validator checks six organizers, two advisers, and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).
+Run `python scripts/build_proposal.py` and `python scripts/validate.py`. The validator checks six committee organizers, two steering organizers, and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).
