@@ -2,7 +2,7 @@
 
 Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/).
 
-**Status: files prepared; participant-interest list still required.** This package has not been submitted to EasyChair.
+**Status: participant-interest list included with two names; outreach is continuing.** This package has not been submitted to EasyChair.
 
 ## Prepared
 
@@ -17,11 +17,18 @@ Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call
 - [x] Website, call, proposal source, and five-page PDF use the same speaker assignments, lab times, and poster policy.
 - [x] Published the [website](https://kauroy1994.github.io/AAAI-Symposium-Concept/), [draft call](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html), and [interest form](https://forms.gle/RUvA879SEs7ypqVc9). The form alone does not establish participant interest.
 
+- [x] Participant-interest list included in the proposal and PDF: **Nigel Glenday (Graphite Atlas)** and **Raj Krishnan (AI For Services)**. The lead organizer confirmed on November 12, 2026 that both have said yes to participating. They are listed as invited speakers, not organizers.
+- [x] Rebuilt and checked the PDF with the list included; the complete proposal remains five pages.
+
 ## Required before submission
 
-- [ ] Supply the required list of **contacted potential participants who expressed interest**. No qualifying responses were supplied or found in the repository. Add actual names and affiliations to the proposal within the five-page limit. Outreach targets and attendance goals are not expressions of interest. AAAI does not require attendance commitments or specify a minimum number of names in the public call. Organizer agreement alone does not establish a separate participant-interest list.
-- [ ] Rebuild and inspect the PDF after adding the interest list; keep the complete proposal within **2-5 pages**.
 - [ ] Follow the EasyChair link on the official call; inspect portal-specific fields and upload restrictions, upload the final PDF, submit, and save the receipt. The public call sets **November 17, 2026**, with no submission timezone stated. Decisions are scheduled for **December 8, 2026**.
+
+## Outreach in progress
+
+We will add more names as responses arrive. The current list contains two interested participants; it does not claim broader outreach is complete or that the attendance target has been reached. AAAI specifies no minimum number of expressions of interest in the public call.
+
+When adding names, use actual replies and approved affiliations, keep correspondence privately, and rebuild and inspect the PDF to maintain the five-page limit.
 
 ## Affiliation review
 

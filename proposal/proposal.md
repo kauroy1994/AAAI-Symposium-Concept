@@ -23,6 +23,17 @@ The scope covers cognitive architectures and memory; neuro-symbolic reasoning an
 
 We aim for 50–65 participants from AI research, industry, operations, software testing, and related fields, including students. This is a planning target, within AAAI's range of 40–75. The two-and-a-half-day meeting will combine talks, posters, discussion, and group work.
 
+### Participant interest
+
+The following people have expressed interest in participating, as confirmed by the lead organizer on November 12, 2026.
+
+| Name | Affiliation | Role |
+| --- | --- | --- |
+| Nigel Glenday | Graphite Atlas | Invited speaker |
+| Raj Krishnan | AI For Services | Invited speaker |
+
+We are continuing to collect expressions of interest and will add further respondents as replies arrive.
+
 **Relationship to existing meetings.** R2R is a new meeting. NeSy is an established annual conference and included an industry track in 2026 [8]. R2R will focus more narrowly on evaluating agents through shared cases and discussion between researchers and people responsible for their practical use.
 
 <!-- PAGEBREAK -->

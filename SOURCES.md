@@ -51,6 +51,10 @@ The README powers the homepage through index.md. Speakers and Organizers have se
 
 The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No response or participant name is inferred from the existence of the form.
 
-## Still required
+## Participant interest
 
-The contacted-and-interested participant list has not been supplied for inclusion in the proposal. It must be added within the five-page limit before submission. The EasyChair form and upload requirements must be checked at submission; no proposal has been submitted through this work. Store correspondence privately rather than in this public repository.
+On November 12, 2026, the lead organizer explicitly confirmed that Nigel Glenday and Raj Krishnan have both said yes to participating. Both are included in the proposal's participant-interest list, with their affiliations and invited-speaker roles. This records the lead organizer's confirmation; no response dates or private correspondence have been invented. Additional outreach is ongoing, and further names will be added as responses arrive.
+
+## Submission still pending
+
+The participant-interest list is included within the five-page proposal. The EasyChair form and upload requirements must be checked at submission; no proposal has been submitted through this work. Store correspondence privately rather than in this public repository.

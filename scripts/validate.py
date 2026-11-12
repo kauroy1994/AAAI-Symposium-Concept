@@ -94,6 +94,14 @@ for text in [readme, proposal, cfp, pdf_text]:
     assert not re.search(r'\bevidence[ -]+contract\b', text, re.I), 'Outdated terminology.'
     assert 'speakers have not yet been confirmed' not in text.lower(), 'Outdated speaker status.'
 assert 'Lab 1' in cfp and 'Lab 2' in cfp
+# Keep the reported expressions of interest inside the submitted document.
+interest_list = proposal.split('### Participant interest\n', 1)[1].split('**Relationship to existing meetings.**', 1)[0]
+for name, affiliation in [('Nigel Glenday', 'Graphite Atlas'), ('Raj Krishnan', 'AI For Services')]:
+    assert name in interest_list and affiliation in interest_list, f'Missing interested participant: {name}'
+    assert name in pdf.pages[0].extract_text() and affiliation in pdf.pages[0].extract_text(), f'Interest list missing from PDF: {name}'
+assert 'Participant interest' in pdf.pages[0].extract_text()
+print('PASS: both confirmed expressions of interest are included in the PDF.')
+
 print('PASS: six organizers and two speakers, in the correct sections, with biographies.')
 print('PASS: both labs, poster session, speaker assignments, full timetable, and no overlaps.')
 print('PASS: identical website/source programs and every session present in the PDF.')
