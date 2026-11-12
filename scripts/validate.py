@@ -14,7 +14,7 @@ pdf = PdfReader(root / 'proposal/proposal.pdf')
 assert len(pdf.pages) == 5, 'Proposal must remain five pages.'
 assert proposal.count('<!-- PAGEBREAK -->') == 4
 pdf_text = '\n'.join(page.extract_text() or '' for page in pdf.pages)
-organizers = ['Kaushik Roy', 'Alessandro Oltramari', 'Shahram Rahimi', 'Subash Neupane', 'Himanshu Tripathi', 'Ashraf Abdul-Muumin']
+organizers = ['Kaushik Roy', 'Alessandro Oltramari', 'Shahram Rahimi', 'Subash Neupane', 'Noorbakhsh Amiri Golilarz', 'Himanshu Tripathi', 'Ashraf Abdul-Muumin']
 speakers = ['Nigel Glenday', 'Raj Krishnan']
 web_organizers = readme.split('## Organizers\n', 1)[1].split('## Dates and status\n', 1)[0]
 web_speakers = readme.split('## Speakers\n', 1)[1].split('## Organizers\n', 1)[0]
@@ -26,7 +26,9 @@ for name in organizers:
 for name in speakers:
     assert all(name in text for text in [web_speakers, source_speakers, cfp, pdf.pages[4].extract_text()]), f'Speaker bio missing: {name}'
     assert all(name not in text for text in [web_organizers, source_organizers, pdf.pages[3].extract_text()]), f'Speaker still listed as organizer: {name}'
-assert web_organizers.count('class="person-card"') == 6
+assert 'namirigolilarz@ua.edu' in web_organizers and 'namirigolilarz@ua.edu' in pdf.pages[3].extract_text()
+assert 'Noorbakhsh Amiri Golilarz' in cfp
+assert web_organizers.count('class="person-card"') == 7
 assert web_speakers.count('class="person-card speaker-card"') == 2
 for title in ['Overview', 'Research agenda', 'Industry readiness', 'Program', 'Participation', 'Speakers', 'Organizers', 'Dates and status', 'References']:
     assert f'## {title}' in readme, f'Missing section: {title}'
@@ -102,7 +104,7 @@ for name, affiliation in [('Nigel Glenday', 'Graphite Atlas'), ('Raj Krishnan', 
 assert 'Participant interest' in pdf.pages[0].extract_text()
 print('PASS: both confirmed expressions of interest are included in the PDF.')
 
-print('PASS: six organizers and two speakers, in the correct sections, with biographies.')
+print('PASS: seven organizers and two speakers, in the correct sections, with biographies.')
 print('PASS: both labs, poster session, speaker assignments, full timetable, and no overlaps.')
 print('PASS: identical website/source programs and every session present in the PDF.')
 print('PASS: five pages, valid local links and portraits, CFP anchors, and private-register template.')

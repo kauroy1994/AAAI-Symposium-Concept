@@ -1,6 +1,6 @@
 # Portrait sources
 
-Updated November 12, 2026. The organizing team supplied all eight portraits. The files remain in `assets/organizers/` so existing image URLs continue to work.
+Updated November 12, 2026. The organizing team supplied eight portraits. Dr. Amiri Golilarz’s portrait is taken from his official UA faculty profile. The files remain in `assets/organizers/` so existing image URLs continue to work.
 
 | Person | Current role | Portrait |
 | --- | --- | --- |
@@ -8,9 +8,12 @@ Updated November 12, 2026. The organizing team supplied all eight portraits. The
 | Alessandro Oltramari | Organizer | [Photo](assets/organizers/alessandro-oltramari.jpg) |
 | Shahram Rahimi | Organizer | [Photo](assets/organizers/shahram-rahimi.jpg) |
 | Subash Neupane | Organizer | [Photo](assets/organizers/subash-neupane.jpg) |
+| Noorbakhsh Amiri Golilarz | Organizer | [Photo](assets/organizers/noorbakhsh-amiri-golilarz.jpg) |
 | Himanshu Tripathi | Student organizer | [Photo](assets/organizers/himanshu-tripathi.jpg) |
 | Ashraf Abdul-Muumin | Student organizer | [Photo](assets/organizers/ashraf-abdul-muumin.jpg) |
 | Nigel Glenday | Invited speaker, Monday | [Photo](assets/organizers/nigel-glenday.jpg) |
 | Raj Krishnan | Invited speaker, Tuesday | [Photo](assets/organizers/raj-krishnan.jpg) |
 
 The team is responsible for permission to publish portraits and for approving profile details.
+
+Dr. Amiri Golilarz portrait source: [UA faculty profile](https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/), image URL https://eng.ua.edu/wp-content/uploads/2025/08/Cropped-e1758118007757.jpg. The file is stored locally for reliable display.

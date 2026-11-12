@@ -10,7 +10,7 @@ The [series page](https://aaai.org/conference/spring-symposia/aaai-2027-spring-s
 
 ## Organizing committee
 
-The current committee has six members. Their agreement to serve was confirmed by the lead organizer. Nigel Glenday and Raj Krishnan have been moved to invited-speaker roles at the lead organizer's explicit request.
+The current committee has seven members. The lead organizer has confirmed agreement to serve for all seven, including Dr. Noorbakhsh Amiri Golilarz on November 12, 2026. Nigel Glenday and Raj Krishnan have been moved to invited-speaker roles at the lead organizer's explicit request.
 
 | Organizer | Affiliation source | Email source |
 | --- | --- | --- |
@@ -18,6 +18,7 @@ The current committee has six members. Their agreement to serve was confirmed by
 | Alessandro Oltramari | [Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html): President; Senior Manager, Bosch Research | aoltrama@andrew.cmu.edu, public profile |
 | Shahram Rahimi | [UA directory](https://eng.ua.edu/eng-directory/dr-shahram-rahimi/): Professor and Head of Computer Science | srahimi1@ua.edu, public directory |
 | Subash Neupane | [UA directory](https://eng.ua.edu/eng-directory/dr-subash-neupane/): Assistant Professor | sneupane4@ua.edu, public directory |
+| Noorbakhsh Amiri Golilarz | [UA directory](https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/): Assistant Professor, Computer Science; [BRAINS Lab](https://sites.ua.edu/brains/team/): Director | namirigolilarz@ua.edu, public UA directory |
 | Himanshu Tripathi | [UA BRAINS Lab team](https://sites.ua.edu/brains/team/): PhD student | htripathi@crimson.ua.edu, lead-organizer supplied |
 | Ashraf Abdul-Muumin | Current UA affiliation supplied by the lead organizer; no current institutional profile located | aashraf@crimson.ua.edu, lead-organizer supplied |
 
@@ -47,7 +48,7 @@ Accepted papers not selected for oral talks and accepted poster abstracts will b
 
 ## Website and supporting files
 
-The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. All eight portraits were provided by the organizing team; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
+The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. Eight portraits were provided by the organizing team. Dr. Amiri Golilarz’s portrait comes from his official UA faculty profile; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
 
 The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No response or participant name is inferred from the existence of the form.
 
@@ -56,5 +57,7 @@ The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Fo
 On November 12, 2026, the lead organizer explicitly confirmed that Nigel Glenday and Raj Krishnan have both said yes to participating. Both are included in the proposal's participant-interest list, with their affiliations and invited-speaker roles. This records the lead organizer's confirmation; no response dates or private correspondence have been invented. Additional outreach is ongoing, and further names will be added as responses arrive.
 
 ## Submission still pending
+
+Dr. Amiri Golilarz’s affiliation, research areas, lab directorship, and public email were checked against current UA sources on November 12, 2026. The lead organizer explicitly confirmed his agreement to serve on the same date. His proposed responsibilities remain a plan for the committee.
 
 The participant-interest list is included within the five-page proposal. The EasyChair form and upload requirements must be checked at submission; no proposal has been submitted through this work. Store correspondence privately rather than in this public repository.

@@ -2,15 +2,15 @@
 
 Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/).
 
-**Status: participant-interest list included with two names; outreach is continuing.** This package has not been submitted to EasyChair.
+**Status: seven organizers have agreed to serve; participant-interest list included with two names; outreach is continuing.** This package has not been submitted to EasyChair.
 
 ## Prepared
 
 - [x] Title, scope, research questions, and format.
 - [x] Full preliminary program for March 22–24, 2027 at Santa Clara University.
-- [x] Six organizers in the website and proposal: Kaushik Roy, Alessandro Oltramari, Shahram Rahimi, Subash Neupane, Himanshu Tripathi, and Ashraf Abdul-Muumin.
-- [x] Email addresses for all six organizers. Himanshu's and Ashraf's addresses were supplied by the lead organizer; the other four have public institutional sources.
-- [x] The lead organizer has confirmed agreement to serve for the six current committee members.
+- [x] Seven organizers in the website and proposal: Kaushik Roy, Alessandro Oltramari, Shahram Rahimi, Subash Neupane, Noorbakhsh Amiri Golilarz, Himanshu Tripathi, and Ashraf Abdul-Muumin.
+- [x] Email addresses for all seven organizers. Himanshu's and Ashraf's addresses were supplied by the lead organizer; the other five have public institutional sources. Dr. Amiri Golilarz's UA directory lists namirigolilarz@ua.edu.
+- [x] The lead organizer has confirmed agreement to serve for all seven committee members, including Dr. Noorbakhsh Amiri Golilarz on November 12, 2026.
 - [x] Nigel Glenday is the invited speaker on Monday, March 22, 09:20–10:00; Raj Krishnan is the invited speaker on Tuesday, March 23, 09:00–09:40. Both are listed in Speakers, not Organizers. Talk titles are not yet supplied.
 - [x] Lab 1: Monday, March 22, 14:00–15:30. Lab 2: Tuesday, March 23, 11:00–12:30.
 - [x] Dedicated poster session: Tuesday, March 23, 16:00–17:00. Accepted papers without an oral slot and accepted poster abstracts will be presented there.
@@ -21,6 +21,7 @@ Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call
 - [x] Rebuilt and checked the PDF with the list included; the complete proposal remains five pages.
 
 ## Required before submission
+
 
 - [ ] Follow the EasyChair link on the official call; inspect portal-specific fields and upload restrictions, upload the final PDF, submit, and save the receipt. The public call sets **November 17, 2026**, with no submission timezone stated. Decisions are scheduled for **December 8, 2026**.
 
@@ -42,4 +43,4 @@ Keep replies and correspondence privately. Use `resources/interest-register-temp
 
 ## Validation
 
-Run `python scripts/build_proposal.py` and `python scripts/validate.py`. The validator checks six organizers and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).
+Run `python scripts/build_proposal.py` and `python scripts/validate.py`. The validator checks seven organizers and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).

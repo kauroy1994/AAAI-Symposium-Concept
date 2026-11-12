@@ -8,7 +8,7 @@
 
 > AAAI acceptance is pending. The preliminary program includes invited talks by Nigel Glenday and Raj Krishnan, two labs, contributed papers, and posters.
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-interest) · [Proposal source](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-golilarz) · [Proposal source](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -167,7 +167,7 @@ Talk titles will be announced.
 
 ## Organizers
 
-**Organizing committee.** The six organizers have agreed to serve. Their proposed responsibilities are listed below.
+**Organizing committee.** The seven organizers have agreed to serve. Their proposed responsibilities are listed below.
 
 <div class="people-grid">
 
@@ -212,6 +212,15 @@ Talk titles will be announced.
 </div>
 
 <div class="person-card">
+<img src="assets/organizers/noorbakhsh-amiri-golilarz.jpg" alt="Dr. Noorbakhsh Amiri Golilarz" loading="lazy" width="180" height="180" />
+<h3>Dr. Noorbakhsh Amiri Golilarz</h3>
+<p><strong>Cognitive systems · Lab design</strong><br />Assistant Professor of Computer Science, The University of Alabama; Director of the BRAINS Lab.</p>
+<p>His research includes AI, computer vision, robotics, and cognitive neuroscience. Proposed responsibilities: lab design and discussion of cognitive systems and applications.</p>
+<p><a href="https://eng.ua.edu/eng-directory/dr-noorbakhsh-amiri-golilarz/">UA faculty profile</a> · <a href="https://sites.ua.edu/brains/team/">BRAINS Lab</a></p>
+<p><a href="mailto:namirigolilarz@ua.edu">namirigolilarz@ua.edu</a></p>
+</div>
+
+<div class="person-card">
 <img src="assets/organizers/himanshu-tripathi.jpg" alt="Himanshu Tripathi, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Himanshu Tripathi</h3>
 <p><strong>Student organizer</strong><br />The University of Alabama.</p>
@@ -231,7 +240,7 @@ Talk titles will be announced.
 
 </div>
 
-**Photographs:** Supplied by the organizing team. [Photo credits](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/PHOTO-SOURCES.md).
+**Photographs:** Provided by the organizing team, except Dr. Amiri Golilarz’s portrait, which comes from his official UA profile. [Photo credits](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/PHOTO-SOURCES.md).
 
 For organizing questions or profile corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
