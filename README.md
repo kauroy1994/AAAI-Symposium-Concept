@@ -6,7 +6,7 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-> **Proposal-stage website.** This symposium has not been accepted by AAAI. The program, organizing roles, contribution formats, and intended outcomes below are proposed. No invited speakers, sponsors, or participant commitments are being claimed. Expressions of interest are welcome; this site is not a paper-submission or registration portal.
+> Proposed symposium; AAAI acceptance is pending. The program and organizing roles are preliminary. Invited-speaker slots are unassigned.
 
 [Express interest](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest) · [Proposal PDF](proposal/proposal.pdf) · [Editable proposal](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
@@ -16,11 +16,11 @@
 
 Reasoning to Readiness (R2R) proposes a working symposium at the intersection of cognitive architectures, neuro-symbolic AI, causal modeling, and industrial operations. Rather than treating deployment as a final engineering step, we ask how the architecture itself can expose its knowledge, assumptions, action boundaries, failure modes, and resource requirements to the people responsible for using it.
 
-Our central activity is the co-design of a **deployment evidence contract**: a structured record connecting an agent's intended use and architectural claims to testable acceptance criteria, supporting artifacts, unresolved risks, and a named human decision-maker. This is a proposed research artifact, not a certification scheme or a claim that any architecture is inherently safe.
+Our central activity is the co-design of a **deployment evidence contract**: a structured record connecting an agent's intended use and architectural claims to testable acceptance criteria, supporting artifacts, unresolved risks, and a named human decision-maker. The contract will support comparison of claims, evidence, and remaining validation needs.
 
-The scientific foundations include cognitive architectures that connect memory and action [R1], neuro-symbolic integration [R2], causal representation learning [R3], and reasoning-and-acting language agents [R4]. Cost-aware agent evaluation [R5] and adversarial tool-use evaluation [R6] motivate looking beyond task accuracy. NIST AI RMF 1.0 provides a documented risk-management reference [R7], not an endorsement or a substitute for domain-specific obligations.
+The scientific foundations include cognitive architectures that connect memory and action [R1], neuro-symbolic integration [R2], causal representation learning [R3], and reasoning-and-acting language agents [R4]. Cost-aware agent evaluation [R5] and adversarial tool-use evaluation [R6] motivate looking beyond task accuracy. NIST AI RMF 1.0 provides a risk-management reference [R7].
 
-**Intended community:** researchers in AI, knowledge representation, planning, cognitive systems, causality, and evaluation; industrial AI developers; operations leaders; assurance practitioners; and students. We propose approximately **50–65 participants**, within AAAI's published target range of 40–75. These are planning targets, not registrations. [Official call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+**Intended community:** researchers in AI, knowledge representation, planning, cognitive systems, causality, and evaluation; industrial AI developers; operations leaders; assurance practitioners; and students. We propose approximately **50–65 participants**, within AAAI's published target range of 40–75.  [Official call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Research agenda
 
@@ -34,15 +34,15 @@ How can ontologies, knowledge graphs, process models, constraints, and executabl
 
 ### 03 · Causal and counterfactual decision support
 
-When does an agent have enough evidence to answer an intervention or counterfactual question? Topics include causal event models, structural assumptions, uncertainty, identification limits, simulation-based evaluation, and clarification when evidence is insufficient. A plausible explanation is not, by itself, evidence of causal identification or counterfactual correctness.
+When does an agent have enough evidence to answer an intervention or counterfactual question? Topics include causal event models, structural assumptions, uncertainty, identification limits, simulation-based evaluation, and clarification when evidence is insufficient. Discussion will distinguish explanatory plausibility from evidence for causal identification.
 
 ### 04 · Industry readiness and accountable operation
 
-What must be measured before a system is exposed to consequential workflows? Topics include integration boundaries, access controls, task success under distribution shift, human intervention, observability, recovery, total operating cost, and changes to work practices. Industry participation will center on technical evidence and limitations, not sales presentations.
+What must be measured before a system is exposed to consequential workflows? Topics include integration boundaries, access controls, task success under distribution shift, human intervention, observability, recovery, total operating cost, and changes to work practices. Industry sessions will examine technical evidence, operating constraints, and lessons from deployment.
 
 ## Industry readiness
 
-The proposed readiness assessment is a **profile of evidence**, not a single leaderboard score. A system that succeeds on a task but lacks authorization controls should not compensate for that deficit with higher accuracy.
+The readiness assessment will report a **profile of evidence** across six dimensions. A system that succeeds on a task but lacks authorization controls should not compensate for that deficit with higher accuracy.
 
 | Readiness dimension | Questions for a deployment review | Expected evidence |
 | --- | --- | --- |
@@ -53,7 +53,7 @@ The proposed readiness assessment is a **profile of evidence**, not a single lea
 | Efficiency and business value | Is the system useful relative to a credible alternative? | Task success alongside latency, compute, cost, operator time, and uncertainty. |
 | Human and organizational oversight | Who owns decisions, residual risk, and change control? | Named responsibilities, review records, incident procedure, user feedback. |
 
-**Evidence states:** demonstrated within a stated scope; partially supported; unsupported; or not applicable with a justification. Teams will document sample sizes, test conditions, and uncertainty instead of assigning an unsupported universal readiness level. Mapping an artifact to NIST AI RMF terminology does not establish certification, legal compliance, or permission to deploy.
+**Evidence states:** demonstrated within a stated scope; partially supported; unsupported; or not applicable with a justification. Teams will document sample sizes, test conditions, and uncertainty instead of assigning an unsupported universal readiness level.
 
 ### Case-based labs
 
@@ -61,7 +61,7 @@ The proposed readiness assessment is a **profile of evidence**, not a single lea
 
 **Lab B — Failure, intervention, and recovery.** Groups will introduce stale knowledge, contradictory instructions, missing approvals, and tool failures into a documented scenario. They will distinguish ordinary constraint violations from causal interventions, identify unsupported conclusions, and design escalation and recovery tests. A second service-operations scenario will test whether the evidence contract transfers beyond manufacturing.
 
-**Deployment review panel.** Researchers, practitioners, and operations stakeholders will review anonymized case packets and explain which evidence supports a pilot, which evidence is missing, and which risks remain. This is a research discussion, not a procurement decision or a certification service.
+**Deployment review panel.** Researchers, practitioners, and operations stakeholders will review anonymized case packets and explain which evidence supports a pilot, which evidence is missing, and which risks remain. The panel will document the reasoning behind its assessment.
 
 **Access:** paper-based worksheets and lightweight local examples are planned alongside optional coding. Participants should not need a paid API account, specialized accelerator, or proprietary platform to contribute. All exercises will use synthetic, public, or explicitly authorized material.
 
@@ -119,19 +119,19 @@ Please indicate separately whether we may include your **name and affiliation in
 
 ### Proposed contribution formats after acceptance
 
-We plan to invite short research and position papers, evidence-centered industry case studies, reproducible demonstrations, negative results, and participation statements from practitioners and students. Proposed lengths are **2–4 pages for papers/cases**, **2 pages for demonstrations**, and **1 page for participation statements**. These are organizer proposals, not AAAI-mandated limits. Final formatting, submission deadlines, review procedures, and archival options will be announced only after acceptance and coordination with AAAI.
+We plan to invite short research and position papers, evidence-centered industry case studies, reproducible demonstrations, negative results, and participation statements from practitioners and students. Proposed lengths are **2–4 pages for papers/cases**, **2 pages for demonstrations**, and **1 page for participation statements**.  Final formatting, submission deadlines, review procedures, and archival options will be announced only after acceptance and coordination with AAAI.
 
 The proposed review criteria are relevance, clarity of the research question, quality and limits of evidence, value for discussion, and potential to connect communities. Early-stage and speculative work is welcome when labeled accurately. Commercial affiliation is neither a prerequisite nor an advantage. Conflicts of interest will be managed through recusal and an independent reviewer; reviewers will not evaluate their own or closely related submissions.
 
 ### Attendance and accessibility
 
-AAAI requires **all presenters, keynote speakers, and panelists to present in person**, and all participants, including organizers, to register. AAAI states that a livestream for remote attendees can be arranged on request; **no livestream or remote participation arrangement is promised here**. Registration, travel, accommodation, visa letters, and any accessibility arrangements will follow AAAI's official processes. [Official policy](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+AAAI requires **all presenters, keynote speakers, and panelists to present in person**, and all participants, including organizers, to register. Livestream arrangements, if requested, require coordination with AAAI. Registration, travel, accommodation, visa letters, and any accessibility arrangements will follow AAAI's official processes. [Official policy](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
-We propose accessible materials, structured turn-taking, student-friendly activities, and written participation routes within the in-person sessions. We will coordinate requests with AAAI and the venue without promising services or funding that have not been secured. The AAAI event Code of Conduct will apply. [Series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/)
+We propose accessible materials, structured turn-taking, student-friendly activities, and written participation routes within the in-person sessions. Requests will be coordinated with AAAI and the venue. The AAAI event Code of Conduct will apply. [Series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/)
 
 ## Organizers
 
-**Proposed organizing committee.** Six faculty/industry organizers and two University of Alabama student organizers. Roles remain proposed until explicit agreement to serve. Institutional affiliation does not imply endorsement.
+**Proposed organizing committee.** Six faculty/industry organizers and two University of Alabama student organizers. All eight have agreed to serve, as confirmed by the lead organizer on November 12, 2026; the division of work below is proposed.
 
 <div class="people-grid">
 
@@ -140,7 +140,8 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <h3>Dr. Kaushik Roy</h3>
 <p><strong>Lead organizer · Scientific program</strong><br />Assistant Professor of Computer Science, The University of Alabama.</p>
 <p>Scientific scope, paper review, community recruitment, and AAAI liaison.</p>
-<a href="https://cs.ua.edu/faculty-staff/our-new-fall-2025-faculty/">UA faculty announcement and portrait source</a>
+<a href="https://eng.ua.edu/eng-directory/dr-kaushik-roy/">UA faculty profile</a>
+<p><a href="mailto:kroy2@ua.edu">kroy2@ua.edu</a></p>
 </div>
 
 <div class="person-card">
@@ -148,15 +149,17 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <h3>Nigel Glenday</h3>
 <p><strong>Industry problems · Operational design</strong><br />Founder and CEO, Graphite Atlas.</p>
 <p>Practitioner recruitment, operational problem statements, and the knowledge-to-action clinic.</p>
-<a href="https://www.graphiteatlas.com/">Company team profile and portrait source</a>
+<a href="https://www.graphiteatlas.com/">Company team profile</a>
+<p><a href="mailto:nglenday@graphiteatlas.com">nglenday@graphiteatlas.com</a></p>
 </div>
 
 <div class="person-card">
 <img src="assets/organizers/raj-krishnan.jpg" alt="Raj Krishnan, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Raj Krishnan</h3>
-<p><strong>Enterprise integration · Adoption</strong><br />Founder and CEO, AI For Services (lead-organizer supplied; independently unconfirmed).</p>
+<p><strong>Enterprise integration · Adoption</strong><br />AI For Services (affiliation supplied by the lead organizer).</p>
 <p>Service-workflow case design, integration requirements, and adoption challenges.</p>
-<a href="https://www.linkedin.com/company/aiforservices">Company page</a>
+<a href="https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/SOURCES.md">Affiliation record</a>
+<p><a href="mailto:raj@aiforservices.com">raj@aiforservices.com</a></p>
 </div>
 
 <div class="person-card">
@@ -164,23 +167,26 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <h3>Dr. Alessandro Oltramari</h3>
 <p><strong>Neuro-symbolic architecture · Research translation</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
 <p>Architecture discussion, academia–industry translation, and deployment review.</p>
-<a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Official CBI profile and portrait source</a>
+<a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Official CBI profile</a>
+<p><a href="mailto:aoltrama@andrew.cmu.edu">aoltrama@andrew.cmu.edu</a></p>
 </div>
 
 <div class="person-card">
 <img src="assets/organizers/shahram-rahimi.jpg" alt="Dr. Shahram Rahimi, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Shahram Rahimi</h3>
 <p><strong>Faculty organizer · Scientific leadership and AI research</strong><br />Professor and Head of the Department of Computer Science, The University of Alabama.</p>
-<p>Proposed contribution: research-community development, cross-disciplinary AI discussions, and academic–industry engagement.</p>
-<a href="https://eng.ua.edu/departments/computer-science/">Official UA Computer Science faculty profile</a>
+<p>research-community development, cross-disciplinary AI discussions, and academic–industry engagement.</p>
+<a href="https://eng.ua.edu/eng-directory/dr-shahram-rahimi/">Official UA Computer Science faculty profile</a>
+<p><a href="mailto:srahimi1@ua.edu">srahimi1@ua.edu</a></p>
 </div>
 
 <div class="person-card">
 <img src="assets/organizers/subash-neupane.jpg" alt="Dr. Subash Neupane, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Subash Neupane</h3>
 <p><strong>Faculty organizer · Trustworthy AI and applied evaluation</strong><br />Assistant Professor, The University of Alabama.</p>
-<p>Proposed contribution: explainability, evaluation of trustworthy AI, and deployment challenges in healthcare and other high-impact settings.</p>
+<p>explainability, evaluation of trustworthy AI, and deployment challenges in healthcare and other high-impact settings.</p>
 <a href="https://eng.ua.edu/eng-directory/dr-subash-neupane/">Official UA faculty profile</a>
+<p><a href="mailto:sneupane4@ua.edu">sneupane4@ua.edu</a></p>
 </div>
 
 <div class="person-card">
@@ -189,6 +195,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <p><strong>Student organizer</strong><br />The University of Alabama.</p>
 <p>Student organizing support and symposium coordination.</p>
 <a href="https://sites.ua.edu/brains/team/">Official UA BRAINS Lab team page</a>
+<p><a href="mailto:htripathi@crimson.ua.edu">htripathi@crimson.ua.edu</a></p>
 </div>
 
 <div class="person-card">
@@ -197,11 +204,12 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <p><strong>Student organizer</strong><br />The University of Alabama (lead-organizer supplied).</p>
 <p>Student organizing support and symposium coordination.</p>
 <a href="https://github.com/chirix33">Self-published GitHub profile</a>
+<p><a href="mailto:aashraf@crimson.ua.edu">aashraf@crimson.ua.edu</a></p>
 </div>
 
 </div>
 
-**Photographs:** All eight organizer portraits were supplied by the organizing team and are stored locally in `assets/organizers/` to avoid unreliable external image links. Photo attribution and usage notes appear in [PHOTO-SOURCES.md](PHOTO-SOURCES.md). Portraits and affiliations do not establish consent to serve; organizer participation remains subject to confirmation.
+**Photographs:** Supplied by the organizing team. [Photo credits](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/PHOTO-SOURCES.md).
 
 For student-organizer coordination and prospective headshot corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
@@ -216,15 +224,15 @@ For student-organizer coordination and prospective headshot corrections, contact
 | R2R speaker and program announcements | Not announced; consent and confirmations required. |
 | Proposed symposium | **March 22–24, 2027** at Santa Clara University. |
 
-Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) and [official series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Content checked October 27, 2026. Please consult AAAI for subsequent changes.
+Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) and [official series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Content checked November 12, 2026.
 
 ## Outcomes and resources
 
-The proposed outputs are a deployment evidence contract, a failure-and-recovery taxonomy, a cross-domain case matrix, and a research roadmap. These will record both agreement and unresolved questions. We propose circulating an organizer-edited synthesis within six weeks after the event, subject to author consent and review; this is an intended activity, not a publication commitment.
+The proposed outputs are a deployment evidence contract, a failure-and-recovery taxonomy, a cross-domain case matrix, and a research roadmap. These will record both agreement and unresolved questions. We propose circulating an organizer-edited synthesis within six weeks after the event, subject to author consent and review.
 
 [Evidence-contract worksheet](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/evidence-contract.md) · [Case-study template](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/case-study-template.md) · [Outreach and consent templates](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/resources/outreach.md) · [Submission checklist](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/submission-checklist.md) · [Fact-check record](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/SOURCES.md)
 
-**Not a continuation of an existing event series.** The proposal is intentionally narrower than a general neuro-symbolic AI or agent workshop. NeSy already runs an annual conference and included an industry track in 2026. Our proposed contribution is a focused, jointly authored evidence contract for bounded deployment, developed and challenged across research and operational communities. We do not claim that industry-oriented neuro-symbolic AI is a new topic. [NeSy 2026 call](https://2026.nesyconf.org/call-for-papers/)
+**Relationship to existing activities.** NeSy is an established annual conference whose 2026 program included an industry track. R2R complements this broader forum through sustained work on shared cases, jointly specified acceptance criteria, and a deployment evidence contract connecting architectural research with operational decisions. [NeSy 2026 call](https://2026.nesyconf.org/call-for-papers/)
 
 ## References
 
@@ -240,10 +248,10 @@ The proposed outputs are a deployment evidence contract, a failure-and-recovery 
 
 **R6.** Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc Fischer, and Florian Tramèr. 2024. AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. *NeurIPS Datasets and Benchmarks*. [Official proceedings](https://proceedings.nips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html).
 
-**R7.** National Institute of Standards and Technology. 2023. Artificial Intelligence Risk Management Framework (AI RMF 1.0). *NIST AI 100-1*. [Official publication](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10). This is the specific version referenced, not a claim about the latest revision.
+**R7.** National Institute of Standards and Technology. 2023. Artificial Intelligence Risk Management Framework (AI RMF 1.0). *NIST AI 100-1*. [Official publication](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10).
 
 ## About this website
 
-This is an independently maintained proposal website, not an official AAAI, University of Alabama, Bosch, Carnegie Bosch Institute, Graphite Atlas, or AI For Services website. The visual palette draws on UA's published Crimson Flame (**#9E1B32**), Capstone Gray (**#828A8F**), and white; no institutional logo or seal is used. [UA color reference](https://brand.ua.edu/colors/)
+Maintained by the proposed organizing team. The design uses UA-inspired colors. [UA color reference](https://brand.ua.edu/colors/)
 
 **Maintainers:** edit this README to update the website. GitHub Pages renders the same content through `index.md` and the custom layout. See [MAINTAINING.md](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/MAINTAINING.md) for activation, local preview, proposal regeneration, and privacy safeguards.

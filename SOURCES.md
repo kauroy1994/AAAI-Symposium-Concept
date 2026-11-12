@@ -1,6 +1,6 @@
 # Verification and provenance record
 
-**Checked: October 27, 2026.** This record distinguishes verified public facts, user-supplied details, design proposals, and missing evidence. Web verification cannot establish consent or future participation.
+**Updated: November 12, 2026.** Official call, series information, and organizer sources rechecked; scientific-reference provenance below retains the October 27 audit. This record distinguishes verified public facts, user-supplied details, design proposals, and missing evidence. Web verification cannot establish consent or future participation.
 
 ## Official event facts
 
@@ -8,18 +8,20 @@
 - AAAI series information: https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/ . Verified December 29, 2026 registration opening and general session blocks, reception, and plenary. No fees are copied into the website because they can change and registration remains AAAI's responsibility.
 - The organizer call does not state a deadline timezone, a specific proposal template, or an additional reference-page allowance. The five-page proposal includes its references. Do not borrow requirements from the separate AAAI-27 workshop or technical-paper calls. EasyChair portal-only requirements have not been inspected behind a login; use the link on the official call rather than a fabricated direct URL.
 
-## Organizer facts
+## Organizer facts (rechecked November 12, 2026)
 
-| Person | Public evidence | Permitted factual use | Outstanding |
-| --- | --- | --- | --- |
-| Kaushik Roy | https://eng.ua.edu/eng-directory/dr-kaushik-roy/ and https://cs.ua.edu/faculty-staff/our-new-fall-2025-faculty/ | Assistant Professor, UA Computer Science; listed research areas; kroy2@ua.edu. | Approval of final proposal and role. |
-| Nigel Glenday | https://www.graphiteatlas.com/ and https://github.com/nigelglenday/ | Founder & CEO, Graphite Atlas; operational intelligence and knowledge-graph focus; nglenday@graphiteatlas.com. | Agreement to serve and approved role. |
-| Raj Krishnan | User supplied Founder & CEO, AI For Services; https://www.linkedin.com/company/aiforservices confirms a company profile, not the individual's title. | Attribute exact title to lead-organizer input; proposed responsibilities are not a biographical claim. | Independently verify title, affiliation, professional email, biography, and agreement. |
-| Alessandro Oltramari | https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html and https://www.bosch.com/research/about-bosch-research/our-research-experts/alessandro-oltramari/ | Senior Manager, Bosch Research; President, Carnegie Bosch Institute; knowledge/learning research; aoltrama@andrew.cmu.edu. | Agreement to serve and approved role. |
-| Himanshu Tripathi | Lead organizer's explicit follow-up instruction to add him as a UA student organizer. | Student organizer, The University of Alabama; no degree program, biography, or email inferred. | Professional email and individual agreement to serve. |
-| Ashraf Abdul-Muumin | Lead organizer's explicit follow-up instruction to add him as a UA student organizer. | Student organizer, The University of Alabama; no degree program, biography, or email inferred. | Professional email and individual agreement to serve. |
+| Organizer | Primary source or provenance | Contact |
+| --- | --- | --- |
+| Kaushik Roy | [UA directory](https://eng.ua.edu/eng-directory/dr-kaushik-roy/): Assistant Professor, Computer Science | kroy2@ua.edu |
+| Nigel Glenday | [Graphite Atlas](https://www.graphiteatlas.com/): Founder and CEO; [professional GitHub profile](https://github.com/nigelglenday/) supplies email | nglenday@graphiteatlas.com |
+| Raj Krishnan | AI For Services: lead-organizer supplied. No independent matching primary source located; removed unsupported Founder/CEO title and unverified LinkedIn company link. Email supplied November 12. | raj@aiforservices.com |
+| Alessandro Oltramari | [Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html): President; Senior Manager, Bosch Research; public email | aoltrama@andrew.cmu.edu |
+| Shahram Rahimi | [UA directory](https://eng.ua.edu/eng-directory/dr-shahram-rahimi/): Professor and Head of Computer Science; public email | srahimi1@ua.edu |
+| Subash Neupane | [UA directory](https://eng.ua.edu/eng-directory/dr-subash-neupane/): Assistant Professor; trustworthy and explainable AI research; public email. This current institutional record takes precedence over an older personal CV listing Meharry. | sneupane4@ua.edu |
+| Himanshu Tripathi | [UA BRAINS Lab team](https://sites.ua.edu/brains/team/): PhD student, Computer Science. Indexed official page retrieved; direct retrieval intermittent. Email supplied November 12. | htripathi@crimson.ua.edu |
+| Ashraf Abdul-Muumin | UA student affiliation supplied by lead organizer; [GitHub profile](https://github.com/chirix33) identifies name but does not verify UA. Earlier IIT records do not establish current affiliation. Email supplied November 12. | aashraf@crimson.ua.edu |
 
-The initial request named four main organizers; the follow-up adds Himanshu Tripathi and Ashraf Abdul-Muumin as student organizers from The University of Alabama. All six are included. Student-organizer details are attributed to the lead organizer's instructions, not presented as independently web-verified. No unpublished personal contact information, scraped headshot, client name, or unverifiable organizing accolade is used. Other people with the name Raj Krishnan and unrelated “AI for Services” initiatives were not treated as identity matches. His title is retained only as user-provided, explicitly pending verification.
+**Agreements:** On November 12, 2026, the lead organizer explicitly confirmed that all eight organizers have said yes. This supports agreement to serve; final task assignments remain proposed. No signed-form requirement appears in the public call. No speaker commitment follows from committee membership.
 
 ## Scientific references
 
@@ -43,4 +45,8 @@ The title, R2R abbreviation, research questions, readiness dimensions, evidence 
 
 ## Completion gaps
 
-No actual interested-participant list or organizer-consent evidence is supplied. Raj Krishnan's exact title and professional email, and professional emails for both student organizers, require confirmation. No named speakers, sponsors, registration counts, real deployments, performance results, proceedings guarantees, or funding promises are invented. The PDF remains an organizer-review draft until the checklist is completed.
+The required contacted-and-interested participant list is still missing. The lead organizer supplied all remaining organizer emails and confirmed all eight agreements on November 12. Raj's and Ashraf's affiliations remain attributed to organizer input; no independent current source was established. See the submission checklist for final review and portal submission steps. No invitation, outreach message, or EasyChair submission has been sent by this update.
+
+## URL checks, November 12, 2026
+
+Checked all 30 distinct HTTP(S) links in the website and proposal. All returned HTTP 200 except the IEEE DOI (HTTP 202) and three access-restricted URLs: the official AAAI call, the series page, and the AI Magazine DOI (HTTP 403). These access restrictions are not missing pages; official AAAI indexed content was used to verify the call and timetable. No HTTP 404 was returned. All eight local portraits and relative website file links passed structural checks. Raj's unverified LinkedIn company link was replaced with the provenance record. Scientific citation metadata was also checked against primary publisher/author records; older detailed citation provenance is retained above.
