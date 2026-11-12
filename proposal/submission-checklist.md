@@ -7,15 +7,15 @@ Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call
 ## Prepared
 
 - [x] Title, scope, research questions, and format.
-- [x] Full preliminary program for March 22-24, 2027 at Santa Clara University; invited-speaker slots unassigned.
-- [x] All eight organizers in the website, Markdown proposal, and PDF: Kaushik Roy, Nigel Glenday, Raj Krishnan, Alessandro Oltramari, Shahram Rahimi, Subash Neupane, Himanshu Tripathi, and Ashraf Abdul-Muumin.
-- [x] All eight organizer emails. Five verified against public professional sources; Raj's, Himanshu's, and Ashraf's supplied by the lead organizer on November 12, 2026.
-- [x] Agreement to serve: the lead organizer confirmed on November 12, 2026 that all eight have said yes. AAAI specifies agreement, not a signed form or separate consent-document upload. Retain replies privately and circulate the final proposal for committee review.
-- [x] Live [symposium website URL](https://kauroy1994.github.io/AAAI-Symposium-Concept/) included in the proposal.
-- [x] Regenerated five-page PDF, including references; all pages visually reviewed.
-- [x] Attendance target distinguished from actual interest; relationship to the existing NeSy conference explained.
-
-- [x] Published the [draft call for papers and participation](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html), with proposed poster/paper/case/demo formats and the [expression-of-interest form](https://forms.gle/RUvA879SEs7ypqVc9). A form link alone does not establish participant interest.
+- [x] Full preliminary program for March 22–24, 2027 at Santa Clara University.
+- [x] Six organizers in the website and proposal: Kaushik Roy, Alessandro Oltramari, Shahram Rahimi, Subash Neupane, Himanshu Tripathi, and Ashraf Abdul-Muumin.
+- [x] Email addresses for all six organizers. Himanshu's and Ashraf's addresses were supplied by the lead organizer; the other four have public institutional sources.
+- [x] The lead organizer has confirmed agreement to serve for the six current committee members.
+- [x] Nigel Glenday is the invited speaker on Monday, March 22, 09:20–10:00; Raj Krishnan is the invited speaker on Tuesday, March 23, 09:00–09:40. Both are listed in Speakers, not Organizers. Talk titles are not yet supplied.
+- [x] Lab 1: Monday, March 22, 14:00–15:30. Lab 2: Tuesday, March 23, 11:00–12:30.
+- [x] Dedicated poster session: Tuesday, March 23, 16:00–17:00. Accepted papers without an oral slot and accepted poster abstracts will be presented there.
+- [x] Website, call, proposal source, and five-page PDF use the same speaker assignments, lab times, and poster policy.
+- [x] Published the [website](https://kauroy1994.github.io/AAAI-Symposium-Concept/), [draft call](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html), and [interest form](https://forms.gle/RUvA879SEs7ypqVc9). The form alone does not establish participant interest.
 
 ## Required before submission
 
@@ -25,7 +25,7 @@ Reviewed November 12, 2026 against the [official AAAI 2027 Spring Symposium call
 
 ## Affiliation review
 
-Raj Krishnan's AI For Services affiliation and Ashraf Abdul-Muumin's UA affiliation are retained as lead-organizer-supplied details; current independent institutional verification was not available. Ask them to approve the wording during final review. Raj's previously asserted Founder/CEO title has been removed. The other six affiliations have public primary-source support. These provenance limits are not additional AAAI paperwork requirements.
+Ashraf Abdul-Muumin's UA affiliation remains based on the lead organizer's information. Raj Krishnan's association with AI For Services is supported by the company profile; no specific title is asserted. The speaker assignments were supplied by the lead organizer. Biographical details and source links are recorded in SOURCES.md.
 
 Confirmed keynotes and sponsors are not prerequisites in the public call. AAAI encourages committee collaboration and feedback from prospective participants.
 
@@ -35,4 +35,4 @@ Keep replies and correspondence privately. Use `resources/interest-register-temp
 
 ## Validation
 
-Run `python scripts/build_proposal.py` and `python scripts/validate.py`. The validator checks all eight organizer names in source and PDF, local website links and portraits, program arithmetic, and page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).
+Run `python scripts/build_proposal.py` and `python scripts/validate.py`. The validator checks six organizers and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).

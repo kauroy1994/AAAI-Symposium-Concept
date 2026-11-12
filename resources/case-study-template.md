@@ -1,27 +1,31 @@
-# Evidence-centered industry case study — proposed format
+# Case-study guide
 
-This is a planning template, not an open submission call. Proposed length: up to 4 pages after symposium acceptance; final instructions will be coordinated with AAAI.
+Proposed length: up to 4 pages. Submissions will open if AAAI accepts the symposium; final instructions will follow.
 
 ## Problem and setting
 
-Describe the workflow, users, decision stakes, constraints, and current baseline. State whether the case is synthetic, laboratory, pilot, or production. Describe a research question rather than a product pitch.
+Explain the task, users, practical constraints, and current approach. State whether the work is a simulation, laboratory study, pilot, or production system.
 
-## System and authority
+## System design
 
-Explain the architecture, knowledge and causal representations, tools, human approvals, trust boundaries, and integration constraints. State what the system cannot do and which decisions remain with people.
+Describe the models, knowledge, rules, causal models, tools, and human approvals. Explain which actions the system may take and which decisions remain with people.
 
-## Evidence
+## Evaluation and results
 
-Report methods, sample sizes, evaluation conditions, baselines, ablations where feasible, uncertainty, and resource budgets. Separate observed results from forecasts. Do not present self-reported satisfaction or a selected demo as a general reliability guarantee.
+Describe the tests, sample sizes, operating conditions, comparisons, uncertainty, and costs. Where possible, compare the system with a simpler approach or with a component removed. Distinguish observed results from forecasts.
 
-## Failure and learning
+## Failures and lessons
 
-Include at least one limitation or failure case, how it was discovered, how it was handled, and what remains unresolved. Negative results and abandoned designs are welcome.
+Include a limitation or failure, how it was found, how it was handled, and what remains unresolved. Negative results and approaches that did not work are welcome.
 
-## Readiness questions for the symposium
+## Questions for discussion
 
-Identify three questions a mixed research–industry group could help resolve. Use the [evaluation worksheet](evaluation-worksheet.md) to summarize the planned tests and available results. State which claims are unsupported and which evidence is unavailable.
+Identify questions that researchers and practitioners at the symposium could help resolve. The [evaluation worksheet](evaluation-worksheet.md) can help summarize the planned tests and available findings.
 
-## Disclosure and publication rights
+## Presentation
 
-Disclose affiliations, relevant commercial interests, data permissions, restrictions, and any prior publication. Provide public or synthetic substitutes where the original material cannot be shared. Do not submit credentials, live-system access, patient data, customer records, or confidential business processes.
+A limited number of accepted papers will receive an oral slot. Other accepted papers and accepted poster abstracts will be presented in the poster session on Tuesday, March 23, 16:00–17:00, local time in Santa Clara. Authors will be available at their posters.
+
+## Sharing and prior work
+
+State relevant affiliations, commercial interests, data restrictions, and prior publications. Share only material you have permission to release. Use anonymized or fictional examples where the original material cannot be shared.

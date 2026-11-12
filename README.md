@@ -6,80 +6,80 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-> Proposed symposium; AAAI acceptance is pending. The program and organizing roles are preliminary. Invited-speaker slots are unassigned.
+> AAAI acceptance is pending. The preliminary program includes invited talks by Nigel Glenday and Raj Krishnan, two labs, contributed papers, and posters.
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-revised) · [Editable proposal](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-labs-speakers-posters) · [Proposal source](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/proposal/proposal.md) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
-**What evidence should justify moving an AI agent from a convincing demonstration to a bounded, accountable deployment?**
+**How can we tell when an AI agent is ready for use beyond a demonstration?**
 
-Reasoning to Readiness (R2R) proposes a working symposium at the intersection of cognitive architectures, neuro-symbolic AI, causal modeling, and industrial operations. Rather than treating deployment as a final engineering step, we ask how the architecture itself can expose its knowledge, assumptions, action boundaries, failure modes, and resource requirements to the people responsible for using it.
+Reasoning to Readiness (R2R) brings together researchers and practitioners studying how AI agents use memory, knowledge, rules, and causal models. We will examine what these approaches contribute to reliable behavior, where they fail, and how to evaluate them in practical settings.
 
-Participants will work through case studies and develop a shared checklist for evaluating AI agents. It will cover what the system is intended to do, how its claims can be tested, what the results show, which risks remain, and who decides whether a pilot should proceed.
+Participants will discuss research and case studies, compare designs, and work through two labs. Together, we will develop guidance on what to test before a pilot, how to report results, and which decisions should remain with people.
 
-The scientific foundations include cognitive architectures that connect memory and action [R1], neuro-symbolic integration [R2], causal representation learning [R3], and reasoning-and-acting language agents [R4]. Cost-aware agent evaluation [R5] and adversarial tool-use evaluation [R6] motivate looking beyond task accuracy. NIST AI RMF 1.0 provides a risk-management reference [R7].
+The symposium draws on cognitive architectures [R1], neuro-symbolic AI [R2], causal representation learning [R3], and language agents that combine reasoning with action [R4]. Research on evaluation costs [R5] and attacks through tool outputs [R6] highlights the need to measure more than task accuracy. NIST AI RMF 1.0 provides a reference for discussing risk [R7].
 
-**Intended community:** researchers in AI, knowledge representation, planning, cognitive systems, causality, and evaluation; industrial AI developers; operations leaders; assurance practitioners; and students. We propose approximately **50–65 participants**, within AAAI's published target range of 40–75.  [Official call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+We aim to bring together **50–65 participants** from AI research, industry, operations, software testing, and related fields, including students. This is a planning target, within AAAI's published range of 40–75 participants. [Official call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Research agenda
 
-### 01 · Cognitive architectures and adaptive memory
+### 01 · Cognitive architectures and memory
 
-How should working memory, persistent knowledge, planning, reflection, and human oversight interact? We welcome architectures that make state changes inspectable, separate remembered evidence from generated hypotheses, and evaluate adaptation without silently discarding earlier capabilities. Discussion will address memory provenance, stale knowledge, cross-task reuse, and the cost of maintaining abstractions.
+How should memory, learning, planning, and human review work together? Topics include tracking where stored information came from, updating outdated knowledge, reusing skills across tasks, and checking whether learning a new task harms earlier capabilities.
 
-### 02 · Neuro-symbolic grounding and verifiable action
+### 02 · Neuro-symbolic reasoning and action
 
-How can ontologies, knowledge graphs, process models, constraints, and executable specifications guide neural systems without making them brittle? We will distinguish a useful structural inductive bias from a demonstrated behavioral guarantee. Proposed studies should identify which component enforces a constraint, what assumptions enforcement requires, and what happens when those assumptions fail.
+How can knowledge graphs, ontologies, rules, and executable checks improve an agent's decisions? We will examine which parts of a system check or authorize actions, what those checks cover, and how the system responds to missing or conflicting information.
 
-### 03 · Causal and counterfactual decision support
+### 03 · Causal reasoning and decision support
 
-When does an agent have enough evidence to answer an intervention or counterfactual question? Topics include causal event models, structural assumptions, uncertainty, identification limits, simulation-based evaluation, and clarification when evidence is insufficient. Discussion will distinguish explanatory plausibility from evidence for causal identification.
+What can an agent conclude about the effects of an action? Topics include causal models, interventions, counterfactual questions, and uncertainty. Contributions should explain the assumptions behind a conclusion and when the agent should ask for more information or human help.
 
-### 04 · Industry readiness and accountable operation
+### 04 · Evaluation and practical use
 
-What must be measured before a system is exposed to consequential workflows? Topics include integration boundaries, access controls, task success under distribution shift, human intervention, observability, recovery, total operating cost, and changes to work practices. Industry sessions will examine technical evidence, operating constraints, and lessons from deployment.
+What should be measured before an agent is used in a real workflow? Topics include integration with existing systems, access permissions, changes in data or operating conditions, error detection, recovery, cost, and the time required for human review.
 
 ## Industry readiness
 
-The readiness assessment will report a **profile of evidence** across six dimensions. A system that succeeds on a task but lacks authorization controls should not compensate for that deficit with higher accuracy.
+We will assess each system across the areas below. Strong results in one area do not resolve weaknesses in another.
 
-| Readiness dimension | Questions for a deployment review | Expected evidence |
+| Area | Main question | What to report |
 | --- | --- | --- |
-| Knowledge and data | What is trusted, current, licensed, and traceable? | Source lineage, versioned knowledge, data limitations, missing-evidence behavior. |
-| Reasoning and causal validity | Which claims are checked, and under what assumptions? | Executable tests, constraint checks, causal assumptions, calibrated abstention. |
-| Authority and security | Which actions may the agent perform, and who authorizes them? | Tool permissions, approval boundaries, isolation tests, adversarial test results. |
-| Reliability and recovery | What happens under drift, tool failure, or partial completion? | Failure taxonomy, monitoring signals, escalation, rollback and recovery exercises. |
-| Efficiency and business value | Is the system useful relative to a credible alternative? | Task success alongside latency, compute, cost, operator time, and uncertainty. |
-| Human and organizational oversight | Who owns decisions, residual risk, and change control? | Named responsibilities, review records, incident procedure, user feedback. |
+| Knowledge and data | Is the information suitable and up to date? | Sources, versions, permissions, and known gaps. |
+| Reasoning | Do the tests support the system's claims? | Assumptions, comparisons, results, and limitations. |
+| Permissions and security | Can the agent act only within its authority? | Access controls, approval checks, and security tests. |
+| Reliability and recovery | What happens when something goes wrong? | Error detection, human intervention, and recovery tests. |
+| Cost and usefulness | Does it improve on a reasonable alternative? | Task success, response time, computing cost, and staff effort. |
+| Human responsibility | Who reviews decisions and changes? | Review procedures, responsibilities, and incident handling. |
 
-**Evidence states:** demonstrated within a stated scope; partially supported; unsupported; or not applicable with a justification. Teams will document sample sizes, test conditions, and uncertainty instead of assigning an unsupported universal readiness level.
+Reports should distinguish demonstrated results from partial findings and open questions. They should describe test conditions, sample sizes, uncertainty, and any areas that were not evaluated.
 
-### Case-based labs
+### Labs
 
-**Lab A — Knowledge-to-action clinic.** Mixed research–industry groups will examine a synthetic supplier-delay and approval workflow. They will identify required knowledge, represent dependencies and action permissions, compare a simple baseline with a proposed agent design, and specify the evidence needed for a bounded pilot. The exercise is a design and evaluation activity; no production customer data or live transactions are required.
+**Lab 1: Designing an agent.** Groups will work with a fictional supplier-delay and approval process. They will identify the information and permissions the agent needs, compare possible designs with a simpler approach, and decide how to test them.
 
-**Lab B — Failure, intervention, and recovery.** Groups will introduce stale knowledge, contradictory instructions, missing approvals, and tool failures into a documented scenario. They will distinguish ordinary constraint violations from causal interventions, identify unsupported conclusions, and design escalation and recovery tests. A second case from service operations will test whether the same evaluation methods are useful beyond manufacturing.
+**Lab 2: Testing failures and recovery.** Groups will examine outdated information, conflicting instructions, missing approvals, and tool failures. They will specify how the agent should respond and which decisions require human review. A second case from service operations will test whether the same methods are useful in a different setting.
 
-**Deployment review panel.** Researchers, practitioners, and operations stakeholders will review anonymized case packets and explain which evidence supports a pilot, which evidence is missing, and which risks remain. The panel will document the reasoning behind its assessment.
+**Panel discussion.** Researchers and practitioners will review example cases and discuss whether the available results support a pilot and what further testing is needed.
 
-**Access:** paper-based worksheets and lightweight local examples are planned alongside optional coding. Participants should not need a paid API account, specialized accelerator, or proprietary platform to contribute. All exercises will use synthetic, public, or explicitly authorized material.
+Paper worksheets and simple local examples will be available. Coding is optional, and participation will not require paid APIs or specialized hardware. Exercises will use fictional, public, or approved material.
 
 ## Program
 
-All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This preliminary schedule follows [AAAI's session timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Invited speakers have not yet been confirmed.
+All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This preliminary schedule follows [AAAI's session timetable](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Nigel Glenday and Raj Krishnan are the invited speakers. Talk titles will be announced.
 
 ### Monday, March 22: Architectures and applications
 
 | Time | Session |
 | --- | --- |
 | 09:00–09:20 | Welcome and introduction to the symposium questions. |
-| 09:20–10:00 | Invited research talk and discussion; speaker to be confirmed. |
+| 09:20–10:00 | Invited talk and discussion: Nigel Glenday (Graphite Atlas). |
 | 10:00–10:30 | Application challenges from research and industry. |
 | 10:30–11:00 | Coffee break. |
 | 11:00–12:30 | Contributed talks on memory, knowledge representation, and planning, followed by discussion. |
 | 12:30–14:00 | Lunch. |
-| 14:00–15:30 | Group exercise: design an agent for a supplier-delay and approval workflow. |
+| 14:00–15:30 | Lab 1: designing an agent for supplier delays and approval decisions. |
 | 15:30–16:00 | Coffee break. |
 | 16:00–17:00 | Group reports and discussion of the proposed designs. |
 | 18:00–19:00 | AAAI series reception. |
@@ -88,58 +88,86 @@ All times are local to Santa Clara (Pacific Daylight Time, UTC−7). This prelim
 
 | Time | Session |
 | --- | --- |
-| 09:00–09:40 | Invited industry talk and discussion; speaker to be confirmed. |
+| 09:00–09:40 | Invited talk and discussion: Raj Krishnan (AI For Services). |
 | 09:40–10:30 | Case studies: evaluation results and deployment experience. |
 | 10:30–11:00 | Coffee break. |
-| 11:00–12:30 | Group exercise: test stale data, missing approvals, and tool failures. |
+| 11:00–12:30 | Lab 2: testing outdated information, missing approvals, and tool failures. |
 | 12:30–14:00 | Lunch. |
 | 14:00–15:30 | Panel and audience discussion: when is an agent ready for a pilot? |
 | 15:30–16:00 | Coffee break. |
-| 16:00–17:00 | Small-group discussions on evaluation, human review, and use in other domains. |
+| 16:00–17:00 | Poster session: accepted papers and poster abstracts, with discussion at each poster. |
 | 18:00–19:00 | AAAI series plenary. |
 
 ### Wednesday, March 24: Open questions and next steps
 
 | Time | Session |
 | --- | --- |
-| 09:00–10:30 | Working-group reports; compare proposed tests and lessons from the exercises. |
+| 09:00–10:30 | Lab reports and discussion of the results. |
 | 10:30–11:00 | Coffee break. |
 | 11:00–12:00 | Discussion of open research questions and possible joint studies. |
 | 12:00–12:30 | Closing discussion and next steps. |
 
-Contributed talks will be brief, with time for questions. For the exercises and small-group sessions, participants will work with colleagues from research and industry. Each group will report its conclusions and the questions it could not resolve. Coding is optional. The reception and plenary are AAAI series events.
+The 90-minute contributed-paper session will include short talks and questions. Accepted papers not selected for an oral talk, together with accepted poster abstracts, will be presented in the Tuesday poster session. Authors will be available to discuss their work at their posters. Both labs are open to all participants; coding is optional. The reception and plenary are AAAI series events.
 
 ## Participation
 
 ### Express interest now
 
-Complete the **[expression-of-interest form](https://forms.gle/RUvA879SEs7ypqVc9)** with your name, affiliation, and relevant interests. You can also contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest). An expression of interest is **not a commitment to attend** and does not reserve a place.
+Complete the **[interest form](https://forms.gle/RUvA879SEs7ypqVc9)** with your name, affiliation, and interests, or contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu?subject=R2R%202027%20expression%20of%20interest). This does not commit you to attend.
 
-Please indicate separately whether we may include your **name and affiliation in the proposal reviewed by AAAI**, and whether you consent to a **public listing**. Public listing is optional. Do not send confidential customer information, sensitive datasets, credentials, or private case records. Correspondence will be used for symposium planning and handled through the lead organizer, not committed to this public repository.
+Please tell us separately whether we may include your name and affiliation in the proposal reviewed by AAAI and whether you agree to a public listing. Public listing is optional. Responses will be used for symposium planning and kept out of this public repository. Please leave confidential information out of your response.
 
 ### Proposed contribution formats after acceptance
 
-The **[draft call for papers and participation](cfp.html)** describes the topics, evidence expectations, review process, and proposed formats:
+The **[draft call for papers and participation](cfp.html)** gives the topics, submission guidance, and review process.
 
 | Contribution | Proposed length |
 | --- | --- |
-| Long research and position papers; industry and operational cases | Up to 4 pages |
-| Short research and position papers; reproducible demonstrations | Up to 2 pages |
+| Long research and position papers; industry and operational case studies | Up to 4 pages |
+| Short research and position papers; demonstrations | Up to 2 pages |
 | Poster abstracts; participation statements | Up to 1 page |
 
-Negative results and early-stage work are welcome. Poster acceptance and presentation selection are separate decisions; a limited number of posters may be accepted without a presentation slot. Paper submissions will open only if the symposium is accepted. Final deadlines, formatting, submission instructions, and publication arrangements will be coordinated with AAAI.
+**Oral talks and posters.** A limited number of accepted papers will be selected for the 90-minute oral session. Other accepted papers and accepted poster abstracts will be presented in the **poster session on Tuesday, March 23, 16:00–17:00**. Authors will discuss their work with participants at their posters. The same review criteria apply to papers presented orally and as posters.
 
-The proposed review criteria are relevance, clarity of the research question, quality and limits of evidence, value for discussion, and potential to connect communities. Early-stage and speculative work is welcome when labeled accurately. Commercial affiliation is neither a prerequisite nor an advantage. Conflicts of interest will be managed through recusal and an independent reviewer; reviewers will not evaluate their own or closely related submissions.
+We welcome early work and negative results. Reviews will consider relevance, clarity, the methods and results appropriate to the submission, and its value for discussion. Reviewers with a conflict of interest will not assess a submission.
+
+Submissions will open if AAAI accepts the symposium. Final deadlines, formatting, submission instructions, and publication arrangements will be announced after coordination with AAAI.
 
 ### Attendance and accessibility
 
-AAAI requires **all presenters, keynote speakers, and panelists to present in person**, and all participants, including organizers, to register. Livestream arrangements, if requested, require coordination with AAAI. Registration, travel, accommodation, visa letters, and any accessibility arrangements will follow AAAI's official processes. [Official policy](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+Presentations, including posters, will be in person, and all participants, including organizers, must register with AAAI. Registration, travel, accommodation, and visa information will follow AAAI's processes. [Official guidance](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
-We propose accessible materials, structured turn-taking, student-friendly activities, and written participation routes within the in-person sessions. Requests will be coordinated with AAAI and the venue. The AAAI event Code of Conduct will apply. [Series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/)
+We will provide readable materials, allow time for questions, and offer written ways to contribute during sessions. Accessibility and any livestream requests will be discussed with AAAI and the venue. AAAI's event Code of Conduct applies. [Series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/)
+
+## Speakers
+
+### Invited speakers
+
+<div class="people-grid">
+
+<div class="person-card speaker-card">
+<img src="assets/organizers/nigel-glenday.jpg" alt="Nigel Glenday" loading="lazy" width="180" height="180" />
+<h3>Nigel Glenday</h3>
+<p><strong>Monday, March 22 · 09:20–10:00</strong><br />Graphite Atlas</p>
+<p>Nigel Glenday is the founder and CEO of Graphite Atlas, which maps business processes and develops automation and AI systems. He previously held CFO and COO roles in asset management. His work connects business operations with the practical use of AI.</p>
+<p><a href="https://www.graphiteatlas.com/">Company profile</a> · <a href="mailto:nglenday@graphiteatlas.com">Contact</a></p>
+</div>
+
+<div class="person-card speaker-card">
+<img src="assets/organizers/raj-krishnan.jpg" alt="Raj Krishnan" loading="lazy" width="180" height="180" />
+<h3>Raj Krishnan</h3>
+<p><strong>Tuesday, March 23 · 09:00–09:40</strong><br />AI For Services</p>
+<p>Raj Krishnan is with AI For Services, a company developing AI applications for business processes. Its work includes automating requests for proposals and customer-support workflows, and connecting AI applications with existing enterprise systems.</p>
+<p><a href="https://aiforservices.com/">Company website</a> · <a href="mailto:raj@aiforservices.com">Contact</a></p>
+</div>
+
+</div>
+
+Talk titles will be announced.
 
 ## Organizers
 
-**Proposed organizing committee.** Six faculty/industry organizers and two University of Alabama student organizers. All eight have agreed to serve, as confirmed by the lead organizer on November 12, 2026; the division of work below is proposed.
+**Organizing committee.** The six organizers have agreed to serve. Their proposed responsibilities are listed below.
 
 <div class="people-grid">
 
@@ -147,34 +175,20 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <img src="assets/organizers/kaushik-roy.jpg" alt="Dr. Kaushik Roy, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Kaushik Roy</h3>
 <p><strong>Lead organizer · Scientific program</strong><br />Assistant Professor of Computer Science, The University of Alabama.</p>
-<p>Scientific scope, paper review, community recruitment, and AAAI liaison.</p>
+<p>Program planning, paper review, invitations, and coordination with AAAI.</p>
 <a href="https://eng.ua.edu/eng-directory/dr-kaushik-roy/">UA faculty profile</a>
 <p><a href="mailto:kroy2@ua.edu">kroy2@ua.edu</a></p>
 </div>
 
-<div class="person-card">
-<img src="assets/organizers/nigel-glenday.jpg" alt="Nigel Glenday, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
-<h3>Nigel Glenday</h3>
-<p><strong>Industry problems · Operational design</strong><br />Founder and CEO, Graphite Atlas.</p>
-<p>Practitioner recruitment, operational problem statements, and the knowledge-to-action clinic.</p>
-<a href="https://www.graphiteatlas.com/">Company team profile</a>
-<p><a href="mailto:nglenday@graphiteatlas.com">nglenday@graphiteatlas.com</a></p>
-</div>
 
-<div class="person-card">
-<img src="assets/organizers/raj-krishnan.jpg" alt="Raj Krishnan, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
-<h3>Raj Krishnan</h3>
-<p><strong>Enterprise integration · Adoption</strong><br />AI For Services (affiliation supplied by the lead organizer).</p>
-<p>Service-workflow case design, integration requirements, and adoption challenges.</p>
-<a href="https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/SOURCES.md">Affiliation record</a>
-<p><a href="mailto:raj@aiforservices.com">raj@aiforservices.com</a></p>
-</div>
+
+
 
 <div class="person-card">
 <img src="assets/organizers/alessandro-oltramari.jpg" alt="Dr. Alessandro Oltramari, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Alessandro Oltramari</h3>
-<p><strong>Neuro-symbolic architecture · Research translation</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
-<p>Architecture discussion, academia–industry translation, and deployment review.</p>
+<p><strong>Neuro-symbolic AI · Research and industry</strong><br />Senior Manager, Bosch Research; President, Carnegie Bosch Institute.</p>
+<p>Research discussions, links between academic and industry work, and the panel.</p>
 <a href="https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html">Official CBI profile</a>
 <p><a href="mailto:aoltrama@andrew.cmu.edu">aoltrama@andrew.cmu.edu</a></p>
 </div>
@@ -182,8 +196,8 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <div class="person-card">
 <img src="assets/organizers/shahram-rahimi.jpg" alt="Dr. Shahram Rahimi, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Shahram Rahimi</h3>
-<p><strong>Faculty organizer · Scientific leadership and AI research</strong><br />Professor and Head of the Department of Computer Science, The University of Alabama.</p>
-<p>research-community development, cross-disciplinary AI discussions, and academic–industry engagement.</p>
+<p><strong>Faculty organizer · Research program</strong><br />Professor and Head of the Department of Computer Science, The University of Alabama.</p>
+<p>Invitations to researchers and discussions across AI research and industry.</p>
 <a href="https://eng.ua.edu/eng-directory/dr-shahram-rahimi/">Official UA Computer Science faculty profile</a>
 <p><a href="mailto:srahimi1@ua.edu">srahimi1@ua.edu</a></p>
 </div>
@@ -191,8 +205,8 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <div class="person-card">
 <img src="assets/organizers/subash-neupane.jpg" alt="Dr. Subash Neupane, headshot provided by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Dr. Subash Neupane</h3>
-<p><strong>Faculty organizer · Trustworthy AI and applied evaluation</strong><br />Assistant Professor, The University of Alabama.</p>
-<p>explainability, evaluation of trustworthy AI, and deployment challenges in healthcare and other high-impact settings.</p>
+<p><strong>Faculty organizer · Evaluation</strong><br />Assistant Professor, The University of Alabama.</p>
+<p>Evaluation, explainability, and AI applications in healthcare and other settings.</p>
 <a href="https://eng.ua.edu/eng-directory/dr-subash-neupane/">Official UA faculty profile</a>
 <p><a href="mailto:sneupane4@ua.edu">sneupane4@ua.edu</a></p>
 </div>
@@ -209,7 +223,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 <div class="person-card">
 <img src="assets/organizers/ashraf-abdul-muumin.jpg" alt="Ashraf Abdul-Muumin, photograph supplied by the organizing team" loading="lazy" width="180" height="180" />
 <h3>Ashraf Abdul-Muumin</h3>
-<p><strong>Student organizer</strong><br />The University of Alabama (lead-organizer supplied).</p>
+<p><strong>Student organizer</strong><br />The University of Alabama.</p>
 <p>Student organizing support and symposium coordination.</p>
 <a href="https://github.com/chirix33">Self-published GitHub profile</a>
 <p><a href="mailto:aashraf@crimson.ua.edu">aashraf@crimson.ua.edu</a></p>
@@ -219,7 +233,7 @@ We propose accessible materials, structured turn-taking, student-friendly activi
 
 **Photographs:** Supplied by the organizing team. [Photo credits](https://github.com/kauroy1994/AAAI-Symposium-Concept/blob/main/PHOTO-SOURCES.md).
 
-For student-organizer coordination and prospective headshot corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
+For organizing questions or profile corrections, contact [Dr. Kaushik Roy](mailto:kroy2@ua.edu).
 
 ## Dates and status
 
@@ -229,10 +243,10 @@ For student-organizer coordination and prospective headshot corrections, contact
 | AAAI proposal decisions | **December 8, 2026**. |
 | AAAI series registration opens | **December 29, 2026**, as listed on the series page; subject to AAAI updates. |
 | R2R paper/case submission deadline | Not announced; contingent on symposium acceptance. |
-| R2R speaker and program announcements | Not announced; consent and confirmations required. |
+| Invited speakers | Nigel Glenday (Monday) and Raj Krishnan (Tuesday); talk titles to be announced. |
 | Proposed symposium | **March 22–24, 2027** at Santa Clara University. |
 
-Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) and [official series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Content checked November 12, 2026.
+Sources: [official proposal call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) and [official series information](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/). Event information checked November 12, 2026.
 
 ## References
 

@@ -1,40 +1,35 @@
-# Outreach and consent templates
+# Outreach drafts
 
-These are unsent drafts. The repository contains no claim that an invitation has been sent or a reply received.
+These templates do not record messages sent or replies received.
 
-## Organizer confirmation
+## Participant interest
 
-**Subject:** Proposed AAAI Spring Symposium 2027 — organizing committee confirmation
+**Subject:** Would you join us for Reasoning to Readiness?
 
-Dear [Name],
+Hi [Name],
 
-I am preparing a proposal for “Reasoning to Readiness: Neuro-Symbolic and Causal Architectures for Reliable AI Agents,” for the AAAI 2027 Spring Symposium Series, March 22–24 at Santa Clara University. The proposal deadline is November 17, 2026. The concept and draft are available at https://github.com/kauroy1994/AAAI-Symposium-Concept.
+We’re proposing **Reasoning to Readiness**, an AAAI Spring Symposium on reliable AI agents, neuro-symbolic reasoning, and causal models, for **March 22–24, 2027, at Santa Clara University, California**. We’d love to have you involved.
 
-Would you agree to serve on the organizing committee, subject to the proposal's acceptance? Your proposed role is [role]. Please confirm your preferred name, title, affiliation, professional email for the submission, and whether those details may appear on the public website. Please also review the program and responsibilities and send any corrections.
+If accepted, there will be opportunities to submit papers, present work as talks or posters, and take part in hands-on labs and discussion.
 
-AAAI requires organizers to register, and presenters must participate in person. No funding, registration waiver, or travel support has been secured. Please flag any constraints before agreeing.
+Could you complete this [quick interest form](https://forms.gle/RUvA879SEs7ypqVc9) before our **November 17 proposal deadline**? This does not commit you to attend. Please share it with colleagues who might be interested.
 
-Best regards,
-Kaushik Roy
+[Website and preliminary program](https://kauroy1994.github.io/AAAI-Symposium-Concept/)
 
-## Participant expression of interest
+Thanks,
+Kaushik, on behalf of the organizing team
 
-**Subject:** Expression of interest: proposed AAAI 2027 symposium on reasoning and deployment readiness
+## Organizer details
 
-Dear [Name],
+**Subject:** Reasoning to Readiness: final organizer details
 
-We are preparing a proposal for “Reasoning to Readiness: Neuro-Symbolic and Causal Architectures for Reliable AI Agents,” for March 22–24, 2027, at Santa Clara University. It would bring researchers and industry practitioners together to examine cognitive and neuro-symbolic architectures, causal models, and evidence needed for bounded deployment. The proposed format includes case-based labs, failure analysis, and collaborative working groups.
+Hi [Name],
 
-The symposium is not yet accepted. Would you be interested in participating if it is selected? An expression of interest is not a commitment to attend. AAAI asks proposals to include potential participants who have been contacted and expressed interest.
+Thanks for agreeing to help organize Reasoning to Readiness. Could you check your name, affiliation, email, and proposed responsibilities on the [website](https://kauroy1994.github.io/AAAI-Symposium-Concept/#organizers) and let us know of any corrections? Please also review the program and proposal before we submit.
 
-Please reply with your name, affiliation, relevant interests, and whether we may include your name and affiliation in the proposal reviewed by AAAI. Separately, please indicate whether you consent to being listed on the public website; that is optional. A brief comment on the draft would also be valuable.
+Thanks,
+Kaushik
 
-The draft is at https://github.com/kauroy1994/AAAI-Symposium-Concept. Please do not send confidential case material. All presenters must participate in person and all participants must register under AAAI policy.
+## Records
 
-Best regards,
-Kaushik Roy
-kroy2@ua.edu
-
-## Record-keeping rule
-
-Record the actual date contacted, actual response date, source of the response, and the exact permissions granted. “Contacted,” “expressed interest,” “agreed to organize,” and “confirmed to speak” are different states. Keep evidence privately; do not commit email correspondence to this repository.
+Keep the dates of contact and replies, along with permission to include names in the reviewer-facing proposal or public website. Interest in attending, agreement to organize, and an invitation to speak are separate records. Keep correspondence private.

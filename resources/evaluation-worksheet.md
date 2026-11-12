@@ -1,35 +1,35 @@
 # Agent evaluation worksheet
 
-Use this worksheet to describe an AI agent, plan its evaluation, and record the results and remaining limitations.
+Use this worksheet to describe an agent, plan its tests, and record results and limitations.
 
-## 1. Intended use and boundaries
+## 1. Purpose and permitted actions
 
-Record the workflow, users, decision owner, expected benefit, operating environment, permitted actions, prohibited actions, deployment stage, and conditions requiring human approval. Distinguish a research demonstration, sandbox evaluation, bounded pilot, and production use.
+Describe the task, users, expected benefit, and operating conditions. List the actions the agent may take, the actions it may not take, and the decisions that need approval. State whether this is a simulation, laboratory study, pilot, or production system.
 
-## 2. Architecture and knowledge
+## 2. System design and information
 
-Describe model and software versions, memory, knowledge representations, process or causal models, tool interfaces, and enforcement components. Identify trusted and untrusted inputs, provenance, licensing, update policies, missing evidence, and stale knowledge handling. State which steps are learned, generated, executed, or independently checked.
+Describe the models, software versions, memory, knowledge sources, rules, causal models, and tools. Explain where information comes from, how it is updated, and what happens when it is missing, outdated, or conflicting. Identify which components generate suggestions, perform actions, and check results.
 
-## 3. Claims and tests
+## 3. Tests and results
 
-| Claim | Scope and assumptions | Baseline | Test / sample / repetitions | Result and uncertainty | Supporting material | Remaining limitation | Owner |
+| Research claim | Assumptions | Comparison | Test and sample size | Results and uncertainty | Supporting material | Limitations | Person responsible |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Complete with a specific, falsifiable claim; do not insert assumed successes. | | | | | | | |
+| Describe a claim that the test can support or challenge. | | | | | | | |
 
-For causal claims, state the causal graph or structural model, identification assumptions, intervention semantics, and what would falsify the claim. Distinguish prediction, intervention, and counterfactual questions. Correctness against a simulator does not establish real-world causal validity.
+For causal conclusions, state the model and assumptions, the action being studied, and the results that would challenge the conclusion. Explain which findings depend on a simulation and which have been tested in practice.
 
-## 4. Readiness profile
+## 4. What has been evaluated?
 
-Assess knowledge/data, reasoning/causal validity, authority/security, reliability/recovery, efficiency/value, and human oversight. Use only: **demonstrated within scope**, **partial**, **unsupported**, or **not applicable with justification**. Attach evidence; do not collapse critical risks into an average score.
+Review the system's knowledge, reasoning, permissions, security, reliability, recovery, cost, and human oversight. Mark each finding as supported, partly supported, or not yet tested. Explain any areas that do not apply. Keep important failures visible when reporting overall results.
 
-## 5. Efficiency and value
+## 5. Cost and usefulness
 
-Report task success together with latency distribution, compute and memory, API or infrastructure costs, human review effort, failure-handling effort, and maintenance assumptions. Specify sample sizes, trial variability, workload, cost date and currency, baseline, matched information access, and budget. Label estimates as estimates. Do not extrapolate a pilot into a production ROI claim without evidence.
+Report task success, response time, computing and memory needs, service costs, staff effort, and maintenance needs. Describe the workload, sample size, variation between tests, and comparison method. Give the date and currency for cost estimates and distinguish estimates from measurements.
 
-## 6. Failure and recovery
+## 6. Failures and recovery
 
-Document trigger, detection signal, containment, escalation owner, partial side effects, rollback or compensating action, restoration test, and incident record. Exercise missing approvals, untrusted instructions, tool timeout, contradictory evidence, drift, and unsupported causal questions in an authorized sandbox.
+Describe how failures are detected, what the system does next, who is notified, and how incomplete actions are resolved. Test missing approvals, untrusted instructions, tool timeouts, conflicting information, and changes in operating conditions in an approved test setting.
 
-## 7. Decision record
+## 7. Review and next steps
 
-Record reviewer, date, allowed pilot boundary, unmet conditions, residual risks, dissent, expiration/review date, and who may stop operation. A completed worksheet alone does not authorize use. Release only material for which the authors have publication rights; exclude confidential and personal data.
+Record who reviewed the results, which uses they support, what still needs testing, and who can approve or stop a pilot. Note disagreements and the next review date. Share only material you have permission to release.

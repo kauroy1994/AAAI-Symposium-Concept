@@ -1,27 +1,37 @@
-# Verification and provenance record
+# Sources and verification
 
-**Updated: November 12, 2026.** Official call, series information, and organizer sources rechecked; scientific-reference provenance below retains the October 27 audit. This record distinguishes verified public facts, user-supplied details, design proposals, and missing evidence. Web verification cannot establish consent or future participation.
+Updated November 12, 2026.
 
-## Official event facts
+## AAAI requirements and dates
 
-- AAAI 2027 Spring Symposium organizer call: https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/ . Verified dates March 22–24, 2027; Santa Clara University; proposal deadline November 17, 2026; decisions December 8, 2026; 2–5 pages; title, description and format, full 2.5-day program, organizer names and emails, organizer agreement, website URL if available, and a list of contacted people who expressed interest. Target 40–75; approximately eight symposia. No virtual presentations; all participants must register. A livestream may be arranged on request, not guaranteed. The page was available through indexed official-source retrieval; direct retrieval intermittently returned HTTP 403.
-- AAAI series information: https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/ . Verified December 29, 2026 registration opening and general session blocks, reception, and plenary. No fees are copied into the website because they can change and registration remains AAAI's responsibility.
-- The organizer call does not state a deadline timezone, a specific proposal template, or an additional reference-page allowance. The five-page proposal includes its references. Do not borrow requirements from the separate AAAI-27 workshop or technical-paper calls. EasyChair portal-only requirements have not been inspected behind a login; use the link on the official call rather than a fabricated direct URL.
+The [official call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/) specifies a 2–5-page proposal covering the topic, format, full two-and-a-half-day program, organizing committee names and emails, agreement to serve, website if available, and contacted people who have expressed interest. Proposals are due November 17, 2026; decisions are scheduled for December 8. The public call gives no deadline timezone.
 
-## Organizer facts (rechecked November 12, 2026)
+The [series page](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series/) lists March 22–24, 2027 at Santa Clara University and the general session timetable. Indexed official content was used where direct automated requests returned HTTP 403.
 
-| Organizer | Primary source or provenance | Contact |
+## Organizing committee
+
+The current committee has six members. Their agreement to serve was confirmed by the lead organizer. Nigel Glenday and Raj Krishnan have been moved to invited-speaker roles at the lead organizer's explicit request.
+
+| Organizer | Affiliation source | Email source |
 | --- | --- | --- |
-| Kaushik Roy | [UA directory](https://eng.ua.edu/eng-directory/dr-kaushik-roy/): Assistant Professor, Computer Science | kroy2@ua.edu |
-| Nigel Glenday | [Graphite Atlas](https://www.graphiteatlas.com/): Founder and CEO; [professional GitHub profile](https://github.com/nigelglenday/) supplies email | nglenday@graphiteatlas.com |
-| Raj Krishnan | AI For Services: lead-organizer supplied. No independent matching primary source located; removed unsupported Founder/CEO title and unverified LinkedIn company link. Email supplied November 12. | raj@aiforservices.com |
-| Alessandro Oltramari | [Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html): President; Senior Manager, Bosch Research; public email | aoltrama@andrew.cmu.edu |
-| Shahram Rahimi | [UA directory](https://eng.ua.edu/eng-directory/dr-shahram-rahimi/): Professor and Head of Computer Science; public email | srahimi1@ua.edu |
-| Subash Neupane | [UA directory](https://eng.ua.edu/eng-directory/dr-subash-neupane/): Assistant Professor; trustworthy and explainable AI research; public email. This current institutional record takes precedence over an older personal CV listing Meharry. | sneupane4@ua.edu |
-| Himanshu Tripathi | [UA BRAINS Lab team](https://sites.ua.edu/brains/team/): PhD student, Computer Science. Indexed official page retrieved; direct retrieval intermittent. Email supplied November 12. | htripathi@crimson.ua.edu |
-| Ashraf Abdul-Muumin | UA student affiliation supplied by lead organizer; [GitHub profile](https://github.com/chirix33) identifies name but does not verify UA. Earlier IIT records do not establish current affiliation. Email supplied November 12. | aashraf@crimson.ua.edu |
+| Kaushik Roy | [UA directory](https://eng.ua.edu/eng-directory/dr-kaushik-roy/) | kroy2@ua.edu, public directory |
+| Alessandro Oltramari | [Carnegie Bosch Institute](https://carnegiebosch.cmu.edu/team/bios/oltramari-alessandro.html): President; Senior Manager, Bosch Research | aoltrama@andrew.cmu.edu, public profile |
+| Shahram Rahimi | [UA directory](https://eng.ua.edu/eng-directory/dr-shahram-rahimi/): Professor and Head of Computer Science | srahimi1@ua.edu, public directory |
+| Subash Neupane | [UA directory](https://eng.ua.edu/eng-directory/dr-subash-neupane/): Assistant Professor | sneupane4@ua.edu, public directory |
+| Himanshu Tripathi | [UA BRAINS Lab team](https://sites.ua.edu/brains/team/): PhD student | htripathi@crimson.ua.edu, lead-organizer supplied |
+| Ashraf Abdul-Muumin | Current UA affiliation supplied by the lead organizer; no current institutional profile located | aashraf@crimson.ua.edu, lead-organizer supplied |
 
-**Agreements:** On November 12, 2026, the lead organizer explicitly confirmed that all eight organizers have said yes. This supports agreement to serve; final task assignments remain proposed. No signed-form requirement appears in the public call. No speaker commitment follows from committee membership.
+## Invited speakers and biographies
+
+- **Nigel Glenday:** assigned by the lead organizer to Monday, March 22, 09:20–10:00. [Graphite Atlas](https://www.graphiteatlas.com/) identifies him as founder and CEO and describes his previous CFO/COO work in asset management. Its company description supports the bio's account of process mapping, automation, and AI. His [professional profile](https://github.com/nigelglenday/) supplies nglenday@graphiteatlas.com.
+- **Raj Krishnan:** assigned by the lead organizer to Tuesday, March 23, 09:00–09:40. The [company's public profile](https://sg.linkedin.com/company/aiforservices) lists him at AI For Services and describes business-process automation, RFP automation, support automation, and integration with existing enterprise systems. The [company website](https://aiforservices.com/) returned HTTP 200 during this review. No Founder/CEO title, academic degree, years of experience, or personal project result is asserted. His email, raj@aiforservices.com, was supplied by the lead organizer.
+- Speaker assignments come from the lead organizer's instructions. Talk titles have not been supplied and are not invented.
+
+## Program and presentation formats
+
+Lab 1 is Monday, March 22, 14:00–15:30. Lab 2 is Tuesday, March 23, 11:00–12:30. The poster session is Tuesday, March 23, 16:00–17:00, within the existing series timetable. The program has 840 technical-session minutes, including 180 minutes for the two labs, 90 minutes for contributed papers, and 60 minutes for posters.
+
+Accepted papers not selected for oral talks and accepted poster abstracts will be presented as posters. The symposium and its submission formats remain proposals pending AAAI acceptance. Participant targets, exercises, and planned follow-up materials are plans rather than evidence of attendance or outcomes.
 
 ## Scientific references
 
@@ -34,23 +44,13 @@
 - R7: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10 . Specific AI RMF 1.0 (2023), DOI 10.6028/NIST.AI.100-1. No claim of certification or latest-version status. NIST's framework landing page states revision activity, so the version is explicit.
 - Existing related activity: https://2026.nesyconf.org/call-for-papers/ . The annual conference and its industry track are acknowledged, including deployment and business-value coverage. The proposal does not claim this broad topic is unprecedented.
 
-## Design and technical sources
 
-- UA colors: https://brand.ua.edu/colors/ . Crimson Flame #9E1B32, Capstone Gray #828A8F, and white. The website uses dark text for contrast and does not use official logos or seals. It is UA-color-inspired, not asserted to be an official UA website.
-- GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site . A Pages publishing source must be configured; adding files alone does not prove that the hosted site is live.
+## Website and supporting files
 
-## Original proposals, not external facts
+The README powers the homepage through index.md. Speakers and Organizers have separate navigation entries and sections. All eight portraits were provided by the organizing team; see PHOTO-SOURCES.md. The SVG banner and text have been edited to use plain language. UA-inspired colors follow [UA's published palette](https://brand.ua.edu/colors/); no institutional logos are used.
 
-The title, R2R abbreviation, research questions, readiness dimensions, evidence states, labs, contribution formats, roles, 50–65 attendance target, outputs, and six-week synthesis target are proposed by this package. They are not AAAI decisions or verified commitments. The 570/840-minute interaction calculation is derived from the proposed program: Monday 150, Tuesday 240, and Wednesday 180 explicitly collaborative minutes, out of 330 + 330 + 180 technical minutes.
+The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No response or participant name is inferred from the existence of the form.
 
-## Completion gaps
+## Still required
 
-The required contacted-and-interested participant list is still missing. The lead organizer supplied all remaining organizer emails and confirmed all eight agreements on November 12. Raj's and Ashraf's affiliations remain attributed to organizer input; no independent current source was established. See the submission checklist for final review and portal submission steps. No invitation, outreach message, or EasyChair submission has been sent by this update.
-
-## URL checks, November 12, 2026
-
-Checked all 30 distinct HTTP(S) links in the website and proposal. All returned HTTP 200 except the IEEE DOI (HTTP 202) and three access-restricted URLs: the official AAAI call, the series page, and the AI Magazine DOI (HTTP 403). These access restrictions are not missing pages; official AAAI indexed content was used to verify the call and timetable. No HTTP 404 was returned. All eight local portraits and relative website file links passed structural checks. Raj's unverified LinkedIn company link was replaced with the provenance record. Scientific citation metadata was also checked against primary publisher/author records; older detailed citation provenance is retained above.
-
-## Call for papers integration, November 12, 2026
-
-The lead organizer supplied `cfp.html`; its scope, proposed contribution lengths, poster policy, review text, and design are retained. The homepage, navigation, proposal, and checklist now link to it. The brand link returns to the symposium homepage. The supplied expression-of-interest URL, https://forms.gle/RUvA879SEs7ypqVc9, resolved successfully to a Google Form titled “AAAI Spring Symposium—Expression of Interest”. No form response was submitted or inferred. The page remains a proposal-stage draft; submission dates, portal, formatting, and publication arrangements await acceptance and AAAI coordination.
+The contacted-and-interested participant list has not been supplied for inclusion in the proposal. It must be added within the five-page limit before submission. The EasyChair form and upload requirements must be checked at submission; no proposal has been submitted through this work. Store correspondence privately rather than in this public repository.

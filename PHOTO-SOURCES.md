@@ -1,16 +1,16 @@
-# Organizer photograph record
+# Portrait sources
 
-Updated October 27, 2026. The organizing team supplied and uploaded all eight images directly to this repository under `assets/organizers/`. This is the authoritative source for the symposium website's portraits, replacing external image hotlinks and placeholders. Names below follow the user's explicit labeling of the eight uploaded photographs.
+Updated November 12, 2026. The organizing team supplied all eight portraits. The files remain in `assets/organizers/` so existing image URLs continue to work.
 
-| Organizer | Local photo | Attribution |
+| Person | Current role | Portrait |
 | --- | --- | --- |
-| Dr. Kaushik Roy | [kaushik-roy.jpg](assets/organizers/kaushik-roy.jpg) | Supplied by the organizing team |
-| Nigel Glenday | [nigel-glenday.jpg](assets/organizers/nigel-glenday.jpg) | Supplied by the organizing team |
-| Raj Krishnan | [raj-krishnan.jpg](assets/organizers/raj-krishnan.jpg) | Supplied by the organizing team |
-| Dr. Alessandro Oltramari | [alessandro-oltramari.jpg](assets/organizers/alessandro-oltramari.jpg) | Supplied by the organizing team |
-| Dr. Shahram Rahimi | [shahram-rahimi.jpg](assets/organizers/shahram-rahimi.jpg) | Uploaded by the organizing team; [UA profile](https://eng.ua.edu/departments/computer-science/) | 
-| Dr. Subash Neupane | [subash-neupane.jpg](assets/organizers/subash-neupane.jpg) | Uploaded by the organizing team; [UA profile](https://eng.ua.edu/eng-directory/dr-subash-neupane/) |
-| Himanshu Tripathi | [himanshu-tripathi.jpg](assets/organizers/himanshu-tripathi.jpg) | Supplied by the organizing team |
-| Ashraf Abdul-Muumin | [ashraf-abdul-muumin.jpg](assets/organizers/ashraf-abdul-muumin.jpg) | Supplied by the organizing team |
+| Kaushik Roy | Organizer | [Photo](assets/organizers/kaushik-roy.jpg) |
+| Alessandro Oltramari | Organizer | [Photo](assets/organizers/alessandro-oltramari.jpg) |
+| Shahram Rahimi | Organizer | [Photo](assets/organizers/shahram-rahimi.jpg) |
+| Subash Neupane | Organizer | [Photo](assets/organizers/subash-neupane.jpg) |
+| Himanshu Tripathi | Student organizer | [Photo](assets/organizers/himanshu-tripathi.jpg) |
+| Ashraf Abdul-Muumin | Student organizer | [Photo](assets/organizers/ashraf-abdul-muumin.jpg) |
+| Nigel Glenday | Invited speaker, Monday | [Photo](assets/organizers/nigel-glenday.jpg) |
+| Raj Krishnan | Invited speaker, Tuesday | [Photo](assets/organizers/raj-krishnan.jpg) |
 
-These are user-provided attribution labels; no independent facial identification is claimed. The site uses relative repository paths so GitHub Pages can serve images on the repository's project subpath. The organizing team remains responsible for consent to publish portraits and approval of organizer roles.
+The team is responsible for permission to publish portraits and for approving profile details.

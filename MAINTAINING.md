@@ -10,11 +10,11 @@ Open the repository's **Settings → Pages**. Under **Build and deployment**, ch
 
 Update `README.md`, preserving the main section names so navigation anchors stay valid. Dates from AAAI must be distinguished from proposed local dates. Never change “proposed” to “accepted” without actual acceptance. Never add a confirmed speaker or participant without evidence and appropriate consent. Public company or university profiles verify affiliations, not agreement to organize.
 
-The committee comprises six faculty/industry organizers and two UA student organizers, Himanshu Tripathi and Ashraf Abdul-Muumin. When changing the roster, update `README.md`, `proposal/proposal.md`, `proposal/submission-checklist.md`, `SOURCES.md`, and the expected names in `scripts/validate.py`, then rebuild the proposal PDF. Validation checks that all eight names appear in the README, editable proposal, and generated PDF. Do not infer student email addresses, degree programs, or biographies.
+The committee comprises four faculty/research organizers and two student organizers: Kaushik Roy, Alessandro Oltramari, Shahram Rahimi, Subash Neupane, Himanshu Tripathi, and Ashraf Abdul-Muumin. Nigel Glenday and Raj Krishnan are invited speakers and belong only in the Speakers section. When changing the roster, update `README.md`, `proposal/proposal.md`, `proposal/submission-checklist.md`, `SOURCES.md`, and the expected names in `scripts/validate.py`, then rebuild the proposal PDF. Validation checks that the six organizers and two speakers appear in the correct sections of the README, proposal source, and PDF. Do not infer student email addresses, degree programs, or biographies.
 
 ## Maintain the call for papers
 
-`cfp.html` is a standalone static page, published at `/AAAI-Symposium-Concept/cfp.html`; it carries its own responsive styles and needs no Jekyll front matter. Keep its proposed contribution formats consistent with the Participation section in `README.md` and `proposal/proposal.md`. `_layouts/default.html` links to it from site navigation. The page and homepage use the same expression-of-interest form; email remains an alternative contact. Keep paper-submission deadlines and portal details pending until acceptance and coordination with AAAI. Form responses remain private; publishing a form does not fulfill the participant-interest requirement.
+`cfp.html` is a standalone static page, published at `/AAAI-Symposium-Concept/cfp.html`; it carries its own responsive styles and needs no Jekyll front matter. Keep its poster-session policy and proposed contribution formats consistent with the Participation section in `README.md` and `proposal/proposal.md`. `_layouts/default.html` links to it from site navigation. The page and homepage use the same expression-of-interest form; email remains an alternative contact. Keep paper-submission deadlines and portal details pending until acceptance and coordination with AAAI. Form responses remain private; publishing a form does not fulfill the participant-interest requirement.
 
 ## Rebuild the proposal
 
@@ -37,3 +37,7 @@ Keep consent replies and participant-interest records in a private institutional
 ## Preview and design
 
 The site is a standard Jekyll site without third-party plugins. It can be previewed with Jekyll locally or after Pages activation. The design uses UA Crimson Flame, Capstone Gray, white, responsive tables, keyboard focus styles, a skip link, and reduced-motion support. Colors do not imply institutional endorsement. The SVG banner is original diagram artwork; no external photograph or font license is required.
+
+The shared program reserves Tuesday, March 23, 16:00–17:00 for posters. Keep the times and the policy for accepted papers consistent across the homepage, call, proposal, and case-study guide. The validator compares the website and proposal program text and checks the rendered PDF sessions. Refresh the PDF link version after each revision to avoid showing a cached copy.
+
+The program must explicitly name Lab 1 (Monday 14:00–15:30) and Lab 2 (Tuesday 11:00–12:30). Nigel Glenday is assigned to Monday 09:20–10:00 and Raj Krishnan to Tuesday 09:00–09:40. Do not invent talk titles. The Speakers navigation item links to the speaker biographies on the homepage; the call and PDF carry the same assignments.
