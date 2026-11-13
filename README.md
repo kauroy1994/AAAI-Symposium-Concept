@@ -6,7 +6,7 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261112-steering) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261113-raj) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -154,8 +154,8 @@ We will provide readable materials, allow time for questions, and offer written 
 <div class="person-card speaker-card">
 <img src="assets/organizers/raj-krishnan.jpg" alt="Raj Krishnan" loading="lazy" width="180" height="180" />
 <h3>Raj Krishnan</h3>
-<p><strong>Tuesday, March 23 · 09:00–09:40</strong><br />AI For Services</p>
-<p>Raj Krishnan is with AI For Services, a company developing AI applications for business processes. Its work includes automating requests for proposals and customer-support workflows, and connecting AI applications with existing enterprise systems.</p>
+<p><strong>Tuesday, March 23 · 09:00–09:40</strong><br />Founder and CEO, AI For Services</p>
+<p>Raj Krishnan is the founder and CEO of AI For Services, a company developing AI applications for business processes. Its work includes automating requests for proposals and customer-support workflows, and connecting AI applications with existing enterprise systems.</p>
 <p><a href="https://aiforservices.com/">Company website</a> · <a href="mailto:raj@aiforservices.com">Contact</a></p>
 </div>
 

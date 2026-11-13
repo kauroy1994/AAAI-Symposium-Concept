@@ -149,7 +149,7 @@ Final deadlines, formatting, and publication arrangements will be coordinated wi
 
 **Nigel Glenday - Monday, March 22, 09:20–10:00.** Nigel Glenday is the founder and CEO of Graphite Atlas, which maps business processes and develops automation and AI systems. He previously held CFO and COO roles in asset management. His work connects business operations with the practical use of AI. [Company profile](https://www.graphiteatlas.com/).
 
-**Raj Krishnan - Tuesday, March 23, 09:00–09:40.** Raj Krishnan is with AI For Services, a company developing AI applications for business processes. Its work includes automating requests for proposals and customer-support workflows, and connecting AI applications with existing enterprise systems. [Company website](https://aiforservices.com/).
+**Raj Krishnan - Tuesday, March 23, 09:00–09:40.** Raj Krishnan is the founder and CEO of AI For Services, a company developing AI applications for business processes. Its work includes automating requests for proposals and customer-support workflows, and connecting AI applications with existing enterprise systems. [Company website](https://aiforservices.com/).
 
 Talk titles will be announced.
 

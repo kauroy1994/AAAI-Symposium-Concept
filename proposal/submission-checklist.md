@@ -38,7 +38,7 @@ The six organizing committee members are at the University of Alabama. The two s
 
 ## Affiliation review
 
-Ashraf Abdul-Muumin's UA affiliation remains based on the lead organizer's information. Raj Krishnan's association with AI For Services is supported by the company profile; no specific title is asserted. The speaker assignments were supplied by the lead organizer. Biographical details and source links are recorded in SOURCES.md.
+Ashraf Abdul-Muumin's UA affiliation remains based on the lead organizer's information. Raj Krishnan is the founder and CEO of AI For Services, as confirmed by the lead organizer on November 13, 2026. The speaker assignments were supplied by the lead organizer. Biographical details and source links are recorded in SOURCES.md.
 
 Confirmed keynotes and sponsors are not prerequisites in the public call. AAAI encourages committee collaboration and feedback from prospective participants.
 
