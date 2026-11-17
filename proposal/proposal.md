@@ -15,7 +15,7 @@ March 22–24, 2027 · Santa Clara University, Santa Clara, California
 
 Cognitive architectures connect memory, learning, and action [1]. Neuro-symbolic AI combines learned models with explicit knowledge and reasoning [2], while causal models help describe the effects of interventions [3]. Language agents offer ways to combine reasoning with action [4]. These approaches raise common questions: what does the agent know, which actions may it take, how does it respond when information is incomplete, and when should a person intervene? Studies of agent evaluation [5] and attacks through tool outputs [6] show why accuracy alone is insufficient.
 
-Participants will compare research and case studies, discuss results, and work through two labs. They will develop a checklist covering intended use, permissions, tests, results, cost, remaining risks, and human responsibility. The purpose is to make evaluations easier to compare and identify the further testing needed before a pilot.
+Participants will compare research and case studies, discuss results, and work through two labs. They will develop a checklist covering intended use, permissions, tests, results, cost, remaining risks, and human responsibility. The purpose is to make evaluations easier to compare and identify further testing needed before a pilot.
 
 The scope covers cognitive architectures and memory; neuro-symbolic reasoning and action; causal reasoning and decision support; and evaluation for practical use. We welcome early work and negative results as well as completed studies. Authors should explain what their results support and what remains uncertain.
 

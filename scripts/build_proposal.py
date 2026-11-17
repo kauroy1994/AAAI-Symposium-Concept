@@ -10,7 +10,7 @@ import argparse
 import re
 from pathlib import Path
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_LEFT
+from reportlab.lib.enums import TA_LEFT, TA_JUSTIFY
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
@@ -34,13 +34,13 @@ def inline(text: str) -> str:
 
 def build(source: Path = SOURCE, output: Path = OUTPUT) -> None:
     styles = getSampleStyleSheet()
-    styles.add(ParagraphStyle(name='BodyR2R', fontName='Times-Roman', fontSize=10.2, leading=12.6, textColor=INK, spaceAfter=7, alignment=TA_LEFT))
+    styles.add(ParagraphStyle(name='BodyR2R', fontName='Times-Roman', fontSize=10.2, leading=12.6, textColor=INK, spaceAfter=7, alignment=TA_JUSTIFY))
     styles.add(ParagraphStyle(name='TitleR2R', fontName='Helvetica-Bold', fontSize=23, leading=27, textColor=CRIMSON, spaceAfter=10))
     styles.add(ParagraphStyle(name='H2R2R', fontName='Helvetica-Bold', fontSize=12.4, leading=15.5, textColor=CRIMSON, spaceBefore=8, spaceAfter=8, keepWithNext=True))
     styles.add(ParagraphStyle(name='H3R2R', fontName='Helvetica-Bold', fontSize=10.3, leading=13, textColor=INK, spaceBefore=8, spaceAfter=6, keepWithNext=True))
     styles.add(ParagraphStyle(name='TableR2R', fontName='Helvetica', fontSize=8.4, leading=10.3, textColor=INK))
     styles.add(ParagraphStyle(name='TableHeadR2R', parent=styles['TableR2R'], fontName='Helvetica-Bold', textColor=colors.white))
-    styles.add(ParagraphStyle(name='RefR2R', parent=styles['BodyR2R'], fontSize=8.7, leading=10.3, spaceAfter=4))
+    styles.add(ParagraphStyle(name='RefR2R', parent=styles['BodyR2R'], fontSize=8.7, leading=10.3, spaceAfter=4, alignment=TA_LEFT))
     story = []
     lines = source.read_text(encoding='utf-8').splitlines()
     i, in_refs = 0, False
