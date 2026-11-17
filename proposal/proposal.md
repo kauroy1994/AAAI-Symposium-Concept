@@ -23,7 +23,9 @@ We aim for 50–65 participants from AI research, industry, operations, software
 
 ### Participant interest
 
-The following invited speakers have expressed interest in participating.
+As of November 17, 2026, the interest form has received 65 responses: 60 “Yes” and five “Maybe.”
+
+The respondents include the following invited speakers.
 
 | Name | Affiliation | Role |
 | --- | --- | --- |

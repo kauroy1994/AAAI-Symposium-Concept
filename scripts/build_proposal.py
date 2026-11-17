@@ -6,6 +6,7 @@ pipe tables, and explicit PAGEBREAK markers. No network access is needed.
 """
 from __future__ import annotations
 import html
+import argparse
 import re
 from pathlib import Path
 from reportlab.lib import colors
@@ -31,7 +32,7 @@ def inline(text: str) -> str:
     return text
 
 
-def build() -> None:
+def build(source: Path = SOURCE, output: Path = OUTPUT) -> None:
     styles = getSampleStyleSheet()
     styles.add(ParagraphStyle(name='BodyR2R', fontName='Times-Roman', fontSize=10.2, leading=12.6, textColor=INK, spaceAfter=7, alignment=TA_LEFT))
     styles.add(ParagraphStyle(name='TitleR2R', fontName='Helvetica-Bold', fontSize=23, leading=27, textColor=CRIMSON, spaceAfter=10))
@@ -41,7 +42,7 @@ def build() -> None:
     styles.add(ParagraphStyle(name='TableHeadR2R', parent=styles['TableR2R'], fontName='Helvetica-Bold', textColor=colors.white))
     styles.add(ParagraphStyle(name='RefR2R', parent=styles['BodyR2R'], fontSize=8.7, leading=10.3, spaceAfter=4))
     story = []
-    lines = SOURCE.read_text(encoding='utf-8').splitlines()
+    lines = source.read_text(encoding='utf-8').splitlines()
     i, in_refs = 0, False
     while i < len(lines):
         line = lines[i].strip()
@@ -63,8 +64,12 @@ def build() -> None:
                 i += 1
             width = letter[0] - 100
             widths = [115, width - 115] if len(rows[0]) == 2 else [width / len(rows[0])] * len(rows[0])
+            if len(rows[0]) == 4:
+                widths = [112, width / 2 - 112, 112, width / 2 - 112]
             table = Table(rows, colWidths=widths, repeatRows=1, hAlign='LEFT')
             table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),CRIMSON),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),3),('BOTTOMPADDING',(0,0),(-1,-1),3),('LINEBELOW',(0,0),(-1,-1),.35,colors.HexColor('#DCE0E3')),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,colors.HexColor('#F5F5F3')])]))
+            if len(rows[0]) == 4:
+                table.setStyle(TableStyle([('TOPPADDING',(0,0),(-1,-1),2),('BOTTOMPADDING',(0,0),(-1,-1),2),('LEFTPADDING',(0,0),(-1,-1),5),('RIGHTPADDING',(0,0),(-1,-1),5),('LINEAFTER',(1,0),(1,-1),.5,colors.HexColor('#DCE0E3'))]))
             story += [table, Spacer(1,7)]
             continue
         if line.startswith('# '):
@@ -81,8 +86,8 @@ def build() -> None:
                 para.append(lines[i].strip())
             story.append(Paragraph(inline(' '.join(para)), styles['RefR2R'] if in_refs else styles['BodyR2R']))
         i += 1
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    temp = OUTPUT.with_name('proposal.build.pdf')
+    output.parent.mkdir(parents=True, exist_ok=True)
+    temp = output.with_name(output.stem + '.build.pdf')
     doc = SimpleDocTemplate(str(temp), pagesize=letter, rightMargin=50, leftMargin=50, topMargin=43, bottomMargin=42, title='Reasoning to Readiness - AAAI 2027 Spring Symposium Proposal', author='Proposed organizing committee', subject='Symposium proposal on reliable AI agents', pageCompression=1)
     def footer(canvas, doc):
         canvas.saveState()
@@ -101,9 +106,13 @@ def build() -> None:
     for n, page in enumerate(reader.pages, 1):
         if not (page.extract_text() or '').strip():
             raise RuntimeError(f'Blank page {n}')
-    temp.replace(OUTPUT)
-    print(f'Built {OUTPUT}: 5 pages')
+    temp.replace(output)
+    print(f'Built {output}: 5 pages')
 
 
 if __name__ == '__main__':
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source', type=Path, default=SOURCE)
+    parser.add_argument('--output', type=Path, default=OUTPUT)
+    args = parser.parse_args()
+    build(args.source, args.output)

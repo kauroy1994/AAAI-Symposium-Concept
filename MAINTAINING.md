@@ -34,6 +34,8 @@ The proposal is deliberately separate from the longer website; update both when 
 
 Keep consent replies and participant-interest records in a private institutional location. `private/` is ignored by Git as a safeguard, not an access-control mechanism. Do not force-add private files. The CSV in `resources/` contains headers only and is a template, not a participant list. Obtain separate permission for the proposal-reviewed list and any public display.
 
+The November 17 response export has 65 entries: 60 Yes and five Maybe. The full submission source is local at `private/proposal-submission.md`. Build it with `python scripts/build_proposal.py --source private/proposal-submission.md --output private/proposal-submission.pdf` and check it with `python scripts/validate_submission.py`. All responses are included, with tentative ones marked Maybe. Use that full-list PDF for EasyChair. Public source and PDF retain only aggregate totals and the already public speakers. Do not copy the full respondent list into tracked files without public-listing permission.
+
 ## Preview and design
 
 The site is a standard Jekyll site without third-party plugins. It can be previewed with Jekyll locally or after Pages activation. The design uses UA Crimson Flame, Capstone Gray, white, responsive tables, keyboard focus styles, a skip link, and reduced-motion support. Colors do not imply institutional endorsement. The SVG banner is original diagram artwork; no external photograph or font license is required.

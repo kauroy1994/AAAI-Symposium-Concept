@@ -6,7 +6,7 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261113-raj) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261117-interest) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -19,6 +19,8 @@ Participants will discuss research and case studies, compare designs, and work t
 The symposium draws on cognitive architectures [R1], neuro-symbolic AI [R2], causal representation learning [R3], and language agents that combine reasoning with action [R4]. Research on evaluation costs [R5] and attacks through tool outputs [R6] highlights the need to measure more than task accuracy. NIST AI RMF 1.0 provides a reference for discussing risk [R7].
 
 We aim to bring together **50–65 participants** from AI research, industry, operations, software testing, and related fields, including students.
+
+As of November 17, 2026, the interest form has received 65 responses: 60 “Yes” and five “Maybe.”
 
 ## Research agenda
 

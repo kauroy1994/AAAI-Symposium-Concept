@@ -130,7 +130,10 @@ assert 'MAINTAINING.md' not in readme and 'PHOTO-SOURCES.md' not in readme
 assert 'Acceptance pending' in (root / '_layouts/default.html').read_text(encoding='utf-8')
 print('PASS: public pages and PDF contain no development or provenance boilerplate.')
 
-print('PASS: both confirmed expressions of interest are included in the PDF.')
+for content in [readme, proposal, cfp]:
+    assert '65 responses: 60 “Yes” and five “Maybe.”' in content, 'Outdated response totals.'
+assert '65 responses: 60 "Yes" and five "Maybe."' in pdf_text, 'Response totals missing from PDF.'
+print('PASS: 65 responses reported accurately: 60 Yes and five Maybe; both invited speakers included.')
 
 print('PASS: six committee organizers, two steering organizers, and two speakers, in the correct sections, with biographies.')
 print('PASS: both labs, poster session, speaker assignments, full timetable, and no overlaps.')

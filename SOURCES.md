@@ -1,6 +1,6 @@
 # Sources and verification
 
-Updated November 12, 2026.
+Updated November 17, 2026.
 
 ## AAAI requirements and dates
 
@@ -61,10 +61,12 @@ The [interest form](https://forms.gle/RUvA879SEs7ypqVc9) resolves to a Google Fo
 
 ## Participant interest
 
-On November 12, 2026, the lead organizer explicitly confirmed that Nigel Glenday and Raj Krishnan have both said yes to participating. Both are included in the proposal's participant-interest list, with their affiliations and invited-speaker roles. This records the lead organizer's confirmation; no response dates or private correspondence have been invented. Additional outreach is ongoing, and further names will be added as responses arrive.
+The form export supplied on November 17, 2026 contains 65 unique responses: 60 Yes and five Maybe. Nigel Glenday and Raj Krishnan are among these respondents, so their earlier confirmations are not added as separate entries. All 65 names and affiliations are included in the local submission copy, with Maybe responses marked explicitly. Emails and optional comments are omitted.
+
+The form notice permits respondent details to accompany the AAAI proposal; the export does not establish permission for a public listing. Public documents show aggregate counts and the two previously public invited speakers. The full list and its editable proposal source remain under ignored `private/`. Affiliation text is based on the responses; titles are removed where only the organization is needed. Ambiguous institutional abbreviations are retained.
 
 ## Submission still pending
 
 Dr. Amiri Golilarz’s affiliation, research areas, lab directorship, and public email were checked against current UA sources on November 12, 2026. The lead organizer explicitly confirmed his agreement to serve on the same date. His proposed responsibilities remain a plan for the committee.
 
-The participant-interest list is included within the five-page proposal. The EasyChair form and upload requirements must be checked at submission; no proposal has been submitted through this work. Store correspondence privately rather than in this public repository.
+The full participant-interest list is included within the five-page local submission proposal. The public website PDF contains aggregate totals and the invited speakers. The EasyChair form and upload requirements must be checked at submission; no proposal has been submitted through this work. Store correspondence privately rather than in this public repository.
