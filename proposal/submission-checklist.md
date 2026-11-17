@@ -2,7 +2,7 @@
 
 Reviewed November 17, 2026 against the [official AAAI 2027 Spring Symposium call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/).
 
-**Status: all eight organizers have agreed to serve; the EasyChair submission copy includes 65 respondent names and affiliations, comprising 60 Yes and five Maybe responses.** This package has not been submitted to EasyChair.
+**Status: all eight organizers have agreed to serve; the five-page EasyChair submission copy includes all 65 potential participants and a summary of 17 statements.** This package has not been submitted to EasyChair.
 
 ## Prepared
 
@@ -18,19 +18,20 @@ Reviewed November 17, 2026 against the [official AAAI 2027 Spring Symposium call
 - [x] Website, call, proposal source, and five-page PDF use the same speaker assignments, lab times, and poster policy.
 - [x] Published the [website](https://kauroy1994.github.io/AAAI-Symposium-Concept/), [draft call](https://kauroy1994.github.io/AAAI-Symposium-Concept/cfp.html), and [interest form](https://forms.gle/RUvA879SEs7ypqVc9). The form alone does not establish participant interest.
 
-- [x] Processed the supplied form export: **65 unique respondents**, with **60 Yes** and **five Maybe** responses. All 65 are included in the local EasyChair proposal source and PDF; each Maybe response is marked explicitly.
+- [x] All **65 unique names and affiliations** from the supplied form export appear in Section 5 of the local submission proposal and PDF. No response labels are displayed; the list is described as potential participants.
 - [x] Nigel Glenday and Raj Krishnan are already among the 65 respondents and are counted once each.
-- [x] The submission list contains names and affiliations only; respondent email addresses and optional comments are omitted.
-- [x] The full submission PDF remains five pages. Public files show the aggregate response totals and the two previously public invited speakers; the full respondent list remains local because public-listing permission is not established.
+- [x] Respondent emails are omitted. A concise thematic summary of the 17 statements follows the full list; individual statements are not quoted.
+- [x] The full submission PDF remains five pages, including all 65 names and the statement summary.
+- [x] Removed the proposal download link from the website and excluded the entire proposal directory from GitHub Pages. The full submission files remain local.
 
 ## Required before submission
 
 
-- [ ] Follow the EasyChair link on the official call; inspect portal-specific fields and upload restrictions, upload the local full-list submission PDF (`private/proposal-submission.pdf`, also supplied as the final download), submit, and save the receipt. Do not substitute the public website PDF, which shows aggregate interest and the invited speakers. The public call sets **November 17, 2026**, with no submission timezone stated. Decisions are scheduled for **December 8, 2026**.
+- [ ] Follow the EasyChair link on the official call; inspect portal-specific fields and upload restrictions, upload the local full-list submission PDF (`private/proposal-submission.pdf`, also supplied as the final download), submit, and save the receipt. The website no longer publishes proposal files. The public call sets **November 17, 2026**, with no submission timezone stated. Decisions are scheduled for **December 8, 2026**.
 
 ## Participant responses
 
-The supplied export contains 65 responses: 60 Yes and five Maybe. The submission includes both groups; the five tentative responses are labeled Maybe. These responses express interest, not attendance commitments. AAAI specifies no minimum number of expressions of interest in the public call.
+The supplied export contains 65 potential participants. All are listed without response labels. Their inclusion records responses to the interest form and does not assert attendance commitments. The original responses remain in the local register. AAAI specifies no minimum number of expressions of interest in the public call.
 
 The form notice allows names and affiliations to accompany the AAAI proposal. It does not establish public-listing permission. The full source, PDF, and local response register are under ignored `private/`; they are excluded from GitHub and Pages. No new respondent identities are published in the repository. Affiliations are taken from the responses, with job titles removed and obvious abbreviation/capitalization normalization; ambiguous abbreviations are retained.
 
@@ -52,4 +53,4 @@ Keep replies and correspondence privately. Use `resources/interest-register-temp
 
 ## Validation
 
-Run `python scripts/build_proposal.py` and `python scripts/validate.py` for the public copy. Build the submission copy with `python scripts/build_proposal.py --source private/proposal-submission.md --output private/proposal-submission.pdf`, then run `python scripts/validate_submission.py` to check the full list, response labels, schedules, contacts, and page count. The validator checks six committee organizers, two steering organizers, and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).
+Run `python scripts/build_proposal.py` and `python scripts/validate.py` for the public copy. Build the submission copy with `python scripts/build_proposal.py --source private/proposal-submission.md --output private/proposal-submission.pdf`, then run `python scripts/validate_submission.py` to check all 65 names and affiliations, the statement summary, schedules, contacts, and page count. The validator checks six committee organizers, two steering organizers, and two speakers in the correct sections, both lab sessions, the poster session, identical website and proposal schedules, local links, portraits, and the PDF page count. Source provenance and remote URL results appear in [SOURCES.md](../SOURCES.md). Check main-branch validation and Pages deployment in [GitHub Actions](https://github.com/kauroy1994/AAAI-Symposium-Concept/actions).

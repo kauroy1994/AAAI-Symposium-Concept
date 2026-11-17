@@ -131,9 +131,12 @@ assert 'Acceptance pending' in (root / '_layouts/default.html').read_text(encodi
 print('PASS: public pages and PDF contain no development or provenance boilerplate.')
 
 for content in [readme, proposal, cfp]:
-    assert '65 responses: 60 “Yes” and five “Maybe.”' in content, 'Outdated response totals.'
-assert '65 responses: 60 "Yes" and five "Maybe."' in pdf_text, 'Response totals missing from PDF.'
-print('PASS: 65 responses reported accurately: 60 Yes and five Maybe; both invited speakers included.')
+    assert '65 potential participants have responded to the interest form.' in content, 'Outdated response total.'
+    assert 'Maybe' not in content, 'Response labels should not be displayed.'
+assert '65 potential participants have responded to the interest form.' in pdf_text
+assert '  - proposal\n' in (root / '_config.yml').read_text(encoding='utf-8')
+assert not re.search(r'\]\(proposal/', readme), 'Proposal link still on website.'
+print('PASS: potential-participant total is accurate; proposal directory is excluded from the website.')
 
 print('PASS: six committee organizers, two steering organizers, and two speakers, in the correct sections, with biographies.')
 print('PASS: both labs, poster session, speaker assignments, full timetable, and no overlaps.')

@@ -30,7 +30,7 @@ for line in interest.splitlines():
     assert len(cells)==4
     for name,affiliation in [(cells[0],cells[1]),(cells[2],cells[3])]:
         if name:listed.append((name,affiliation))
-expected=[(r['name']+(' (Maybe)' if r['interest']=='Maybe' else ''),r['affiliation']) for r in register['rows']]
+expected=[(r['name'],r['affiliation']) for r in register['rows']]
 assert len(listed)==65 and len(set(listed))==65 and set(listed)==set(expected)
 for name,affiliation in expected:
     assert last.count(plain(name))==1, f'Name/status missing or duplicated: {name}'
@@ -55,13 +55,15 @@ speaker_section=public.split('## 5.',1)[1].split('**Invitations and participatio
 for paragraph in speaker_section.split('\n\n'):
     if paragraph.startswith(('**Nigel Glenday','**Raj Krishnan')):
         assert plain(paragraph.replace('**','')) in text
-assert '60 "Yes" and five "Maybe."' in text
+assert '65 potential participants' in text
+assert 'Summary of statements' in last and 'Across 17 statements' in last
+assert 'Maybe' not in text and 'Maybe' not in source
 public_files=['README.md','cfp.html','proposal/proposal.md','proposal/submission-checklist.md','SOURCES.md']
 public_text='\n'.join((ROOT/p).read_text(encoding='utf-8') for p in public_files)
 public_pdf=plain('\n'.join(p.extract_text() or '' for p in PdfReader(ROOT/'proposal/proposal.pdf').pages))
 for r in register['rows']:
     if r['name'] not in ['Nigel Glenday','Raj Krishnan']:
         assert r['name'] not in public_text and plain(r['name']) not in public_pdf, 'New respondent identity in public copy'
-print('PASS: submission has five pages and all 65 unique names/affiliations: 60 Yes, five marked Maybe.')
-print('PASS: respondent emails/comments omitted; public files contain aggregate totals and existing speakers only.')
+print('PASS: submission has five pages, all 65 unique names/affiliations, and a summary of 17 statements.')
+print('PASS: respondent emails omitted; all response labels removed; respondent identities remain out of public files.')
 print('PASS: full schedule, both labs, posters, speaker biographies, organizer contacts and agreement retained.')

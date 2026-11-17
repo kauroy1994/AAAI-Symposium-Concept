@@ -11,13 +11,13 @@ exclude:
   - scripts
   - build
   - private
+  - proposal
   - requirements.txt
   - MAINTAINING.md
   - SOURCES.md
   - README.md
   - .github
   - PHOTO-SOURCES.md
-  - proposal/submission-checklist.md
   - resources/outreach.md
   - resources/interest-register-template.csv
   - resources/evidence-contract.md

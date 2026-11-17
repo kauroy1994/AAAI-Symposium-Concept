@@ -6,7 +6,7 @@
 
 **A proposed AAAI 2027 Spring Symposium · March 22–24, 2027 · Santa Clara University, California**
 
-[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Proposal PDF](proposal/proposal.pdf?v=20261117-interest) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
+[Call for papers](cfp.html) · [Express interest](https://forms.gle/RUvA879SEs7ypqVc9) · [Official AAAI call](https://aaai.org/conference/spring-symposia/aaai-2027-spring-symposium-series-call-for-proposal/)
 
 ## Overview
 
@@ -20,7 +20,7 @@ The symposium draws on cognitive architectures [R1], neuro-symbolic AI [R2], cau
 
 We aim to bring together **50–65 participants** from AI research, industry, operations, software testing, and related fields, including students.
 
-As of November 17, 2026, the interest form has received 65 responses: 60 “Yes” and five “Maybe.”
+As of November 17, 2026, 65 potential participants have responded to the interest form.
 
 ## Research agenda
 
